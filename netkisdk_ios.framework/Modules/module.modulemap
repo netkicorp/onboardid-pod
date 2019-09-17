@@ -1,0 +1,6 @@
+framework module netkisdk_ios {
+  umbrella header "netkisdk_ios.h"
+
+  export *
+  module * { export * }
+}

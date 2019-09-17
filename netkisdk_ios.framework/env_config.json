@@ -1,0 +1,94 @@
+{
+	"environments": [
+		{
+			"name": "Production",
+			"baseURL": "https://kyc.myverify.info",
+			"endpoints": [
+				{
+					"name": "login",
+					"url": "/api/business/verify-access-code/"
+				},
+				{
+					"name": "requestSecurityCode",
+					"url": "/api/services/validate-phone/"
+				},
+				{
+					"name": "confirmSecurityCode",
+					"url": "/api/services/validate-phone/"
+				},
+				{
+					"name": "validateData",
+					"url": "/api/myverify/"
+				},
+				{
+					"name": "documentUpload",
+					"url": "/temp-document/"
+				},
+				{
+					"name": "tokenRefresh",
+					"url": "/api/token-refresh/"
+				}
+			]
+		},
+		{
+			"name": "QA",
+			"baseURL": "https://qa-kyc.myverify.info",
+			"endpoints": [
+				{
+					"name": "login",
+					"url": "/api/business/verify-access-code/"
+				},
+				{
+					"name": "requestSecurityCode",
+					"url": "/api/services/validate-phone/"
+				},
+				{
+					"name": "confirmSecurityCode",
+					"url": "/api/services/validate-phone/"
+				},
+				{
+					"name": "validateData",
+					"url": "/api/myverify/"
+				},
+				{
+					"name": "documentUpload",
+					"url": "/temp-document/"
+				},
+				{
+					"name": "tokenRefresh",
+					"url": "/api/token-refresh/"
+				}
+			]
+		},
+		{
+			"name": "Development",
+			"baseURL": "https://dev-kyc.myverify.info",
+			"endpoints": [
+				{
+					"name": "login",
+					"url": "/api/business/verify-access-code/"
+				},
+				{
+					"name": "requestSecurityCode",
+					"url": "/api/services/validate-phone/"
+				},
+				{
+					"name": "confirmSecurityCode",
+					"url": "/api/services/validate-phone/"
+				},
+				{
+					"name": "validateData",
+					"url": "/api/myverify/"
+				},
+				{
+					"name": "documentUpload",
+					"url": "/temp-document/"
+				},
+				{
+					"name": "tokenRefresh",
+					"url": "/api/token-refresh/"
+				}
+			]
+		}
+	]
+}
