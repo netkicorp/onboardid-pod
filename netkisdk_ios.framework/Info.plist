@@ -23,7 +23,7 @@
 		<string>iPhoneOS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>922-development</string>
+	<string>923-development</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -41,17 +41,13 @@
 	<key>DTXcodeBuild</key>
 	<string>10E1001</string>
 	<key>MinimumOSVersion</key>
-	<string>11.0</string>
+	<string>10.0</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Save Photo</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
 		<integer>2</integer>
-	</array>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>arm64</string>
 	</array>
 </dict>
 </plist>

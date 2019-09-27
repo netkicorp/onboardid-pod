@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name                    = 'NetkiSDK'
-    s.version                 = '1.0.6'
+    s.version                 = '1.0.7'
     s.summary                 = 'NetkiSDK framework.'
     s.homepage                = 'https://www.netki.com/'
 
