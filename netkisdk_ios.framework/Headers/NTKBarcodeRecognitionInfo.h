@@ -36,11 +36,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NTKBarcodeRecognitionInfo : NSObject
 @property (nonatomic, strong) NSDictionary *rawInfo;
+@property (nonatomic, strong) NSDictionary *gvRawInfo;
+@property (nonatomic, strong) NSDictionary *avRawInfo;
 @property (nonatomic, strong) NTKBarcodeDriverLicenseInfo *diverLicenseInfo;
 @property (nonatomic, strong) NTKBarcodePassportBackInfo *passportBackInfo;
 
 - (instancetype)initWithDriverLicenseRawData:(NSDictionary *)rawData;
 - (instancetype)initWithPassportBackRawData:(NSDictionary *)rawData;
++ (NSDictionary<NSString *,NSString *> *)parseRawData:(NSString *)string;
+
+- (NSDictionary *)dictionaryRepresentation;
 
 @end
 

@@ -20,7 +20,7 @@ static NSString * const NTKTRACKER_EVENT_IDENTIFICATION_PROCESS_STARTED = @"Iden
 static NSString * const NTKTRACKER_EVENT_INSTRUCTION_PAGE_DISPLAYED = @"Instruction page: displayed";
 static NSString * const NTKTRACKER_EVENT_PICTURE_CAPTURE_FINISHED = @"Picture capture: finished";
 static NSString * const NTKTRACKER_EVENT_IDENTIFICATION_PROCESS_FINISHED = @"Identification process: finished";
-
+static NSString * const NTKTRACKER_EVENT_SDK_INITIALiZED = @"SDK: initialized";
 
 static NSString * const NTKTRACKER_VALUE_CODE_ACCESS_CODE = @"access_code";
 static NSString * const NTKTRACKER_VALUE_CODE_CLIENT_NAME = @"client_name";
@@ -44,12 +44,19 @@ static NSString * const NTKTRACKER_VALUE_CODE_COUNTRY_SELECTED = @"country_selec
 static NSString * const NTKTRACKER_VALUE_CODE_RESULT = @"result";
 static NSString * const NTKTRACKER_VALUE_CODE_ERROR_MESSAGE = @"error_message";
 
+static NSString * const NTKTRACKER_VALUE_SUCCESS = @"successful";
+static NSString * const NTKTRACKER_VALUE_ERROR = @"error";
 static NSString * const NTKTRACKER_VALUE_CANCEL = @"cancel";
 static NSString * const NTKTRACKER_VALUE_RETAKE = @"retake";
 static NSString * const NTKTRACKER_VALUE_CONTINUE = @"continue";
 static NSString * const NTKTRACKER_VALUE_INDIVIDUAL = @"individual";
 static NSString * const NTKTRACKER_VALUE_PROCESS = @"process";
 static NSString * const NTKTRACKER_VALUE_SUCCESSFUL = @"successful";
-static NSString * const NTKTRACKER_VALUE_ERROR = @"error";
+static NSString * const NTKTRACKER_VALUE_VERSION = @"version";
+static NSString * const NTKTRACKER_VALUE_APPNAME = @"app_name";
+static NSString * const NTKTRACKER_VALUE_DOCTYPE_PASSPORT = @"passport";
+static NSString * const NTKTRACKER_VALUE_DOCTYPE_DRIVER_LICENSE = @"driver_license";
+static NSString * const NTKTRACKER_VALUE_PICTURE_TYPE_SELFIE = @"selfie";
+static NSString * const NTKTRACKER_VALUE_PICTURE_DOCUMENT = @"document";
 
 #endif /* NTKAnalyticEvents_h */

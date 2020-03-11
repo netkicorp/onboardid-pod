@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 typedef NSString* NTKDocumentImageType NS_EXTENSIBLE_STRING_ENUM;
 
+@class NTKDocumentMetadata;
+
 FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypeFRONT;
 FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypePASSPORT;
 FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypePASSPORTLASTPAGE;
@@ -32,10 +34,8 @@ FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypeSELFIE;
 @property (nonatomic, strong, readonly) NTKDocumentImageType imageType;
 @property (nonatomic, assign, readonly) NTKDocType docType;
 @property (nonatomic, strong, nullable, readonly) NTKCountry *issuingCountry;
-@property (nonatomic, strong, readonly) NTKFaceRecognitionInfo *faceRecognitionInfo;
-@property (nonatomic, strong) NTKBarcodeRecognitionInfo *barcodeRecognitionInfo;
-@property (nonatomic, strong) UIImage *croppedDocumentFace;
-@property (nonatomic, strong) NTKMRZInfo *mrzInfo;
+
+@property (readonly) NTKDocumentMetadata *documentMetadata;
 
 - (instancetype)initWithImage:(UIImage *)image imageType:(NTKDocumentImageType)imageType docType:(NTKDocType)docType issuingCountry:(NTKCountry * _Nullable)country;
 

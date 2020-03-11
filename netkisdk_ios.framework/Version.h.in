@@ -1,7 +1,0 @@
-#ifndef VERSION_H
-#define VERSION_H
-
-#define NTK_VERSION "${NTK_VERSION}"
-#define NTK_AUTHOR  "Paul Kolomiets <paul.kolomiets@gmail.com>"
-
-#endif // VERSION_H

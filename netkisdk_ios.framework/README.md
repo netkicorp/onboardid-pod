@@ -1,5 +1,15 @@
 NetkiSDK-iOS
 ============
+## Installation
+
+The NetkiSDK framework has dependencies, so before compilation you should add the following lines into your podfile:
+pod 'GoogleMobileVision/BarcodeDetector'
+pod 'Amplitude-iOS', '~> 4.10'
+
+After that run 'pod install' and compile your project workspace
+
+## Integration
+
 
 This is the iOS framework for validating user identity through the Netki web service.
 
