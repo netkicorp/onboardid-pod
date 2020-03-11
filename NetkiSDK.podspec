@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target   = '10.0'
     s.ios.vendored_frameworks = 'netkisdk_ios.framework'
+    s.ios.dependency = 'GoogleMobileVision/BarcodeDetector'
+    s.ios.dependency = 'Amplitude-iOS', '~> 4.10'
 end 
