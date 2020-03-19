@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedInstance;
 
+- (void)setClientID:(NSString *)clientID;
+
 - (void)trackEvent:(NSString *)eventType properties:(NSDictionary * _Nullable)properties;
 - (void)trackEvent:(NSString *)eventType error:(NSError *)error properties:(NSDictionary * _Nullable)properties;
 
