@@ -174,3 +174,17 @@ Called when the *viewController* capture was cancelled by the user. The *viewCon
 
 @end
 
+* Show or hide "Lay The Phone Flat" and "Move Phone Closer" labels:
+
+@interface NTKSDKSettingsProvider : NSObject
+* Use this value to enable or disable the "Lay The Phone Flat". The default value is "YES" 
+@property (assign, nonatomic) BOOL showLayPhoneFlatLabel;
+* Use this value to enable or disable the "Move Phone Closer". The default value is "YES" 
+@property (assign, nonatomic) BOOL showMovePhoneCloserLabel;
+
+* Use this value to set the shutter button appearence interval in seconds. Set it to "0" if you want the button to appear immediately. The default value is "3" 
+@property (assign, nonatomic) float captureButtonAppearanceInterval;
+
++ (instancetype)sharedInstance;
+
+@end

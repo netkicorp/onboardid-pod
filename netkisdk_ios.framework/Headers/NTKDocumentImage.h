@@ -35,6 +35,10 @@ FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypeSELFIE;
 @property (nonatomic, assign, readonly) NTKDocType docType;
 @property (nonatomic, strong, nullable, readonly) NTKCountry *issuingCountry;
 
+@property (nonatomic, strong, readonly) NTKBarcodeRecognitionInfo *barcodeRecognitionInfo;
+@property (nonatomic, strong, readonly) UIImage *croppedDocumentFace;
+@property (nonatomic, strong, readonly) NTKMRZInfo *mrzInfo;
+
 @property (readonly) NTKDocumentMetadata *documentMetadata;
 
 - (instancetype)initWithImage:(UIImage *)image imageType:(NTKDocumentImageType)imageType docType:(NTKDocType)docType issuingCountry:(NTKCountry * _Nullable)country;
