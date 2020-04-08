@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name                    = 'NetkiSDK'
-    s.version                 = '1.0.7'
+    s.version                 = '1.0.8'
     s.summary                 = 'NetkiSDK framework.'
     s.homepage                = 'https://www.netki.com/'
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license                 = { :type => '', :file => 'LICENSE' }
 
     s.platform                = :ios
-    s.source                  = { :git => 'ssh://kurakin@10.10.10.106:/home/kurakin/pods/netkisdk.git' }
+    s.source                  = { :git => 'ssh://bitbucket.org/eimai/ios-pod.git' }
 
     s.ios.deployment_target   = '10.0'
     s.ios.vendored_frameworks = 'netkisdk_ios.framework'

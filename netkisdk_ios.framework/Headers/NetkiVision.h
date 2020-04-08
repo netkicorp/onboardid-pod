@@ -46,6 +46,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (int)glareMin;
 + (int)glareMax;
 
++ (void)setExposureLevel:(int)exposureLevel;
++ (int)exposureLevel;
+
 - (NTKVFrameResult *)rectangleDetectionOnFrame:(CVPixelBufferRef)frame;
 - (NTKVFrameResult *)lightningDetectionOnFrame:(CVPixelBufferRef)frame;
 

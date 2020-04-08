@@ -44,6 +44,8 @@ static NSString * const NTKTRACKER_VALUE_CODE_COUNTRY_SELECTED = @"country_selec
 static NSString * const NTKTRACKER_VALUE_CODE_RESULT = @"result";
 static NSString * const NTKTRACKER_VALUE_CODE_ERROR_MESSAGE = @"error_message";
 static NSString * const NTKTRACKER_VALUE_CODE_UPLOAD_TIME_IN_SECONDS = @"upload_time_in_seconds";
+static NSString * const NTKTRACKER_VALUE_CODE_EXPOSURE = @"exposure_level";
+
 
 static NSString * const NTKTRACKER_VALUE_SUCCESS = @"successful";
 static NSString * const NTKTRACKER_VALUE_ERROR = @"error";
