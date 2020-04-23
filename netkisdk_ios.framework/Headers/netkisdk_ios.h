@@ -36,6 +36,7 @@ FOUNDATION_EXPORT const unsigned char netkisdk_iosVersionString[];
 #import <netkisdk_ios/NetkiClient.h>
 #import <netkisdk_ios/NTKDocumentImage.h>
 #import <netkisdk_ios/NTKIDCaptureViewController.h>
+#import <netkisdk_ios/NTKFaceCaptureViewController.h>
 #import <netkisdk_ios/NTKColorProvider.h>
 #import <netkisdk_ios/NTKCustomTextProvider.h>
 #import <netkisdk_ios/NTKSDKSettingsProvider.h>
