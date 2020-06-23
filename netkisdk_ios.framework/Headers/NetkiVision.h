@@ -56,7 +56,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)detectMRZOnImage:(UIImage *)image results:(nullable NSMutableDictionary *)results;
 
-- (CVPixelBufferRef)bufferRefFromImage:(UIImage *)image;
++ (CVPixelBufferRef)bufferRefFromImage:(UIImage *)image;
+
+- (BOOL)matchUIImage:(UIImage *)uiImage1 withUIImage:(UIImage *)uiImage2;
 
 @end
 

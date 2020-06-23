@@ -27,6 +27,8 @@ FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypePASSPORT;
 FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypePASSPORTLASTPAGE;
 FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypeBACK;
 FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypeSELFIE;
+FOUNDATION_EXPORT NTKDocumentImageType const NTKDocumentImageTypeLIVENESS;
+
 
 @interface NTKDocumentImage : NSObject
 

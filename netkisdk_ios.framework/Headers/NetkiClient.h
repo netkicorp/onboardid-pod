@@ -135,6 +135,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)reset;
 
+- (BOOL)isConfigured;
+
+@property (nonatomic, assign) BOOL useLivenessDetection;
+@property (nonatomic, assign) int maxRetakeCount;
+@property (nonatomic, assign) int livenessСyclesCount;
+
 @end
 
 NS_ASSUME_NONNULL_END

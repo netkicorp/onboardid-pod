@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, weak, nullable) id<NTKCaptureControllerDelegate> delegate;
 @property (nonatomic, strong) NTKReviewValidationStrategy *reviewValidationStrategy;
+@property (nonatomic, assign) BOOL isProcess;
 
 - (instancetype)initWithIssuingCountry:(NTKCountry *)country doctype:(NTKDocType)doctype imageType:(NTKDocumentImageType)imageType NS_DESIGNATED_INITIALIZER;
 - (instancetype)init NS_UNAVAILABLE;

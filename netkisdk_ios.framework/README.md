@@ -2,20 +2,9 @@ NetkiSDK-iOS
 ============
 ## Installation
 
-The NetkiSDK framework has dependencies, so before compilation you should add the following lines into your project podfile:
-
-```
+The NetkiSDK framework has dependencies, so before compilation you should add the following lines into your podfile:
 pod 'GoogleMobileVision/BarcodeDetector'
 pod 'Amplitude-iOS', '~> 4.10'
-```
-
-Also add the NetkiSDK pod from Netki repository:
-
-```
-pod 'NetkiSDK', :git => 'https://YOUR_NAME@bitbucket.org/eimai/ios-pod.git', :branch => 'master'
-```
-
-Where "YOUR_NAME" is your BitBucket's account name
 
 After that run 'pod install' and compile your project workspace
 

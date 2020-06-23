@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
  Optional delegate to receive calls from the NTKFaceCaptureViewController as it captures face data
  */
 @property (nonatomic, weak, nullable) id<NTKCaptureControllerDelegate> delegate;
-
+@property (nonatomic, assign) BOOL isProcess;
 @end
 
 NS_ASSUME_NONNULL_END

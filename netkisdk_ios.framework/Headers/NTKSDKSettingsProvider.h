@@ -10,9 +10,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, NTKMachineLearningType) {
+    NTKMachineLearningTypeFaceDetectionAppleVision = 0,
+    NTKMachineLearningTypeFaceDetectionMLVision
+};
+
 @interface NTKSDKSettingsProvider : NSObject
 @property (assign, nonatomic) BOOL showLayPhoneFlatLabel;
 @property (assign, nonatomic) BOOL showMovePhoneCloserLabel;
+
+@property (assign, nonatomic) NTKMachineLearningType machineLearningType;
 
 @property (assign, nonatomic) float captureButtonAppearanceInterval;
 

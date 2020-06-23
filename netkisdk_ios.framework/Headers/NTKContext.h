@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class NTKCountry,NTKCallingCode;
+@class NTKCountry,NTKCallingCode, NTKLivenessSettings;
 
 @interface NTKContext : NTKModel
 
@@ -85,6 +85,11 @@ NS_ASSUME_NONNULL_BEGIN
  Getter for the updated property in the context API response
  */
 @property (nonatomic, copy, readonly) NSDate *updatedDate;
+
+/**
+ Getter for the liveness_settings property in the context API response
+ */
+@property (nonatomic, strong, readonly) NTKLivenessSettings *livenessSettings;
 
 @end
 
