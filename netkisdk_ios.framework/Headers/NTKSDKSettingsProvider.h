@@ -23,6 +23,8 @@ typedef NS_ENUM(NSInteger, NTKMachineLearningType) {
 
 @property (assign, nonatomic) float captureButtonAppearanceInterval;
 
+@property (assign, nonatomic) BOOL netkiRectangleDetectorOnly;
+
 + (instancetype)sharedInstance;
 
 @end
