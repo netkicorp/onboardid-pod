@@ -24,6 +24,9 @@ static NSString * const NTKTRACKER_EVENT_SDK_INITIALIZED = @"SDK: initialized";
 static NSString * const NTKTRACKER_EVENT_LIVENESS_ACTION_FINISHED = @"Liveness: Action finished";
 static NSString * const NTKTRACKER_EVENT_ADDITIONAL_IMAGE_SUBMITTED = @"Additional image: submitted";
 
+static NSString * const NTKTRACKER_NTK_VALIDATE_DATA_NETWORK_HEADERS = @"NTKNetworking: Validation data headers";
+static NSString * const NTKTRACKER_NTK_VALIDATE_DATA_NTKIDENTITY_FIELDS = @"NTKIdentity: Validation data fields";
+
 static NSString * const NTKTRACKER_VALUE_CODE_ACCESS_CODE = @"access_code";
 static NSString * const NTKTRACKER_VALUE_CODE_CLIENT_NAME = @"client_name";
 static NSString * const NTKTRACKER_VALUE_CODE_PHONE_NUMBER = @"phone_number";
