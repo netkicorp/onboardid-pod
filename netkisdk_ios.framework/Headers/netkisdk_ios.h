@@ -37,13 +37,13 @@ FOUNDATION_EXPORT const unsigned char netkisdk_iosVersionString[];
 #import <netkisdk_ios/NTKDocumentImage.h>
 #import <netkisdk_ios/NTKIDCaptureViewController.h>
 #import <netkisdk_ios/NTKFaceCaptureViewController.h>
-#import <netkisdk_ios/NTKColorProvider.h>
 #import <netkisdk_ios/NTKCustomTextProvider.h>
 #import <netkisdk_ios/NTKSDKSettingsProvider.h>
 #import <netkisdk_ios/NTKCameraFlowViewController.h>
 #import <netkisdk_ios/NTKRequiredFieldValue.h>
 #import <netkisdk_ios/NTKRequiredField.h>
 #import <netkisdk_ios/NTKRequiredFieldOption.h>
+#import <netkisdk_ios/NTKAppThemeProvider.h>
 
 //data models
 #import <netkisdk_ios/NTKContext.h>

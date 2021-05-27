@@ -10,47 +10,20 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NTKVFrameResult : NSObject
+
 @property (readonly) BOOL success;
-@property (readonly) BOOL isTooDark;
-@property (readonly) BOOL isTooLight;
-@property (readonly) BOOL isBlurred;
+
 @property (readonly) CGRect position;
 
-/* Debug values */
-@property (assign) float glareValue;
-@property (assign) float brightPercentage;
-@property (assign) float darkPercentage;
-/*==============*/
-
-//    int left, top, right, bottom;
+@property (readonly) NSNumber *angle;
 
 @end
 
 @interface NetkiVision : NSObject
 
-+ (void)setDarkLevel:(int)darkLevel;
-+ (void)setBrightLevel:(int)brightLevel;
++ (void)preLoadTFModel;
 
-+ (int)darkLevel;
-+ (int)brightLevel;
-
-+ (void)setDarkPercentage:(float)darkPercentage;
-+ (void)setBrightPercentage:(float)brightPercentage;
-
-+ (float)darkPercentage;
-+ (float)brightPercentage;
-
-+ (void)setGlareMin:(int)min;
-+ (void)setGlareMax:(int)max;
-
-+ (int)glareMin;
-+ (int)glareMax;
-
-+ (void)setExposureLevel:(int)exposureLevel;
-+ (int)exposureLevel;
-
-- (NTKVFrameResult *)rectangleDetectionOnFrame:(CVPixelBufferRef)frame;
-- (NTKVFrameResult *)lightningDetectionOnFrame:(CVPixelBufferRef)frame;
+- (NTKVFrameResult *)rectangleDetectionOnFrame:(CVPixelBufferRef)frame isTensorFlow:(BOOL)isTensorFlow;
 
 - (UIImage *) pixelBufferToUIImageFromPixelBuffer: (CVPixelBufferRef)buffer;
 
@@ -59,6 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (CVPixelBufferRef)bufferRefFromImage:(UIImage *)image;
 
 - (BOOL)matchUIImage:(UIImage *)uiImage1 withUIImage:(UIImage *)uiImage2;
+
+- (NSString *) detectBarcode:(UIImage *)uiImage;
 
 @end
 
