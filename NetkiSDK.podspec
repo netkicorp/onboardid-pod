@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name                    = 'NetkiSDK'
-    s.version                 = '5.4.1'
+    s.version                 = '5.4.0.1'
     s.summary                 = 'NetkiSDK framework.'
     s.homepage                = 'https://www.netki.com/'
 
@@ -13,5 +13,4 @@ Pod::Spec.new do |s|
     s.ios.deployment_target   = '12.0'
     s.ios.vendored_frameworks = 'netkisdk_ios.framework'
     s.ios.dependency 'Amplitude-iOS', '~> 4.10'
-    s.ios.dependency 'SVProgressHUD'
 end 

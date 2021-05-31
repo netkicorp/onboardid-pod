@@ -62,8 +62,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (instancetype)sharedClient;
 
-+ (NSString *)deviceId;
-
 /**
  Method for configuring the app instance/context
  
@@ -142,12 +140,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL useLivenessDetection;
 @property (nonatomic, assign) int maxRetakeCount;
 @property (nonatomic, assign) int livenessСyclesCount;
-
-/**
-Method for updating the location
-*/
-
-- (void)updateLocation:(NSString *)latitude longitude:(NSString *)longitude;
 
 @end
 

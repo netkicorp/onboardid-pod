@@ -6,11 +6,11 @@
 	<dict>
 		<key>CaptureToolView.nib</key>
 		<data>
-		v2czTmCOBKdg6R3osE71QcPgFlw=
+		tkGOwaP6466kTffSRREthRG4HGM=
 		</data>
 		<key>DocumentBorderView.nib</key>
 		<data>
-		lUv6vchOeL2ym+Kgb+rGQk1ZHaw=
+		GMgIJhy/ENiDr6l+PfOQgsNGNbM=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/NSURLRequest+NTKExtensions.h</key>
 		<data>
-		dmOcGCvX/p2PcnB+OdFMW71GR4o=
+		qg04z8UaTTWi/CdPO6iQc91XFsU=
 		</data>
 		<key>Headers/NTKAnalyticEvents.h</key>
 		<data>
-		4yuSuBSa/62JtpRt1IwIVGNA9+Y=
+		0mxyv8ct7NI/xW1i+jk0k6DOPrc=
 		</data>
 		<key>Headers/NTKAnalytics.h</key>
 		<data>
@@ -70,15 +70,15 @@
 		</data>
 		<key>Headers/NTKCaptureControllerDelegate.h</key>
 		<data>
-		NvK1zJJFHbE7xovxcIBFB8esT28=
+		Ckln14Zy0ExEYU/ZYNaiQwhuxXg=
 		</data>
 		<key>Headers/NTKContext.h</key>
 		<data>
-		i6Qtohzae+y2QHwDA2Tz5tBdH2k=
+		Vw0E0ViZxU0/svz+oeHnLed1zhA=
 		</data>
 		<key>Headers/NTKCountry.h</key>
 		<data>
-		UZuN5zTnajrvVZKAsV/wRWHM8h0=
+		EyRSDyOkivPUw/UFKPTwQGn6cLU=
 		</data>
 		<key>Headers/NTKCustomTextProvider.h</key>
 		<data>
@@ -114,11 +114,7 @@
 		</data>
 		<key>Headers/NTKIdentity.h</key>
 		<data>
-		vAkO9l6GtAKeuEhjhkYDSuNawYk=
-		</data>
-		<key>Headers/NTKIdentityDocument.h</key>
-		<data>
-		7oFQqjuWeBD1ghfPfbqETdX8X/Y=
+		374yX94NF7wqftFFQTq+d/jIIRc=
 		</data>
 		<key>Headers/NTKIdentityEmail.h</key>
 		<data>
@@ -162,27 +158,31 @@
 		</data>
 		<key>Headers/NTKSDKSettingsProvider.h</key>
 		<data>
-		lDh5NtxRlpYJO5fiqo1xiwZbeaw=
+		F/l1ri54PB8GI+NlU0UdQt4W1dw=
 		</data>
 		<key>Headers/NetkiClient.h</key>
 		<data>
-		78XdT5UmgO78sjYvcbX4u26yqF4=
+		s7ZS7bwU6eqmjlp+UNEW0uCtUo8=
 		</data>
 		<key>Headers/NetkiVision.h</key>
 		<data>
-		5cQdBBTCx05H/Qo/frUJnfcDuj4=
+		yfcEvH/2PzawMySS/lEoGl9JIyI=
 		</data>
 		<key>Headers/netkisdk_ios.h</key>
 		<data>
-		0eEXD6OrGOtEuf9BxCYRirao564=
+		1IurG50HlgCgrmz4ktV6zmYXfvQ=
 		</data>
 		<key>ImageVerificationItem.nib</key>
 		<data>
-		M03khUKMi0To3p1t2qNL3LMQcck=
+		z9AT36BHmKeVkpiEMAY98ogXO5g=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gJGqGd73hFlecrRjPAKDx/V0J00=
+		tt3DZgtPbW3A2H8fijPLq/zt60c=
+		</data>
+		<key>MobileFaceNet.tflite</key>
+		<data>
+		yigskb0+/bZchBUyVY4jaq/lkr4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -190,11 +190,7 @@
 		</data>
 		<key>NTKCaptureReviewViewController.nib</key>
 		<data>
-		wuENY8aSin+DJ6U1djWOv9k4wXk=
-		</data>
-		<key>NTKCompareImagesViewController.nib</key>
-		<data>
-		+AlmKugqJHXhahmTomY8f7CY/z0=
+		xwyqHnFBRFrkhmqCugqbvGyM+Hw=
 		</data>
 		<key>OCR_B_model.dat</key>
 		<data>
@@ -206,11 +202,11 @@
 		</data>
 		<key>RetakeButton.nib</key>
 		<data>
-		zZOadOagNZMrwRK9j4SHpuoptJA=
+		JeBtLAyjAN+s0xicD65YB5CWqBY=
 		</data>
 		<key>ValidationActionSheet.nib</key>
 		<data>
-		s4Z7QJSFpecwTh6lQULMOO1L9b8=
+		beqgHnNilcsXENg2ZrdTQFOsMes=
 		</data>
 		<key>country_codes.json</key>
 		<data>
@@ -220,7 +216,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+9GZgXRXXgSWoDHBCUxlMd95nLs=
+			KZbnmT9TApb8KCEgM97nfIpaStI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -229,7 +225,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CmjPnZ5LutRs1F6RRaDMQfiTRQ4=
+			GG1dtaCmnDpnpzQEatWF1MjX1M0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -242,7 +238,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rNxjRPnbKczky2oB96qLNjvsciQ=
+			z5U5dxY/vAXsiUvfbCPJnd32vt4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -251,15 +247,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MkYONE6HANCcPfQpg6ahL8CpJsY=
+			z7LP7AnLf2FQE6MQ9WvJLgZXrds=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>frozen_model.tflite</key>
-		<data>
-		njEb/i3Q80ZPWdQvrvv32XnTrJo=
-		</data>
 		<key>ic_alert.png</key>
 		<data>
 		a1rDcNwwQZP2EJmlWWluAyhHFGE=
@@ -332,7 +324,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k8pCMium7a+bXRxedtKfdCQyAxc=
+			dNSKyfile+xhsNvc0td4Ci7rVMg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -341,7 +333,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A3Lqp5iFJtLJQRikOzWHCZs4iV8=
+			OAPzyiOuhD3/Ufux3FPwGECpzGw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -360,11 +352,11 @@
 		</data>
 		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib</key>
 		<data>
-		1kEolWEj16ReYwDl0MQ5gD8pddg=
+		vZZDCVqctSxGbTpnPt4lTtAkpeM=
 		</data>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<data>
-		TQ0wEeFxTkSOtcICzgk1HLaZj80=
+		CjIftVKd9F1ktvjk3PttyynYwUE=
 		</data>
 		<key>overlay_back.png</key>
 		<data>
@@ -394,7 +386,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LtufxW2unJz7dG7R4O/aFs8K1E0=
+			z5dUTjJsjdRg/1rrS6HgpkLmOYM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -403,7 +395,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rTTUsK7yrvYPNthHStQV/zOFhPQ=
+			MYJCN0UMrKRv4kgsdUtNXif7X5M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -412,7 +404,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KnXhybjFqoJjzS/l9rV8V7pXiC0=
+			PthvckNDn1eJRABDkuUAqpvyqW8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -421,7 +413,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/kZoeR6uk8Yx1FmLQKC3eZhUPJo=
+			Lz7hQOufXHuUbMsmyhv6s1/hDzc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -430,7 +422,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TwrxQPVAJ3rDsmhpui7p4sGeAjI=
+			lEfaT+PFu7UAhdFciPhSXYrP7Q0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -442,14 +434,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CVWZKYfGvMefLNfn0KQNH9c0JCuORkBvJmxRc0IqnBk=
+			hGm0DitXv4WEbh9kgSR1p3LAYs19UQgL4eLUSiYHR/I=
 			</data>
 		</dict>
 		<key>DocumentBorderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zOdaoyAvsvBJ5seX83EbqIRRY0Y7gv/288RijJDBS/c=
+			oce7iCRccO26UXkOtyIwFSK4836UBVDMebNhgFCFDLI=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -491,14 +483,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RracWUI8Oaa6dctgGGavjdHTK/WGwnJMWjvcvylK800=
+			RV/aDd08NPn5YHtGy3LRAqQ+4W2RqlcsUaR37YyDYi8=
 			</data>
 		</dict>
 		<key>Headers/NTKAnalyticEvents.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyCCK9o76LoGf4NxskyICIopb50ddqs9QXKamSozehA=
+			rpfRjhPV+5jqXDQHf6Ro+hKU0aGqmQroPFFHmavSkv4=
 			</data>
 		</dict>
 		<key>Headers/NTKAnalytics.h</key>
@@ -554,21 +546,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GbZ5b9AH90RMjE6jyzNpxUGEbJPMIIpTK/K5s4L7ByM=
+			UbgzsUJdlP4KpKhgyTItNtsBjgkO/kwHjLABgCVqg9M=
 			</data>
 		</dict>
 		<key>Headers/NTKContext.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ngpgxIM0QXdF2FLrW8HTsa6dqIyZs0vCtEf3NcX9vzw=
+			f08uBv0GS19xkN94kJ398Xn6UJMU3K3LsdD2AGnJg2g=
 			</data>
 		</dict>
 		<key>Headers/NTKCountry.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNwPZg5awwXUYkHQWWuohzoIk8XpHfpQ/HffZoUhjUk=
+			QEKXs6XuyUAQft3I7Gxn32Cm5jbIk7m4/Gf9kMDyGJ4=
 			</data>
 		</dict>
 		<key>Headers/NTKCustomTextProvider.h</key>
@@ -631,14 +623,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PEUDcLCeWDW1e+8QEAzBRO3EhijcsP1Nmx4OXuPOAc0=
-			</data>
-		</dict>
-		<key>Headers/NTKIdentityDocument.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CqsSRkzleqyMJUlr6ZGyfSp2VE5Y5o47YkoAk4azoYk=
+			SghgHJOMrWTk15OqP42BFWp1bhPtAjcLZaaq41uBBO8=
 			</data>
 		</dict>
 		<key>Headers/NTKIdentityEmail.h</key>
@@ -715,35 +700,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a79J0Nk59fEE9A5kpdcSq7XBSESRM5ADYuLOrwquhHY=
+			PY3jubV7lOgxewNTtyo/j19IetFbmApEtPeWYp2qGUo=
 			</data>
 		</dict>
 		<key>Headers/NetkiClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S0mxXuTJZcuRTpDn4n/S4MNcj0hDYjnyCH4zAkgp3DA=
+			RNvMGF9UC3Ktjzx+2qb2KfM0EI7BgxWgG7MkIGqBLkg=
 			</data>
 		</dict>
 		<key>Headers/NetkiVision.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yVPNnpTQqMMed4/gNRkN/yEluY8Do0kzGd3fFTcgPPA=
+			BZlU59YJu5H8Osdx6TFFnLpvRjDbtqTokzqj1Z7fUyE=
 			</data>
 		</dict>
 		<key>Headers/netkisdk_ios.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZOZ6I+RSr4xBDSloIg63qzpMM2hmG7Kj82e0GZbvLaE=
+			Zro/SyqDo39SrZSa5XVsgNLlvqUkxuq6EyR2mwjslsQ=
 			</data>
 		</dict>
 		<key>ImageVerificationItem.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wuQ1Vb0/J/FH/ZlfDUpn4aIMT+70sczGw3B2rW+o3Go=
+			Jx4At8L0f6XGKu6Dv/BFynbFOhVvGywSxl85etoQrWk=
+			</data>
+		</dict>
+		<key>MobileFaceNet.tflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2LpAwBJ/uMqZF+j93Hm7vaBjZXvJKkltNNoLyKdgRDs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -757,14 +749,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAiotPpTf9RxhS25DJ7j1U//mbA9vFl16d7kls31Fok=
-			</data>
-		</dict>
-		<key>NTKCompareImagesViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8zo1csFoi7ZSBWLfIOGitKKX6Vezmb2i2qTQnlRPe4Q=
+			mi5AliVeLz6i1HtthQfzcqkyr1y8dCiTN0B+GvXyWMs=
 			</data>
 		</dict>
 		<key>OCR_B_model.dat</key>
@@ -785,14 +770,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQmaeLokQDJ1e4SXbOKJN0untj6T4+udpS0+NI98xAw=
+			+DpD3MT5A41xXuYZyrnFCSHabHmi2FRSzwekacnZCVo=
 			</data>
 		</dict>
 		<key>ValidationActionSheet.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yj9sPFJaspfHqXVaP5H9pUqDlrL6jXK7TOYMDuMyw2A=
+			kWYHUF8awHj0a5cp3CbcEtl3lfxuNL4NVDkKsOQgceU=
 			</data>
 		</dict>
 		<key>country_codes.json</key>
@@ -806,7 +791,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAhDWhRW0WmHI6bgxY9w6Q5aLNugTzOlTxMzoltnBGk=
+			roxJIOQtXCV60xEF3HuESg3XD4nrASmmbIQtc4sYOl4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -815,7 +800,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QM/GNwmG0a8N1DG6nb24SDmEjCR2lEvzUYvpDkK32n0=
+			7CG78O7SFQJA/u++EEhxrRmfyanVHRR7TOZSNsNEaR4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -831,7 +816,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sBZIIv1Ov+r/fNeuT0HZ1qYhfiJZyDp1HW99TKMQrGA=
+			C1dip8QKhRGHl0jJaYrXYhTuW95VQpZEZAIWa8Mw8Z8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -840,17 +825,10 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZUjWC5JyXXeCkBcQbXtqS6XKTc77AIIBRYW/jqPAezw=
+			8LUfT0NbOoLFxNAdomW+vYdMV4NraGUce1a9uXWOxxY=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>frozen_model.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BAnPRMQrWrqiUHGVGShjxIDZoFohkKmWfIqeOtpARmM=
-			</data>
 		</dict>
 		<key>ic_alert.png</key>
 		<dict>
@@ -975,7 +953,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2B9/a/dtCsnD2kd1DyhDO2S377tERGzvcgqf49qLY4E=
+			xOOtMwK530c83+NkNjegoOT4pJ2CsxH/aFjs5jRbf1o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -984,7 +962,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c53TbudiIbO13mZd/SbCH4YJjYpuWo6MkoV2toJm6WY=
+			Wih0cGAM5rCbGo/ZPvIMMJbARYsJurj4URxYJQCx188=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1014,14 +992,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ly9isOD29lHmDgzMvXgwN0sr1RxmliTwtLjmowR7QZg=
+			zVeNGl1Yum3NFtsUpDWsgKYlJdIAIzRhNsxUiEeSGGA=
 			</data>
 		</dict>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2BzF9eW3Ge09gCu4cApaoE/BsidqvmbHNm9J68rTYBg=
+			t/AizVEsMrl+iaXxwQn6Oxc01wW/KrMV6w3J7j2p/XY=
 			</data>
 		</dict>
 		<key>overlay_back.png</key>
@@ -1070,7 +1048,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCJVso7KJTUGPCcGge+e0WIRH3PI95vnYJTWEKqGcjE=
+			/l1JmdpnGm1cLrMuojejpQ8L/4XaGwGMinZEDqeruss=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1079,7 +1057,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N9Yjh/z4WeHEX3XK3wRUH3gp6Dymvp2HzbPb75HAAxo=
+			4HN+G1Ub0GI7/5ylaVF+4+t7vreNvQgN67IwfbBZbFM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1088,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lhDfFAbVqmz0trQDdxiXIZlHM9YyHLnlthllkHuE2xU=
+			GW+of6OLfqVsKjyiRObDKztFK8kENlVR/old22Zl7Mw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1097,7 +1075,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3h1Rfs/kKegC9H0Zgfipqm5hvKhsKJlKZNTLrXlFdI=
+			FyC+aVnYVoZbHm3uqAhLEhCwcwomqyTvF6BQSwebqXA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1106,7 +1084,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CH3VIfZ/ntyEJxjfoyjkj/VB94sk2qV3wXpJYpqUs9o=
+			hw4zPRPOLsOvALTZEn9uCO5fBNMmEeDzj4GUUhHpsas=
 			</data>
 			<key>optional</key>
 			<true/>
