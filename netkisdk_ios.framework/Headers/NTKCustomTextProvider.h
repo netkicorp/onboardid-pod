@@ -24,6 +24,27 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)headerForCapturePassportLastPage;
 + (void)setHeaderForCapturePassportLastPage:(NSString *)text;
 
++ (NSString *)headerForInstructionsDriverLicenseFront;
++ (void)setHeaderForInstructionsDriverLicenseFront:(NSString *)text;
+
++ (NSString *)headerForInstructionsDriverLicenseBack;
++ (void)setHeaderForInstructionsDriverLicenseBack:(NSString *)text;
+
++ (NSString *)headerForInstructionsGovermentIdFront;
++ (void)setHeaderForInstructionsGovermentIdFront:(NSString *)text;
+
++ (NSString *)headerForInstructionsGovermentIdBack;
++ (void)setHeaderForInstructionsGovermentIdBack:(NSString *)text;
+
++ (NSString *)headerForInstructionsPassport;
++ (void)setHeaderForInstructionsPassport:(NSString *)text;
+
++ (NSString *)headerForInstructionsPassportLastPage;
++ (void)setHeaderForInstructionsPassportLastPage:(NSString *)text;
+
++ (NSString *)headerForInstructionsSelfie;
++ (void)setHeaderForInstructionsSelfie:(NSString *)text;
+
 @end
 
 NS_ASSUME_NONNULL_END
