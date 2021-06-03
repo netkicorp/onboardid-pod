@@ -6,10 +6,15 @@
 	<dict>
 		<key>CaptureToolView.nib/objects-13.0+.nib</key>
 		<data>
+<<<<<<< HEAD
 		mPuKSL4W6mN/mKEGOBEEoC0PpO4=
+=======
+		6aB4P0kLX/+KQaIOK/IBp0Y7Fbw=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>CaptureToolView.nib/runtime.nib</key>
 		<data>
+<<<<<<< HEAD
 		g36Ycs0GZE9oN2xIGtR2gal9e0I=
 		</data>
 		<key>DocumentBorderView.nib/objects-13.0+.nib</key>
@@ -19,6 +24,9 @@
 		<key>DocumentBorderView.nib/runtime.nib</key>
 		<data>
 		SakRvZsCuLQ4gATI9DhwDBbtEyQ=
+=======
+		04Nx2e6AyoapoGAMbRinUbWTaK8=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -179,18 +187,29 @@
 		<key>Headers/netkisdk_ios.h</key>
 		<data>
 		1IurG50HlgCgrmz4ktV6zmYXfvQ=
+<<<<<<< HEAD
 		</data>
 		<key>ImageVerificationItem.nib/objects-13.0+.nib</key>
 		<data>
 		P6ctbwYMadqA/OBOQsJbOqmq6tQ=
+=======
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>ImageVerificationItem.nib/runtime.nib</key>
 		<data>
+<<<<<<< HEAD
 		NYU4y8rN92BsmGPZSIrSWtYjnwI=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		/37XE30L4skTeFRx3xl/fArbxog=
+=======
+		3g++IsqbqZfZxSUGmeRaVGy/Kas=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		lQT1xLDkPLdoSY+mioyTnBN3UNo=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>MobileFaceNet.tflite</key>
 		<data>
@@ -202,11 +221,15 @@
 		</data>
 		<key>NTKCaptureReviewViewController.nib/objects-13.0+.nib</key>
 		<data>
+<<<<<<< HEAD
 		JwNHqPTzlzRmylT0Kh4vBGChGnA=
 		</data>
 		<key>NTKCaptureReviewViewController.nib/runtime.nib</key>
 		<data>
 		g7ntKb94eFEqObni6KNZ+5JP4CM=
+=======
+		ZJXQpFOY8qELNGsLpEZwNfBz9Jw=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>OCR_B_model.dat</key>
 		<data>
@@ -226,11 +249,19 @@
 		</data>
 		<key>ValidationActionSheet.nib/objects-13.0+.nib</key>
 		<data>
+<<<<<<< HEAD
 		F9UBN0mlNeXA0p6javh/Eq+238M=
+=======
+		74X12Frg0DSzpkaIApgFL6lV92k=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>ValidationActionSheet.nib/runtime.nib</key>
 		<data>
+<<<<<<< HEAD
 		3WtA836dmSdiQHhyZzDQzTgm2Gk=
+=======
+		BBpJIMji3M1xCueiECkT75AL9Qw=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>country_codes.json</key>
 		<data>
@@ -380,15 +411,23 @@
 		</data>
 		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/runtime.nib</key>
 		<data>
+<<<<<<< HEAD
 		bk3z1AxKkQejuMYLHj7+MemN4uo=
+=======
+		Gg+aHdj2CnTp3FmIR0KDaXKApls=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/objects-13.0+.nib</key>
 		<data>
+<<<<<<< HEAD
 		wW35f8JH19X3rW+uHWFZa3jw0v4=
 		</data>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/runtime.nib</key>
 		<data>
 		vu4ZQuBvv+wpgXVyZmA7fd/v8io=
+=======
+		cPEXX36CZixTP50irjaq11lncQw=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 		</data>
 		<key>overlay_back.png</key>
 		<data>
@@ -466,13 +505,18 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			o1q2WuF6d68pIyEAYyC/KSFGWGmuecpOHu6kJUllt8Y=
+=======
+			y7HaoyXoejVEn1qXSt1rKqW/Clhuk/507yVVgUDMiFo=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
 		<key>CaptureToolView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			/dOrgmtkp7ZX+rwetrhckrzvt4YulVdojKqX9ubIpHY=
 			</data>
 		</dict>
@@ -488,6 +532,9 @@
 			<key>hash2</key>
 			<data>
 			slQ7WeRxZsWXdEJqC+DufT/bjP95tr3pqXuLMZN00qY=
+=======
+			baqTfL96RNi3EBAeMPxvbSXs+aVtPxYB7vIFIVJXiE4=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -774,6 +821,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			2RcvhSUpATE/9SjTTsUDAtiPFSmVjuHBfAt0U+lFMTg=
 			</data>
 		</dict>
@@ -789,15 +837,19 @@
 			<key>hash2</key>
 			<data>
 			2LpAwBJ/uMqZF+j93Hm7vaBjZXvJKkltNNoLyKdgRDs=
+=======
+			E85GBu0bScrE/rPIqBdL0pijG0z5Hl8USaLLswnzOr8=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
-		<key>Modules/module.modulemap</key>
+		<key>MobileFaceNet.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7eKYWsoOjWZhw6VJ32IT4DJMBgq5vDbDyz7GiyFd/F8=
+			2LpAwBJ/uMqZF+j93Hm7vaBjZXvJKkltNNoLyKdgRDs=
 			</data>
 		</dict>
+<<<<<<< HEAD
 		<key>NTKCaptureReviewViewController.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -810,6 +862,20 @@
 			<key>hash2</key>
 			<data>
 			2usIjWwXd/WWh6s5dkUPMQVC99A0M256H1eNbxvxpqg=
+=======
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7eKYWsoOjWZhw6VJ32IT4DJMBgq5vDbDyz7GiyFd/F8=
+			</data>
+		</dict>
+		<key>NTKCaptureReviewViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HVNWf0OGzVFnASH3AtXnoMcE2WJrfr53mSwiMdmgr4Q=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
 		<key>OCR_B_model.dat</key>
@@ -830,13 +896,18 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			MRKGN2u7GjdYHBDytVJ1zBD+CAOjt7l4nDTHIJWpHss=
+=======
+			AybfDtDFVqztHqGdMJGv0PcyrQPhtk9TV30kzZrYvzk=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
 		<key>RetakeButton.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			XZMnYgQ1f1IB85zVSi5KKN4RvYw2+ci0Sukg+PfCQ6s=
 			</data>
 		</dict>
@@ -852,6 +923,9 @@
 			<key>hash2</key>
 			<data>
 			ZgeFgWvD0NMbdkHfWeFNEws3iNssxjaCjdzJJMhMLJ8=
+=======
+			2jefM0k65lpKtIzACOWFmggm1KemIsmW4cBX+tX/QBU=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
 		<key>country_codes.json</key>
@@ -1080,14 +1154,22 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			biBJFd3uI80DSOhKfbL2TV9JudIldPHQLthZpyfgpZk=
+=======
+			zB2UhaImvW40L199ULKY5ZCUEROMK6aA9M4gu0rERyE=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			IqonXQPcI4K67rSir5CT5t7w1W90K97edtPlchHMiVY=
+=======
+			4WDvHCeqyW0IlcNBDRD3Gp/GXJf21LjA7jJzk4Z/b9c=
+>>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
 			</data>
 		</dict>
 		<key>overlay_back.png</key>
