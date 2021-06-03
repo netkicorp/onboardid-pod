@@ -10,16 +10,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NTKSDKSettingsProvider : NSObject
+typedef NS_ENUM(NSInteger, NTKMachineLearningType) {
+    NTKMachineLearningTypeFaceDetectionAppleVision = 0,
+    NTKMachineLearningTypeFaceDetectionMLVision
+};
 
+@interface NTKSDKSettingsProvider : NSObject
 @property (assign, nonatomic) BOOL showLayPhoneFlatLabel;
 @property (assign, nonatomic) BOOL showMovePhoneCloserLabel;
+
+@property (assign, nonatomic) NTKMachineLearningType machineLearningType;
+
 @property (assign, nonatomic) float captureButtonAppearanceInterval;
+
 @property (assign, nonatomic) BOOL netkiRectangleDetectorOnly;
-@property (assign, nonatomic) BOOL isLivenessShakingDisabled;
-@property (assign, nonatomic) int exposureLevel;
-@property (assign, nonatomic) BOOL useTensorFlowEdgeDetector;
-@property (assign, nonatomic) BOOL useZxingBarcodeDetector;
 
 + (instancetype)sharedInstance;
 

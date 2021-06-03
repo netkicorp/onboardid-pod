@@ -79,7 +79,6 @@ FOUNDATION_EXPORT NTKHTTPHeaderField const NTKHTTPHeaderFieldWWWAuthenticate;
 //Netki Custom Header Fields
 FOUNDATION_EXPORT NTKHTTPHeaderField const NTKHTTPHeaderFieldXNetkiPartner;
 FOUNDATION_EXPORT NTKHTTPHeaderField const NTKHTTPHeaderFieldAppMetaData;
-FOUNDATION_EXPORT NTKHTTPHeaderField const NTKHTTPHeaderFieldIdentifier;
 
 @interface NSURLRequest (NTKExtensions)
 

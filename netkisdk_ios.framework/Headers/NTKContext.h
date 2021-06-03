@@ -91,16 +91,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong, readonly) NTKLivenessSettings *livenessSettings;
 
-/**
-Getter for the minimum_app_version property in the context API response
-*/
-@property (nonatomic, strong, readonly) NSString *minimumAppVersion;
-
-/**
-Getter for the geolocation_enabled property in the context API response
-*/
-@property (nonatomic, assign, readonly) NSNumber *geolocationEnabled;
-
 @end
 
 NS_ASSUME_NONNULL_END

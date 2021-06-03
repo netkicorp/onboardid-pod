@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param documentImage The captured document image
  @see NTKDocumentImage
  */
-- (void)captureController:(UIViewController *)viewController didCaptureDocumentImage:(NTKDocumentImage *)documentImage originalUIImage:(UIImage *)originalUIImage;
+- (void)captureController:(UIViewController *)viewController didCaptureDocumentImage:(NTKDocumentImage *)documentImage;
 
 /**
  Called when the *viewController* capture was cancelled by the user. The *viewController* will dismiss itself.

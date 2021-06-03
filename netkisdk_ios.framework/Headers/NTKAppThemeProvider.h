@@ -29,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) UIColor * secondaryButtonBackgroundColor;
 @property (strong, nonatomic) UIColor * secondaryButtonTextColor;
 
+@property (strong, nonatomic) UIColor * instructionsTitleTextColor;
+
 @property (assign, nonatomic) CGFloat buttonsCornerRadius;
 
 @property (strong, nonatomic) UIColor *successColor;
