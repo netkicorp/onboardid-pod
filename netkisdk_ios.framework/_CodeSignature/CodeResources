@@ -6,27 +6,19 @@
 	<dict>
 		<key>CaptureToolView.nib/objects-13.0+.nib</key>
 		<data>
-<<<<<<< HEAD
-		mPuKSL4W6mN/mKEGOBEEoC0PpO4=
-=======
-		6aB4P0kLX/+KQaIOK/IBp0Y7Fbw=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		FWLBNDl/1gpInbiGitZkyUvPqqs=
 		</data>
 		<key>CaptureToolView.nib/runtime.nib</key>
 		<data>
-<<<<<<< HEAD
-		g36Ycs0GZE9oN2xIGtR2gal9e0I=
+		5WVU1EsyT96RmzFRrWYK5gl9t8I=
 		</data>
 		<key>DocumentBorderView.nib/objects-13.0+.nib</key>
 		<data>
-		98OdktJ08ZEPzrjq8IG0zoeojPE=
+		0PNdO9s0FI2DS7sVYcnWk7UF4fA=
 		</data>
 		<key>DocumentBorderView.nib/runtime.nib</key>
 		<data>
-		SakRvZsCuLQ4gATI9DhwDBbtEyQ=
-=======
-		04Nx2e6AyoapoGAMbRinUbWTaK8=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		AD0mewQIjK1fUBP0W+5b4DtitPc=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -187,29 +179,18 @@
 		<key>Headers/netkisdk_ios.h</key>
 		<data>
 		1IurG50HlgCgrmz4ktV6zmYXfvQ=
-<<<<<<< HEAD
 		</data>
 		<key>ImageVerificationItem.nib/objects-13.0+.nib</key>
 		<data>
-		P6ctbwYMadqA/OBOQsJbOqmq6tQ=
-=======
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		NSmpNXB/wz8htrAHqQFKsQOqbTY=
 		</data>
 		<key>ImageVerificationItem.nib/runtime.nib</key>
 		<data>
-<<<<<<< HEAD
-		NYU4y8rN92BsmGPZSIrSWtYjnwI=
+		vtDWNK6HgTAtJkjbZLJAruFvUtw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/37XE30L4skTeFRx3xl/fArbxog=
-=======
-		3g++IsqbqZfZxSUGmeRaVGy/Kas=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		lQT1xLDkPLdoSY+mioyTnBN3UNo=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		3lCTRkMR2KEkoSIdvaGTRrQ5pb4=
 		</data>
 		<key>MobileFaceNet.tflite</key>
 		<data>
@@ -221,15 +202,11 @@
 		</data>
 		<key>NTKCaptureReviewViewController.nib/objects-13.0+.nib</key>
 		<data>
-<<<<<<< HEAD
-		JwNHqPTzlzRmylT0Kh4vBGChGnA=
+		Rmmhcvli3NS03dAIMkWuGHiG5Ls=
 		</data>
 		<key>NTKCaptureReviewViewController.nib/runtime.nib</key>
 		<data>
-		g7ntKb94eFEqObni6KNZ+5JP4CM=
-=======
-		ZJXQpFOY8qELNGsLpEZwNfBz9Jw=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		KgdHpaXkdW1qvZA0GIo41DPRKOk=
 		</data>
 		<key>OCR_B_model.dat</key>
 		<data>
@@ -241,27 +218,19 @@
 		</data>
 		<key>RetakeButton.nib/objects-13.0+.nib</key>
 		<data>
-		4JcfR3BEv/UBpWJNiEKlmcvX58w=
+		Wfe8FhMUDBjmEaCMATAfmyH2Oao=
 		</data>
 		<key>RetakeButton.nib/runtime.nib</key>
 		<data>
-		/2nZFz6feqBiK2oU2Qjf2WtITZs=
+		YdzFyZnsUwUHzMiWpF9X5xebmww=
 		</data>
 		<key>ValidationActionSheet.nib/objects-13.0+.nib</key>
 		<data>
-<<<<<<< HEAD
-		F9UBN0mlNeXA0p6javh/Eq+238M=
-=======
-		74X12Frg0DSzpkaIApgFL6lV92k=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		lm2gdiHIhtF7bUqVla6UT0Tn/LM=
 		</data>
 		<key>ValidationActionSheet.nib/runtime.nib</key>
 		<data>
-<<<<<<< HEAD
-		3WtA836dmSdiQHhyZzDQzTgm2Gk=
-=======
-		BBpJIMji3M1xCueiECkT75AL9Qw=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		qisBJ03uF+EY2HrTI0CIf5i/uoE=
 		</data>
 		<key>country_codes.json</key>
 		<data>
@@ -407,27 +376,19 @@
 		</data>
 		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/objects-13.0+.nib</key>
 		<data>
-		o/B5pMrXAjAKTjzdwHvvJ6sF8/g=
+		DSsmP3thLu6nJ5GGgW+vjS151A4=
 		</data>
 		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/runtime.nib</key>
 		<data>
-<<<<<<< HEAD
-		bk3z1AxKkQejuMYLHj7+MemN4uo=
-=======
-		Gg+aHdj2CnTp3FmIR0KDaXKApls=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		LohFGumgye5j/UVO4kBVnrwmYbs=
 		</data>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/objects-13.0+.nib</key>
 		<data>
-<<<<<<< HEAD
-		wW35f8JH19X3rW+uHWFZa3jw0v4=
+		OUGYb5LkgeCEtt3b1/o2hwXnntI=
 		</data>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/runtime.nib</key>
 		<data>
-		vu4ZQuBvv+wpgXVyZmA7fd/v8io=
-=======
-		cPEXX36CZixTP50irjaq11lncQw=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+		1cM4WFMCu+/eESvMuLZ8Jp05CsU=
 		</data>
 		<key>overlay_back.png</key>
 		<data>
@@ -505,36 +466,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			o1q2WuF6d68pIyEAYyC/KSFGWGmuecpOHu6kJUllt8Y=
-=======
-			y7HaoyXoejVEn1qXSt1rKqW/Clhuk/507yVVgUDMiFo=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			04DH/ahaN4fhtwXuQte+KK2lHkJ27mYBi2jzkisCAPk=
 			</data>
 		</dict>
 		<key>CaptureToolView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			/dOrgmtkp7ZX+rwetrhckrzvt4YulVdojKqX9ubIpHY=
+			SaWpkYYtSoBxJohw0MRRv0VC3091UG5LjIvE/c63zU4=
 			</data>
 		</dict>
 		<key>DocumentBorderView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AUjKbcMs7L7WBkGOvVNYdRifnWmmwkdU4+X/fxHgacc=
+			IKttjP++W9rbXXgvVNtlMHOwr+16q+9HgP1v77FrTQk=
 			</data>
 		</dict>
 		<key>DocumentBorderView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			slQ7WeRxZsWXdEJqC+DufT/bjP95tr3pqXuLMZN00qY=
-=======
-			baqTfL96RNi3EBAeMPxvbSXs+aVtPxYB7vIFIVJXiE4=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			H83i38wSn4TmoZrgYWEglEjiS1yr/LdLN0Wy9sBzkko=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -821,25 +774,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			2RcvhSUpATE/9SjTTsUDAtiPFSmVjuHBfAt0U+lFMTg=
+			zIG73Gag5gg0XBSCDbrN98IlFd3oUJIrfZtttNgbxxs=
 			</data>
 		</dict>
 		<key>ImageVerificationItem.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h5iFu0XZxQhhe/OzERWUwYnXZuBZg1UymyGmPxDK1ic=
-			</data>
-		</dict>
-		<key>MobileFaceNet.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2LpAwBJ/uMqZF+j93Hm7vaBjZXvJKkltNNoLyKdgRDs=
-=======
-			E85GBu0bScrE/rPIqBdL0pijG0z5Hl8USaLLswnzOr8=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			Z024NotenHd29OfE68IQwFtAwm7QnhPgbw+ycXbfaw0=
 			</data>
 		</dict>
 		<key>MobileFaceNet.tflite</key>
@@ -849,20 +791,6 @@
 			2LpAwBJ/uMqZF+j93Hm7vaBjZXvJKkltNNoLyKdgRDs=
 			</data>
 		</dict>
-<<<<<<< HEAD
-		<key>NTKCaptureReviewViewController.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R8Y0dgzeb6uYmF6WxoXUOLzjeRdq07UB0yp9HlNHntQ=
-			</data>
-		</dict>
-		<key>NTKCaptureReviewViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2usIjWwXd/WWh6s5dkUPMQVC99A0M256H1eNbxvxpqg=
-=======
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
@@ -870,12 +798,18 @@
 			7eKYWsoOjWZhw6VJ32IT4DJMBgq5vDbDyz7GiyFd/F8=
 			</data>
 		</dict>
-		<key>NTKCaptureReviewViewController.nib</key>
+		<key>NTKCaptureReviewViewController.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HVNWf0OGzVFnASH3AtXnoMcE2WJrfr53mSwiMdmgr4Q=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			1g2joqyJDz2H8v5ibjEHIYPWuB8kYJdnd9+MJFevDWU=
+			</data>
+		</dict>
+		<key>NTKCaptureReviewViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hbqdj6PE4KgF2OQX/51p1k0davSprGQtUDEPdOqqY8M=
 			</data>
 		</dict>
 		<key>OCR_B_model.dat</key>
@@ -896,36 +830,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			MRKGN2u7GjdYHBDytVJ1zBD+CAOjt7l4nDTHIJWpHss=
-=======
-			AybfDtDFVqztHqGdMJGv0PcyrQPhtk9TV30kzZrYvzk=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			7j/J06j0xm7WkoDEFEKCNXgQwKBnZ7JT1EShouaPLWo=
 			</data>
 		</dict>
 		<key>RetakeButton.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			XZMnYgQ1f1IB85zVSi5KKN4RvYw2+ci0Sukg+PfCQ6s=
+			w9xpWFK5+ejbOzKwa3joF2tfvEF7pih3pKHcZWbheqw=
 			</data>
 		</dict>
 		<key>ValidationActionSheet.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jRw8+tCaZJhY4jCOHMK4xCjoFThjWpA55VV81HxftsA=
+			5LgHUL4f8LXiXixeZqPAfDB2KoAqthMjEKWG1CSXe+4=
 			</data>
 		</dict>
 		<key>ValidationActionSheet.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZgeFgWvD0NMbdkHfWeFNEws3iNssxjaCjdzJJMhMLJ8=
-=======
-			2jefM0k65lpKtIzACOWFmggm1KemIsmW4cBX+tX/QBU=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			KlERwrkM6ziVOyh6rXwC/SekRB3P9yIdX0EMzHsqcsU=
 			</data>
 		</dict>
 		<key>country_codes.json</key>
@@ -1140,36 +1066,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			abcxo9fOwTBPEZj9IjugLlcabuaSdHKAuYumPe+3fRU=
+			kBpkB0pPcjNKsppCgMhuEvzDTVKNgh9yLjXDJgjwLtQ=
 			</data>
 		</dict>
 		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vsgeu4sB6EsxvMO4bNPhzvS1wFPz9A9s4r/ocyEAQAE=
+			IJyMuOrcXbbgUfM94R2EeFbiuxMIqV8hdTX4KlI6sUA=
 			</data>
 		</dict>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			biBJFd3uI80DSOhKfbL2TV9JudIldPHQLthZpyfgpZk=
-=======
-			zB2UhaImvW40L199ULKY5ZCUEROMK6aA9M4gu0rERyE=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			5vQLJz4KofRKyywaCV4FbqmUbO4X6k+USte5XWJm6pU=
 			</data>
 		</dict>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			IqonXQPcI4K67rSir5CT5t7w1W90K97edtPlchHMiVY=
-=======
-			4WDvHCeqyW0IlcNBDRD3Gp/GXJf21LjA7jJzk4Z/b9c=
->>>>>>> 02ad3761197b0c2fb06a9eb961b348bcf68cd1dc
+			xodadHB/u7BdlrcSmxCbT/Y0SyRQX8EZKI1qj7LaB8c=
 			</data>
 		</dict>
 		<key>overlay_back.png</key>
