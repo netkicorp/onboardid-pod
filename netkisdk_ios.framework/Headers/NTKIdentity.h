@@ -161,6 +161,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)resetDocuments;
 
+/**
+Method for updating the location
+*/
+
+- (void)updateLocation:(NSString *)latitude longitude:(NSString *)longitude;
+
+
+/**
+Method for updating the Metadata
+*/
+- (void)updateBusinessMetadata:(NSDictionary *)businessMetadata;
+
 @end
 
 NS_ASSUME_NONNULL_END

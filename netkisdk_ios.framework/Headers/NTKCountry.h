@@ -43,6 +43,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy, readonly, nullable) NSString *flag;
 
+/**
+Getter for has 2D barcode flag of a country
+*/
+
+@property (nonatomic, assign, readonly, getter=hasBarcode) BOOL has2dBarcode;
+
 @end
 
 NS_ASSUME_NONNULL_END
