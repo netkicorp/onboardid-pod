@@ -13,4 +13,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target   = '12.0'
     s.ios.vendored_frameworks = 'netkisdk_ios.framework'
     s.ios.dependency 'Amplitude-iOS', '~> 4.10'
+    s.ios.dependency 'TensorFlowLite'
+    s.ios.dependency 'SVProgressHUD'
+    s.ios.dependency 'OpenCV2'
 end 
