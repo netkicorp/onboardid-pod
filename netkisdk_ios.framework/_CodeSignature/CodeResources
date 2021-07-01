@@ -4,21 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CaptureToolView.nib/objects-13.0+.nib</key>
+		<key>CaptureToolView.nib</key>
 		<data>
-		w9jbzhBogs1i5tydrVgPr+fl4oU=
+		K9zBmKnr+MfGzmPTDZgNsE9yd3s=
 		</data>
-		<key>CaptureToolView.nib/runtime.nib</key>
+		<key>DocumentBorderView.nib</key>
 		<data>
-		7Uq9I5y8Q1rSUbdfljEpz3iZ7IA=
-		</data>
-		<key>DocumentBorderView.nib/objects-13.0+.nib</key>
-		<data>
-		PK+Ypl9qeuq8EJZ6bb5St3pwU5Q=
-		</data>
-		<key>DocumentBorderView.nib/runtime.nib</key>
-		<data>
-		n0itv4EUHrCB5ODPWcLBogFKxWQ=
+		1ALAS/ug1tDCyTBalG8zJoCyqZI=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -184,37 +176,25 @@
 		<data>
 		0eEXD6OrGOtEuf9BxCYRirao564=
 		</data>
-		<key>ImageVerificationItem.nib/objects-13.0+.nib</key>
+		<key>ImageVerificationItem.nib</key>
 		<data>
-		Vif1dvsofp48DX0rXxWIt+fsWM8=
-		</data>
-		<key>ImageVerificationItem.nib/runtime.nib</key>
-		<data>
-		LcR0KIimIpelLIx7aSYg/Znx/gY=
+		KYPrOGg7eZgc/UFXfAqkc2KQYjc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0kJzJ0CwGn3cF/aO+SsDfJbTr8A=
+		4/wgRJfOJO0+rPiYZmFMvyt6dKw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		NbYeJvZfM0zJqTQPKNW6ePYbvrc=
 		</data>
-		<key>NTKCaptureReviewViewController.nib/objects-13.0+.nib</key>
+		<key>NTKCaptureReviewViewController.nib</key>
 		<data>
-		HsCP5llJDGhHP0DmZY+Rj8VMkew=
+		iORNdH76jCMzEf10LrfD1eMVZrw=
 		</data>
-		<key>NTKCaptureReviewViewController.nib/runtime.nib</key>
+		<key>NTKCompareImagesViewController.nib</key>
 		<data>
-		BIAtI4q+awsX0/oc5yxcuITL3fE=
-		</data>
-		<key>NTKCompareImagesViewController.nib/objects-13.0+.nib</key>
-		<data>
-		BcvzCg6E2IPzhqLQb9vjrKOHpRw=
-		</data>
-		<key>NTKCompareImagesViewController.nib/runtime.nib</key>
-		<data>
-		pvvXQl0nnTH0JwIDAma1l549/5I=
+		nXSJJ+JJhY+vqo3l/Unij3JHTmw=
 		</data>
 		<key>OCR_B_model.dat</key>
 		<data>
@@ -224,21 +204,13 @@
 		<data>
 		PO5DpniZh4theza+COJ42e3qH5A=
 		</data>
-		<key>RetakeButton.nib/objects-13.0+.nib</key>
+		<key>RetakeButton.nib</key>
 		<data>
-		OlseFxZS1zTs94WLEFxbE2SaHsw=
+		WrhX9HWRA+IXozQpHR6hpr6ic2E=
 		</data>
-		<key>RetakeButton.nib/runtime.nib</key>
+		<key>ValidationActionSheet.nib</key>
 		<data>
-		I82oreuaVXMagmN+MZ0eRi02uRc=
-		</data>
-		<key>ValidationActionSheet.nib/objects-13.0+.nib</key>
-		<data>
-		GP3H3F2b2QG2DvVN5yyv0kwTcks=
-		</data>
-		<key>ValidationActionSheet.nib/runtime.nib</key>
-		<data>
-		XN5emeo3CgmObR2lSryzJoqN3yg=
+		qM2mWXxni4XsTEeQ2k6dm4WdBiw=
 		</data>
 		<key>country_codes.json</key>
 		<data>
@@ -386,21 +358,13 @@
 		<data>
 		6Nnv08XUSLOr3ujT7jU+enKR9sA=
 		</data>
-		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/objects-13.0+.nib</key>
+		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib</key>
 		<data>
-		2b1bnO/Nm6hjyuQFCAaBa9vPv4A=
+		+9uruCj1M8SooCElO2nJDLIMphw=
 		</data>
-		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/runtime.nib</key>
+		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<data>
-		cAVXqDQh/enYxsIA5LRjiBvvBxo=
-		</data>
-		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/objects-13.0+.nib</key>
-		<data>
-		by5L999KBPtZQIgcpnoKbdehIME=
-		</data>
-		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/runtime.nib</key>
-		<data>
-		2eGvhemPp6SuuLldxhdTTI2IvKo=
+		DM2XhZURjIrrpFqQuA1wBVtkslQ=
 		</data>
 		<key>overlay_back.png</key>
 		<data>
@@ -474,32 +438,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CaptureToolView.nib/objects-13.0+.nib</key>
+		<key>CaptureToolView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+al/eUF/xUZ0JhNhjthD4+Phh6zQf6q9pgYxyYVkabc=
+			P85UXQaifwFfpdu7MF7UZQaIAVVYa62GIM9yqnuwJ9I=
 			</data>
 		</dict>
-		<key>CaptureToolView.nib/runtime.nib</key>
+		<key>DocumentBorderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1q3QQk9oGlZ0W4TGlhEJFc4JBBG/17xBPwnwnZU/xzQ=
-			</data>
-		</dict>
-		<key>DocumentBorderView.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RSJie5/7XDexeFYk4m1PmLVpUsaQkdfwiw7TPPMIBMg=
-			</data>
-		</dict>
-		<key>DocumentBorderView.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gtJ3/be3jewfTuvMR64jsi8NJ4m76qmC+XFIK0r/5+I=
+			1Id/bN8KbFkjvE1QMAnAFFJsFLMwOetNRseu9qqiHao=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -789,18 +739,11 @@
 			ZOZ6I+RSr4xBDSloIg63qzpMM2hmG7Kj82e0GZbvLaE=
 			</data>
 		</dict>
-		<key>ImageVerificationItem.nib/objects-13.0+.nib</key>
+		<key>ImageVerificationItem.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bSILEp46q9yDyfD24hpnCtNg+uN4qRyHo9utwQGNmA0=
-			</data>
-		</dict>
-		<key>ImageVerificationItem.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BW6k6MwPEdPoGE+CyPHAL9O3GO6OaWsFRb+Z97KJ580=
+			5FAG2CnnEkK34Vu0sAVcsvxZNPeXlFi7G935+uG6OhI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -810,32 +753,18 @@
 			7eKYWsoOjWZhw6VJ32IT4DJMBgq5vDbDyz7GiyFd/F8=
 			</data>
 		</dict>
-		<key>NTKCaptureReviewViewController.nib/objects-13.0+.nib</key>
+		<key>NTKCaptureReviewViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CI2QyZ0VJCi0zLKaNW0iw1IG5AqjhMY3l+w9xn5sXr4=
+			So4pQpfIEkd/ixWRMEX7Y0iIOnTwJStt2oCpjCIfXKU=
 			</data>
 		</dict>
-		<key>NTKCaptureReviewViewController.nib/runtime.nib</key>
+		<key>NTKCompareImagesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tVCgP5P0l5rjPLosS5F3BRIVLBFxv29kxMSkmeaK8c0=
-			</data>
-		</dict>
-		<key>NTKCompareImagesViewController.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r1weop0Jh+AMto06OF+ehAXPnetA7vaxvDahEOsw4Cc=
-			</data>
-		</dict>
-		<key>NTKCompareImagesViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wto7PKaGD4xVk5tGoLo8zs7cyg0gW7+7d/EKG+EgRII=
+			MOIydMSNNkZ55MnHPBt3w7VDzFdFUL3JbVYxavHASSk=
 			</data>
 		</dict>
 		<key>OCR_B_model.dat</key>
@@ -852,32 +781,18 @@
 			EnWZup5DXMSgkWSwagtzHbns16t1T1SEQxu/GmRrCxE=
 			</data>
 		</dict>
-		<key>RetakeButton.nib/objects-13.0+.nib</key>
+		<key>RetakeButton.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xX0GsjPtYUM1E+IPCqLDlkgpaxR//gRQ0HyioAXe4gw=
+			8CS80OUMDmn1ZTF8mcI+f+gJN37CcDgCB3ig/mRCMOE=
 			</data>
 		</dict>
-		<key>RetakeButton.nib/runtime.nib</key>
+		<key>ValidationActionSheet.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4e5CWe5x1Y4qHRKiExosEEkGc2YvRg4j6OqE8LDgRg0=
-			</data>
-		</dict>
-		<key>ValidationActionSheet.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cddEimulD7fRfF3U9ziDOSQLUR6SsdKyuj2rC0lPFBw=
-			</data>
-		</dict>
-		<key>ValidationActionSheet.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vtkq15LYlM+VfrcQNYsSFJFpy+OQE+V0fOEqNtxaC9s=
+			XT/Nxr3+mFKioCtGRuGxsqLXd8haEMK+ArnCaCjjiKk=
 			</data>
 		</dict>
 		<key>country_codes.json</key>
@@ -1095,32 +1010,18 @@
 			GX0AvsSBHBE8l8oCeFGGParCnmtRIcwW6+3pCMgL+lA=
 			</data>
 		</dict>
-		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/objects-13.0+.nib</key>
+		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k2n/L/UA6yCUSWvlr+1cOnfKOtV7VOofdJ4rkyVm7MM=
+			zrHcK6O5kRsU11827UAjvQw9VGt9E8X8WWZicgVX/uM=
 			</data>
 		</dict>
-		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib/runtime.nib</key>
+		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RDjSVXoMM11lF8HaP0aZ5oyPGeKIBLLi0iDZNdjCBlM=
-			</data>
-		</dict>
-		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eBLvm8SfKA6UlxJ0k/hdv1gs5cGPIkeim5o3l4ofihM=
-			</data>
-		</dict>
-		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nuqfnI7t/Q97awr/S0S3nIIJV35Yujaq676SM2GTsEU=
+			8fJJqVIxser6YACsP5NcuM0k1138vITwGIT6VJ7kgp0=
 			</data>
 		</dict>
 		<key>overlay_back.png</key>
