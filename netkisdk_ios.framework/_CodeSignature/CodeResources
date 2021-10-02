@@ -6,11 +6,11 @@
 	<dict>
 		<key>CaptureToolView.nib</key>
 		<data>
-		K9zBmKnr+MfGzmPTDZgNsE9yd3s=
+		rfw0Npmsir0o3hKRdknDhCiqodQ=
 		</data>
 		<key>DocumentBorderView.nib</key>
 		<data>
-		1ALAS/ug1tDCyTBalG8zJoCyqZI=
+		YnvlrZLuwNJtb5yF6q22fvMxMAw=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>ImageVerificationItem.nib</key>
 		<data>
-		KYPrOGg7eZgc/UFXfAqkc2KQYjc=
+		DSJ+pqVrSR95a+Q51UwTgn1S5qI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4/wgRJfOJO0+rPiYZmFMvyt6dKw=
+		cuy9JjYRQaxOgkNBQBVX5fFmSos=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -190,11 +190,11 @@
 		</data>
 		<key>NTKCaptureReviewViewController.nib</key>
 		<data>
-		iORNdH76jCMzEf10LrfD1eMVZrw=
+		z+p+VdkB1dpXyFiuUTSGI9Dunq8=
 		</data>
 		<key>NTKCompareImagesViewController.nib</key>
 		<data>
-		nXSJJ+JJhY+vqo3l/Unij3JHTmw=
+		rWNBN5zcEbZSMWTJLQnsWAQ0FxQ=
 		</data>
 		<key>OCR_B_model.dat</key>
 		<data>
@@ -206,11 +206,11 @@
 		</data>
 		<key>RetakeButton.nib</key>
 		<data>
-		WrhX9HWRA+IXozQpHR6hpr6ic2E=
+		o1xOznWAU0Y+nNqghuYkKBwPJOo=
 		</data>
 		<key>ValidationActionSheet.nib</key>
 		<data>
-		qM2mWXxni4XsTEeQ2k6dm4WdBiw=
+		HuI8Bk2fHayUenFwRzdPK/MC7lM=
 		</data>
 		<key>country_codes.json</key>
 		<data>
@@ -360,11 +360,11 @@
 		</data>
 		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib</key>
 		<data>
-		+9uruCj1M8SooCElO2nJDLIMphw=
+		hv/WMgYEOrL+d8ZHmRRasGQi6j4=
 		</data>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<data>
-		DM2XhZURjIrrpFqQuA1wBVtkslQ=
+		Mkbsl9mMFPXASPaj+HZ2naZD9zA=
 		</data>
 		<key>overlay_back.png</key>
 		<data>
@@ -442,14 +442,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P85UXQaifwFfpdu7MF7UZQaIAVVYa62GIM9yqnuwJ9I=
+			PXULDjy6Sri1xXQgk9K66/QQzYXlq/WwMiDisZsnAxY=
 			</data>
 		</dict>
 		<key>DocumentBorderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Id/bN8KbFkjvE1QMAnAFFJsFLMwOetNRseu9qqiHao=
+			EgsX2pHXpAI8vBgTQ4qpi2T9vHlfz4BLh2g6rBE0Xjw=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -743,7 +743,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5FAG2CnnEkK34Vu0sAVcsvxZNPeXlFi7G935+uG6OhI=
+			W5aIPLb0r4YYb4MFs0dzUV3ZHcf2BErfTTn27zMe6l4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -757,14 +757,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			So4pQpfIEkd/ixWRMEX7Y0iIOnTwJStt2oCpjCIfXKU=
+			pSo6Wa5ljWayetbuNjNZGqB3Vk3IAK7hPfa05h3A+xA=
 			</data>
 		</dict>
 		<key>NTKCompareImagesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MOIydMSNNkZ55MnHPBt3w7VDzFdFUL3JbVYxavHASSk=
+			FSmz5HON/r0nvXfiqQuWGLhNYRjmaWloICsVpdEZD3k=
 			</data>
 		</dict>
 		<key>OCR_B_model.dat</key>
@@ -785,14 +785,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8CS80OUMDmn1ZTF8mcI+f+gJN37CcDgCB3ig/mRCMOE=
+			2YgUvHvWA/rQF4qFiMfJ+tgEAy/vu63ogGloY4cqF4A=
 			</data>
 		</dict>
 		<key>ValidationActionSheet.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XT/Nxr3+mFKioCtGRuGxsqLXd8haEMK+ArnCaCjjiKk=
+			/L+ANdvt+7pYqJTJSY37Cy7MXQ9egkmJc+AHZPKpImo=
 			</data>
 		</dict>
 		<key>country_codes.json</key>
@@ -1014,14 +1014,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zrHcK6O5kRsU11827UAjvQw9VGt9E8X8WWZicgVX/uM=
+			UO7QLOKw1VVflPwbGcBbqiJE5avHaW1hYYERm3MR6d0=
 			</data>
 		</dict>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8fJJqVIxser6YACsP5NcuM0k1138vITwGIT6VJ7kgp0=
+			FEF9nQzqogS64xSsjRWuQrTx1XbDOsPhKjlbUwpNihs=
 			</data>
 		</dict>
 		<key>overlay_back.png</key>
