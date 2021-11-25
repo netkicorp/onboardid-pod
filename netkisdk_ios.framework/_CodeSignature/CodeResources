@@ -6,11 +6,11 @@
 	<dict>
 		<key>CaptureToolView.nib</key>
 		<data>
-		rfw0Npmsir0o3hKRdknDhCiqodQ=
+		dF74G2x+BP+jGbRc5kHg1RIu8BY=
 		</data>
 		<key>DocumentBorderView.nib</key>
 		<data>
-		YnvlrZLuwNJtb5yF6q22fvMxMAw=
+		s2fL/Pf5N0eVlv3yA1gKGi7iF8I=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>ImageVerificationItem.nib</key>
 		<data>
-		DSJ+pqVrSR95a+Q51UwTgn1S5qI=
+		va7jxwH8P5yMzfVarMqiVhdrXaw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cuy9JjYRQaxOgkNBQBVX5fFmSos=
+		Mk3JMiXnJgxIkNeCLHqGg9+Caa8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -190,11 +190,11 @@
 		</data>
 		<key>NTKCaptureReviewViewController.nib</key>
 		<data>
-		z+p+VdkB1dpXyFiuUTSGI9Dunq8=
+		Z0FzCaNPmE5eq/QZkuWJfOqDyOk=
 		</data>
 		<key>NTKCompareImagesViewController.nib</key>
 		<data>
-		rWNBN5zcEbZSMWTJLQnsWAQ0FxQ=
+		YfM3BUPXv+1ZB4eTNaF/hXzO5gA=
 		</data>
 		<key>OCR_B_model.dat</key>
 		<data>
@@ -206,11 +206,11 @@
 		</data>
 		<key>RetakeButton.nib</key>
 		<data>
-		o1xOznWAU0Y+nNqghuYkKBwPJOo=
+		j2KZsn5e30WdBkelrfmrT7izee8=
 		</data>
 		<key>ValidationActionSheet.nib</key>
 		<data>
-		HuI8Bk2fHayUenFwRzdPK/MC7lM=
+		l62e9Slu0emOgGwhmSXb92FzFLw=
 		</data>
 		<key>country_codes.json</key>
 		<data>
@@ -220,7 +220,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+9GZgXRXXgSWoDHBCUxlMd95nLs=
+			7Fn6mi4RRCBWblbQAaR3MGzbspw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -229,7 +229,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CmjPnZ5LutRs1F6RRaDMQfiTRQ4=
+			RWMFHj19LINzIgkMm7aK32NClqo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -238,11 +238,20 @@
 		<data>
 		v+PpefB+nO4/yy8X24ntNqJSjyA=
 		</data>
+		<key>es-419.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iMCBCc4h7mcoFAJLkNSI18hPrJ8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rNxjRPnbKczky2oB96qLNjvsciQ=
+			iMCBCc4h7mcoFAJLkNSI18hPrJ8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -251,7 +260,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MkYONE6HANCcPfQpg6ahL8CpJsY=
+			0Va6Ao/D2rb3aJ1bIdSF4hwSvJo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -332,7 +341,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k8pCMium7a+bXRxedtKfdCQyAxc=
+			J7oyAInI5tCqkdjTIDrJ+LXAPEA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -341,7 +350,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A3Lqp5iFJtLJQRikOzWHCZs4iV8=
+			+HpaOQsE73qmcWmMRNoObT8qWI8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -360,11 +369,11 @@
 		</data>
 		<key>netkisdk.storyboardc/NTKBarcodeTestResultsViewController.nib</key>
 		<data>
-		hv/WMgYEOrL+d8ZHmRRasGQi6j4=
+		roI8bzdjnw7JCGlAcurHkdNp+bU=
 		</data>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<data>
-		Mkbsl9mMFPXASPaj+HZ2naZD9zA=
+		1te54uhPxNJx+OfjB7E5A0shrk8=
 		</data>
 		<key>overlay_back.png</key>
 		<data>
@@ -394,7 +403,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LtufxW2unJz7dG7R4O/aFs8K1E0=
+			81rl1+xGemGQbxAwbd3POByLJxg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -403,7 +412,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rTTUsK7yrvYPNthHStQV/zOFhPQ=
+			3iNunXanMvu2ZREBjEzte4GUaNE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -412,7 +421,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KnXhybjFqoJjzS/l9rV8V7pXiC0=
+			nuliX5eIIgTF+I49j6F7VIQ3kY0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -421,7 +430,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/kZoeR6uk8Yx1FmLQKC3eZhUPJo=
+			42CXFge5LpO3FMMp19jWWUNQuwQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -430,7 +439,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TwrxQPVAJ3rDsmhpui7p4sGeAjI=
+			zVMS5SiLgeqtDWfDKdYqZJR9rcQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -442,14 +451,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PXULDjy6Sri1xXQgk9K66/QQzYXlq/WwMiDisZsnAxY=
+			JzFZRTq9WAhbzqATOFTioiJm3m7ufA/Qf6C++j8yo6c=
 			</data>
 		</dict>
 		<key>DocumentBorderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EgsX2pHXpAI8vBgTQ4qpi2T9vHlfz4BLh2g6rBE0Xjw=
+			2+37mYlDv/EqDzgh6Q3L38uhwhf7fHtLtZqwYE57cR4=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -743,7 +752,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W5aIPLb0r4YYb4MFs0dzUV3ZHcf2BErfTTn27zMe6l4=
+			Gtjhl6w2sAD8ANYSUw7ZvehVge7E3IJjQLUkUdXKboY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -757,14 +766,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pSo6Wa5ljWayetbuNjNZGqB3Vk3IAK7hPfa05h3A+xA=
+			gjl1lI5sWiOBby2QajjwNcZEYwqDIidDC8CNtBUFP88=
 			</data>
 		</dict>
 		<key>NTKCompareImagesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FSmz5HON/r0nvXfiqQuWGLhNYRjmaWloICsVpdEZD3k=
+			/oTqSBTXeW+lKp6g1dpsjh/KG8wVNPxDps7dFChRPhc=
 			</data>
 		</dict>
 		<key>OCR_B_model.dat</key>
@@ -785,14 +794,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2YgUvHvWA/rQF4qFiMfJ+tgEAy/vu63ogGloY4cqF4A=
+			y1eWCw8YQ6Hrog0y62WRFHjVMPUNJnYwShqVKeDAxT0=
 			</data>
 		</dict>
 		<key>ValidationActionSheet.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/L+ANdvt+7pYqJTJSY37Cy7MXQ9egkmJc+AHZPKpImo=
+			enHC8ZOrO7xHNVGHHAoKGlCl+axzDKXc7LOd/u7fN3Q=
 			</data>
 		</dict>
 		<key>country_codes.json</key>
@@ -806,7 +815,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAhDWhRW0WmHI6bgxY9w6Q5aLNugTzOlTxMzoltnBGk=
+			dxN9Gmg8ayE9mqtCXmfkGwUzqtl0FsLK1NlK5YDB7GE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -815,7 +824,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QM/GNwmG0a8N1DG6nb24SDmEjCR2lEvzUYvpDkK32n0=
+			xynd35Bny6eogrFSlGJIdhVwmV9mA+3ixJiv6UsuzVw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -827,11 +836,20 @@
 			ctS8LorJf+Ux1br4vxPus/TuNl1kvZtJC/j4wA9vOJc=
 			</data>
 		</dict>
+		<key>es-419.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cWWKHu96zBos1/Pfid1viqykF/1aERbmYx9thokpau8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sBZIIv1Ov+r/fNeuT0HZ1qYhfiJZyDp1HW99TKMQrGA=
+			cWWKHu96zBos1/Pfid1viqykF/1aERbmYx9thokpau8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -840,7 +858,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZUjWC5JyXXeCkBcQbXtqS6XKTc77AIIBRYW/jqPAezw=
+			SEFcHqfE9845Q99lFfdw9yPKZvxEPRFCjEeOC5rVEyA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -975,7 +993,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2B9/a/dtCsnD2kd1DyhDO2S377tERGzvcgqf49qLY4E=
+			Cv+6mpzL6a2LwchflDfUZObIoYDSd7Mc6Ck96rWBudI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -984,7 +1002,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c53TbudiIbO13mZd/SbCH4YJjYpuWo6MkoV2toJm6WY=
+			Z+GOkbj9hcFDp7Yp5OO1oN2EUCtSrlA5hyj3wRvSYiw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1014,14 +1032,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UO7QLOKw1VVflPwbGcBbqiJE5avHaW1hYYERm3MR6d0=
+			Zh+QAhoo5o21MDokJXC/jA4730r6ZMD6t6LwS4w57U4=
 			</data>
 		</dict>
 		<key>netkisdk.storyboardc/SBH-fi-dMa-view-CGc-cz-sbZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FEF9nQzqogS64xSsjRWuQrTx1XbDOsPhKjlbUwpNihs=
+			9Xc1mVy0nrAZVDtoWrpYx6HkfC88ECOhlQFpFi1GcW8=
 			</data>
 		</dict>
 		<key>overlay_back.png</key>
@@ -1070,7 +1088,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCJVso7KJTUGPCcGge+e0WIRH3PI95vnYJTWEKqGcjE=
+			s7U1Uu9K9L7hhrG6z0UM9qULxICQbnRHiuBPZHNr2GY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1079,7 +1097,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N9Yjh/z4WeHEX3XK3wRUH3gp6Dymvp2HzbPb75HAAxo=
+			wR5eLTe8+S9K+dx+b/j87irPCFXpp9lETzNc9Iq+qEs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1088,7 +1106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lhDfFAbVqmz0trQDdxiXIZlHM9YyHLnlthllkHuE2xU=
+			ewwIHXmXAyT/tMIQaU1eY/nMW+5rm9rUKBUplrHddKY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1097,7 +1115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3h1Rfs/kKegC9H0Zgfipqm5hvKhsKJlKZNTLrXlFdI=
+			P841dzTrrC4bcS349DyRleMRqqndqTnQiW3NlWLUBKY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1106,7 +1124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CH3VIfZ/ntyEJxjfoyjkj/VB94sk2qV3wXpJYpqUs9o=
+			sItFo+ksZPHPO7Kl8rmqEAHKZ2bA/IvLd6PoIwO9vx0=
 			</data>
 			<key>optional</key>
 			<true/>
