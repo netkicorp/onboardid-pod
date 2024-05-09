@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|  
     s.name                    = 'NetkiSDK'
-    s.version                 = '5.4.2'
-    s.summary                 = 'NetkiSDK framework.'
+    s.version                 = '7.0.0'
+    s.summary                 = 'NetkiSDK enables custom onboarding.'
+    s.description             = 'Our NetkiSDK lets you create custom KYC onboarding in your app'
     s.homepage                = 'https://www.netki.com/'
 
-    s.author                  = { 'Netki' => 'hello@example.com' }
+    s.author                  = { 'Netki' => 'ops@netki.com' }
     s.license                 = { :type => '', :file => 'LICENSE' }
 
     s.platform                = :ios
-    s.source                  = { :git => 'ssh://bitbucket.org/eimai/ios-pod.git' }
+    s.source                  = { :git => 'https://github.com/netkicorp/ios-pod.git' }
 
-    s.ios.deployment_target   = '11.0'
-    s.ios.vendored_frameworks = 'netkisdk_ios.framework'
-    s.ios.dependency 'Amplitude-iOS', '~> 4.10'
-    s.ios.dependency 'SVProgressHUD'
-    s.ios.dependency 'OpenCV2'
-end 
+    s.ios.deployment_target   = '17.0'
+    s.ios.vendored_frameworks = 'NetkiSDK.xcframework'
+    s.dependency 'Sentry', '~> 8.22.4'
+    s.dependency 'DeviceKit', '~> 5.2.2'
+end
