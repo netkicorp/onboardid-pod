@@ -2709,6 +2709,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -9120,13 +9127,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NetkiSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "DeviceKit",
-        "printedName": "DeviceKit",
         "declKind": "Import",
         "moduleName": "NetkiSDK"
       },
@@ -38031,6 +38031,1462 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 20,
+      "value": "\"Unknown Identifier\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 27,
+      "value": "\"iPod Touch 5th Generation\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 815,
+      "length": 27,
+      "value": "\"iPod Touch 6th Generation\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 27,
+      "value": "\"iPod Touch 7th Generation\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 915,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 941,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 985,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1203,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1247,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1267,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1316,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1341,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1391,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1424,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1448,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1481,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1510,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1530,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1555,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1590,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1628,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1713,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1737,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1758,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1783,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1847,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1868,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1939,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1960,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1989,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2043,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 28,
+      "value": "\"iPhone SE (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2106,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2127,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2152,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2173,
+      "length": 16,
+      "value": "\"iPhone 12 Mini\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2203,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2224,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2253,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2274,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2328,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2374,
+      "length": 16,
+      "value": "\"iPhone 13 Mini\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2404,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2425,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2454,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2475,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2508,
+      "length": 12,
+      "value": "\"iPhone14,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2529,
+      "length": 28,
+      "value": "\"iPhone SE (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 12,
+      "value": "\"iPhone14,7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2592,
+      "length": 11,
+      "value": "\"iPhone 14\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2617,
+      "length": 12,
+      "value": "\"iPhone14,8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2638,
+      "length": 16,
+      "value": "\"iPhone 14 Plus\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2668,
+      "length": 12,
+      "value": "\"iPhone15,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2689,
+      "length": 15,
+      "value": "\"iPhone 14 Pro\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2718,
+      "length": 12,
+      "value": "\"iPhone15,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2739,
+      "length": 19,
+      "value": "\"iPhone 14 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2772,
+      "length": 12,
+      "value": "\"iPhone15,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 11,
+      "value": "\"iPhone 15\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2818,
+      "length": 12,
+      "value": "\"iPhone15,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2839,
+      "length": 16,
+      "value": "\"iPhone 15 Plus\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2869,
+      "length": 12,
+      "value": "\"iPhone16,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2890,
+      "length": 15,
+      "value": "\"iPhone 15 Pro\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 12,
+      "value": "\"iPhone16,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2940,
+      "length": 19,
+      "value": "\"iPhone 15 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2973,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2984,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 2995,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3006,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3024,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3046,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3057,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3068,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3086,
+      "length": 8,
+      "value": "\"iPad 3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3108,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3119,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3130,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3148,
+      "length": 8,
+      "value": "\"iPad 4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3170,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3181,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3192,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3210,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3234,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3245,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3263,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3289,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3301,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3320,
+      "length": 8,
+      "value": "\"iPad 5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3342,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3353,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3371,
+      "length": 8,
+      "value": "\"iPad 6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3393,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3405,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3424,
+      "length": 12,
+      "value": "\"iPad Air 3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3450,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3481,
+      "length": 8,
+      "value": "\"iPad 7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 10,
+      "value": "\"iPad11,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3515,
+      "length": 10,
+      "value": "\"iPad11,7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3534,
+      "length": 8,
+      "value": "\"iPad 8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3556,
+      "length": 10,
+      "value": "\"iPad12,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3568,
+      "length": 10,
+      "value": "\"iPad12,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3587,
+      "length": 8,
+      "value": "\"iPad 9\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3609,
+      "length": 11,
+      "value": "\"iPad13,18\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3622,
+      "length": 11,
+      "value": "\"iPad13,19\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3642,
+      "length": 9,
+      "value": "\"iPad 10\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3665,
+      "length": 10,
+      "value": "\"iPad13,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3677,
+      "length": 10,
+      "value": "\"iPad13,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3696,
+      "length": 12,
+      "value": "\"iPad Air 4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3722,
+      "length": 11,
+      "value": "\"iPad13,16\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3735,
+      "length": 11,
+      "value": "\"iPad13,17\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3755,
+      "length": 12,
+      "value": "\"iPad Air 5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3781,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3792,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3803,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3821,
+      "length": 11,
+      "value": "\"iPad Mini\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3846,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3857,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3868,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3886,
+      "length": 13,
+      "value": "\"iPad Mini 2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3913,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3924,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3935,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3953,
+      "length": 13,
+      "value": "\"iPad Mini 3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3980,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 3991,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4009,
+      "length": 13,
+      "value": "\"iPad Mini 4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4036,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4048,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4067,
+      "length": 13,
+      "value": "\"iPad Mini 5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4094,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4106,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4125,
+      "length": 13,
+      "value": "\"iPad Mini 6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4152,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4163,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4181,
+      "length": 19,
+      "value": "\"iPad Pro 9.7-inch\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4214,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4225,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4243,
+      "length": 37,
+      "value": "\"iPad Pro 12.9-inch (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4294,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4323,
+      "length": 37,
+      "value": "\"iPad Pro 12.9-inch (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4374,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4385,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4403,
+      "length": 20,
+      "value": "\"iPad Pro 10.5-inch\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4437,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4448,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4459,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4470,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4488,
+      "length": 35,
+      "value": "\"iPad Pro 11-inch (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4537,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4548,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4559,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4570,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4588,
+      "length": 37,
+      "value": "\"iPad Pro 12.9-inch (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4639,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4650,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4669,
+      "length": 35,
+      "value": "\"iPad Pro 11-inch (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4718,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4730,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4749,
+      "length": 37,
+      "value": "\"iPad Pro 12.9-inch (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4800,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4812,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4824,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4836,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4855,
+      "length": 35,
+      "value": "\"iPad Pro 11-inch (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4904,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4916,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4928,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4941,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 4961,
+      "length": 37,
+      "value": "\"iPad Pro 12.9-inch (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 5012,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 5020,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 5030,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 5046,
+      "length": 11,
+      "value": "\"SIMULATOR\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/DeviceIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 5082,
+      "length": 20,
+      "value": "\"Unknown Identifyer\""
+    },
+    {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 236,
@@ -39895,266 +41351,266 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 1801,
+      "offset": 1781,
       "length": 6,
       "value": "\"next\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1973,
+      "offset": 1953,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2036,
+      "offset": 2016,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2078,
+      "offset": 2058,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2121,
+      "offset": 2101,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 2601,
+      "offset": 2581,
       "length": 23,
       "value": "\"front_instructions_id\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 2750,
+      "offset": 2730,
       "length": 22,
       "value": "\"back_instructions_id\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 2900,
+      "offset": 2880,
       "length": 21,
       "value": "\"selfie_instructions\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 3124,
+      "offset": 3104,
       "length": 23,
       "value": "\"front_instructions_id\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 3252,
       "length": 22,
       "value": "\"back_instructions_id\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3402,
       "length": 21,
       "value": "\"selfie_instructions\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 3632,
+      "offset": 3612,
       "length": 29,
       "value": "\"front_instructions_passport\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 3789,
+      "offset": 3769,
       "length": 21,
       "value": "\"selfie_instructions\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 3873,
+      "offset": 3853,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4106,
+      "offset": 4086,
       "length": 5,
       "value": "\"jpg\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4132,
+      "offset": 4112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4236,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4461,
+      "offset": 4441,
       "length": 22,
       "value": "\"front_id_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4597,
+      "offset": 4577,
       "length": 21,
       "value": "\"back_id_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4734,
+      "offset": 4714,
       "length": 20,
       "value": "\"selfie_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4945,
+      "offset": 4925,
       "length": 22,
       "value": "\"front_id_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 5080,
+      "offset": 5060,
       "length": 21,
       "value": "\"back_id_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 5217,
+      "offset": 5197,
       "length": 20,
       "value": "\"selfie_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 5414,
+      "offset": 5394,
       "length": 22,
       "value": "\"front_id_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 5552,
+      "offset": 5532,
       "length": 20,
       "value": "\"selfie_instruction\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 5630,
+      "offset": 5610,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6004,
+      "offset": 5984,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6113,
+      "offset": 6093,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6224,
+      "offset": 6204,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6410,
+      "offset": 6390,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6518,
+      "offset": 6498,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 6609,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6801,
+      "offset": 6781,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6912,
+      "offset": 6892,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 6976,
+      "offset": 6956,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7947,
+      "offset": 7927,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8422,
+      "offset": 8402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 8617,
+      "offset": 8597,
       "length": 14,
       "value": "\"xmark.icloud\""
     },
@@ -42814,51 +44270,37 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 171,
+      "offset": 154,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 368,
+      "offset": 351,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 558,
       "length": 11,
       "value": "\"Simulator\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 589,
+      "offset": 572,
       "length": 8,
       "value": "\"Device\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 690,
+      "offset": 673,
       "length": 7,
       "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/TransactionMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 724,
-      "length": 19,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/TransactionMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 742,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Api\/TransactionsApi.swift",
