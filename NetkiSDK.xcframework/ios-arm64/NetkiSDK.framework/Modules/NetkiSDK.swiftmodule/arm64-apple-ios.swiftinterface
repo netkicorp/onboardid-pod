@@ -10,7 +10,6 @@ import CoreGraphics
 import CoreHaptics
 import CoreImage
 import CoreLocation
-import DeviceKit
 import Foundation
 @_exported import NetkiSDK
 import Photos
