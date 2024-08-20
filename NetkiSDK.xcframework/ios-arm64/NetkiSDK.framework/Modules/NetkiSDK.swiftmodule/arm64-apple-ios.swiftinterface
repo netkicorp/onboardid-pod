@@ -50,6 +50,32 @@ public enum AdditionalDataField : Swift.String, Swift.Codable {
     get
   }
 }
+public struct Barcode : Swift.Codable {
+  public var rawValue: Swift.String?
+  public var displayValue: Swift.String?
+  public var valueFormat: Swift.Int?
+  public var driverLicense: NetkiSDK.DriverLicense?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DriverLicense : Swift.Codable {
+  public var documentType: Swift.String?
+  public var firstName: Swift.String?
+  public var middleName: Swift.String?
+  public var lastName: Swift.String?
+  public var gender: Swift.String?
+  public var addressStreet: Swift.String?
+  public var addressCity: Swift.String?
+  public var addressState: Swift.String?
+  public var addressZip: Swift.String?
+  public var licenseNumber: Swift.String?
+  public var issueDate: Swift.String?
+  public var expiryDate: Swift.String?
+  public var birthDate: Swift.String?
+  public var issuingCountry: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct BusinessConfiguration : Swift.Codable {
   public var name: Swift.String?
   public var identificationId: Swift.String?
@@ -112,7 +138,7 @@ public struct IdCountry : Swift.Hashable {
   }
 }
 public protocol IdentificationDelegate {
-  func onCaptureIdentificationSuccessfully()
+  func onCaptureIdentificationSuccessfully(extraData: [Swift.String : Any]?)
   func onCaptureIdentificationCancelled(resultInfo: NetkiSDK.ResultInfo)
 }
 public struct IdentificationView : SwiftUI.View {
@@ -163,6 +189,12 @@ public enum IdType : Swift.String, Swift.Codable, Swift.CaseIterable {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct LivenessInformation : Swift.Codable {
+  public var livenessScore: Swift.Float?
+  public var livenessActionAttempts: [[Swift.String : Swift.Bool?]]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class OnBoardId {
   public static let shared: NetkiSDK.OnBoardId
@@ -220,9 +252,41 @@ public enum IdType : Swift.String, Swift.Codable, Swift.CaseIterable {
   public func setSelfieInstructionsVideoPath(path: Swift.String)
   @objc deinit
 }
+public struct PassportContent : Swift.Codable {
+  public var isValid: Swift.Bool
+  public var confidence: Swift.Float
+  public var text: Swift.String?
+  public var passportType: Swift.String?
+  public var countryCode: Swift.String?
+  public var lastName: Swift.String?
+  public var firstName: Swift.String?
+  public var passportNumber: Swift.String?
+  public var passportNumberDigitCheck: Swift.String?
+  public var nationality: Swift.String?
+  public var birthDate: Swift.String?
+  public var birthDateDigitCheck: Swift.String?
+  public var gender: Swift.String?
+  public var expirationDate: Swift.String?
+  public var expirationDateDigitCheck: Swift.String?
+  public var personalNumber: Swift.String?
+  public var personalNumberDigitCheck: Swift.String?
+  public var stringDigitCheck: Swift.String?
+  public var digitCheck: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 @objc @_inheritsConvenienceInitializers open class PersistentContainer : CoreData.NSPersistentContainer {
   @objc override dynamic public init(name: Swift.String, managedObjectModel model: CoreData.NSManagedObjectModel)
   @objc deinit
+}
+public struct Picture : Swift.Codable {
+  public var path: Swift.String?
+  public var barcodes: [NetkiSDK.Barcode]?
+  public var passportContent: NetkiSDK.PassportContent?
+  public var livenessInformation: NetkiSDK.LivenessInformation?
+  public var type: NetkiSDK.PictureType
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum PictureType : Swift.String, Swift.Codable {
   case FRONT
@@ -252,6 +316,14 @@ public struct ResultInfo : Swift.Codable {
   public let message: Swift.String?
   public static func success() -> NetkiSDK.ResultInfo
   public static func error(errorType: NetkiSDK.ErrorType? = nil, message: Swift.String? = nil) -> NetkiSDK.ResultInfo
+  public enum ExtraData : Swift.String, Swift.Codable {
+    case PICTURES
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -1397,3 +1469,6 @@ extension NetkiSDK.PictureType : Swift.Hashable {}
 extension NetkiSDK.PictureType : Swift.RawRepresentable {}
 extension NetkiSDK.RequestStatus : Swift.Equatable {}
 extension NetkiSDK.RequestStatus : Swift.Hashable {}
+extension NetkiSDK.ResultInfo.ExtraData : Swift.Equatable {}
+extension NetkiSDK.ResultInfo.ExtraData : Swift.Hashable {}
+extension NetkiSDK.ResultInfo.ExtraData : Swift.RawRepresentable {}
