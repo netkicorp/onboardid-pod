@@ -122,7 +122,7 @@ public enum ErrorType : Swift.String, Swift.Codable {
     get
   }
 }
-public struct IdCountry : Swift.Hashable {
+public struct IdCountry : Swift.Codable, Swift.Hashable {
   public var name: Swift.String
   public var alpha2: Swift.String
   public var alpha3: Swift.String
@@ -133,9 +133,11 @@ public struct IdCountry : Swift.Hashable {
   public init(name: Swift.String, alpha2: Swift.String, alpha3: Swift.String, countryCallingCode: Swift.String, hasBarcodeId: Swift.Bool, flag: Swift.String?, isBanned: Swift.Bool)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: NetkiSDK.IdCountry, b: NetkiSDK.IdCountry) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol IdentificationDelegate {
   func onCaptureIdentificationSuccessfully(extraData: [Swift.String : Any]?)
@@ -318,6 +320,8 @@ public struct ResultInfo : Swift.Codable {
   public static func error(errorType: NetkiSDK.ErrorType? = nil, message: Swift.String? = nil) -> NetkiSDK.ResultInfo
   public enum ExtraData : Swift.String, Swift.Codable {
     case PICTURES
+    case MESSAGE
+    case ERROR_TYPE
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {

@@ -6378,6 +6378,57 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdCountry",
+                "printedName": "NetkiSDK.IdCountry",
+                "usr": "s:8NetkiSDK9IdCountryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8NetkiSDK9IdCountryV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8NetkiSDK9IdCountryV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetkiSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK9IdCountryV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8NetkiSDK9IdCountryV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetkiSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
@@ -6482,6 +6533,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -14302,6 +14367,80 @@
                 "declKind": "EnumElement",
                 "usr": "s:8NetkiSDK10ResultInfoV9ExtraDataO8PICTURESyA2EmF",
                 "mangledName": "$s8NetkiSDK10ResultInfoV9ExtraDataO8PICTURESyA2EmF",
+                "moduleName": "NetkiSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "MESSAGE",
+                "printedName": "MESSAGE",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetkiSDK.ResultInfo.ExtraData.Type) -> NetkiSDK.ResultInfo.ExtraData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraData",
+                        "printedName": "NetkiSDK.ResultInfo.ExtraData",
+                        "usr": "s:8NetkiSDK10ResultInfoV9ExtraDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetkiSDK.ResultInfo.ExtraData.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExtraData",
+                            "printedName": "NetkiSDK.ResultInfo.ExtraData",
+                            "usr": "s:8NetkiSDK10ResultInfoV9ExtraDataO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8NetkiSDK10ResultInfoV9ExtraDataO7MESSAGEyA2EmF",
+                "mangledName": "$s8NetkiSDK10ResultInfoV9ExtraDataO7MESSAGEyA2EmF",
+                "moduleName": "NetkiSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "ERROR_TYPE",
+                "printedName": "ERROR_TYPE",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetkiSDK.ResultInfo.ExtraData.Type) -> NetkiSDK.ResultInfo.ExtraData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraData",
+                        "printedName": "NetkiSDK.ResultInfo.ExtraData",
+                        "usr": "s:8NetkiSDK10ResultInfoV9ExtraDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetkiSDK.ResultInfo.ExtraData.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExtraData",
+                            "printedName": "NetkiSDK.ResultInfo.ExtraData",
+                            "usr": "s:8NetkiSDK10ResultInfoV9ExtraDataO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8NetkiSDK10ResultInfoV9ExtraDataO10ERROR_TYPEyA2EmF",
+                "mangledName": "$s8NetkiSDK10ResultInfoV9ExtraDataO10ERROR_TYPEyA2EmF",
                 "moduleName": "NetkiSDK"
               },
               {
@@ -46495,21 +46634,21 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdCountry.swift",
       "kind": "IntegerLiteral",
-      "offset": 763,
+      "offset": 772,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdCountry.swift",
       "kind": "IntegerLiteral",
-      "offset": 812,
+      "offset": 821,
       "length": 6,
       "value": "127397"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdCountry.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 847,
       "length": 2,
       "value": "\"\""
     },
@@ -46699,20 +46838,20 @@
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
       "kind": "StringLiteral",
       "offset": 98,
-      "length": 16,
-      "value": "\"driver_license\""
+      "length": 17,
+      "value": "\"drivers_license\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
       "kind": "StringLiteral",
-      "offset": 135,
+      "offset": 136,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
       "kind": "StringLiteral",
-      "offset": 171,
+      "offset": 172,
       "length": 15,
       "value": "\"government_id\""
     },
@@ -46720,20 +46859,20 @@
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
       "kind": "StringLiteral",
       "offset": 98,
-      "length": 16,
-      "value": "\"driver_license\""
+      "length": 17,
+      "value": "\"drivers_license\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
       "kind": "StringLiteral",
-      "offset": 135,
+      "offset": 136,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
       "kind": "StringLiteral",
-      "offset": 171,
+      "offset": 172,
       "length": 15,
       "value": "\"government_id\""
     },
@@ -47118,21 +47257,21 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7927,
+      "offset": 7908,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8402,
+      "offset": 8383,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Instructions\/InstructionsView.swift",
       "kind": "StringLiteral",
-      "offset": 8597,
+      "offset": 8578,
       "length": 14,
       "value": "\"xmark.icloud\""
     },
@@ -47615,28 +47754,35 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "BooleanLiteral",
-      "offset": 823,
+      "offset": 830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 870,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "StringLiteral",
-      "offset": 1406,
+      "offset": 1453,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "Dictionary",
-      "offset": 4756,
+      "offset": 4803,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "StringLiteral",
-      "offset": 6987,
+      "offset": 7034,
       "length": 74,
       "value": "\"SDK not initialized, make sure to invoke `OnBoardId.shared.initialize()`\""
     },
@@ -49027,6 +49173,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureInternal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2960,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureMetadata.swift",
       "kind": "IntegerLiteral",
       "offset": 470,
@@ -49141,16 +49294,44 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
       "kind": "StringLiteral",
-      "offset": 560,
+      "offset": 559,
       "length": 10,
       "value": "\"pictures\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
       "kind": "StringLiteral",
-      "offset": 560,
+      "offset": 593,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 11,
+      "value": "\"errorType\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
       "length": 10,
       "value": "\"pictures\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 11,
+      "value": "\"errorType\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Review\/ReviewPictureView.swift",
@@ -50051,224 +50232,224 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 3482,
+      "offset": 3552,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 3511,
+      "offset": 3581,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 3648,
+      "offset": 3718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 4201,
+      "offset": 4271,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 4500,
+      "offset": 4570,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 5075,
+      "offset": 5145,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 5864,
+      "offset": 5934,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 6201,
+      "offset": 6271,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 6739,
+      "offset": 6809,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 7648,
+      "offset": 7718,
       "length": 14,
       "value": "\"displayOrder\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 7675,
+      "offset": 7745,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 7764,
+      "offset": 7834,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 7863,
+      "offset": 7933,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 7952,
+      "offset": 8022,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 8051,
+      "offset": 8121,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 9505,
+      "offset": 9575,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 11459,
+      "offset": 11529,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 11549,
+      "offset": 11619,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 11559,
+      "offset": 11629,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 12487,
+      "offset": 12557,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 12577,
+      "offset": 12647,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 12587,
+      "offset": 12657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 13274,
+      "offset": 13344,
       "length": 18,
       "value": "\"documentId == %@\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 13374,
+      "offset": 13444,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 14068,
+      "offset": 14138,
       "length": 18,
       "value": "\"documentId == %@\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 14168,
+      "offset": 14238,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 14496,
+      "offset": 14566,
       "length": 20,
       "value": "\"documentType == %@\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "Dictionary",
-      "offset": 21572,
+      "offset": 21642,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 22241,
+      "offset": 22311,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 23155,
+      "offset": 23225,
       "length": 7,
       "value": "\"Model\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 23179,
+      "offset": 23249,
       "length": 6,
       "value": "\"momd\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 23309,
+      "offset": 23379,
       "length": 10,
       "value": "\"NetkiSDK\""
     },
