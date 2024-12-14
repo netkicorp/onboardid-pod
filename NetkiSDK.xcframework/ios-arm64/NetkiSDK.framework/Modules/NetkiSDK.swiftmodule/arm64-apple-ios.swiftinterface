@@ -114,8 +114,9 @@ public enum ErrorType : Swift.String, Swift.Codable {
   case INVALID_ACCESS_CODE
   case INVALID_PHONE_NUMBER
   case INVALID_CONFIRMATION_CODE
-  case UNEXPECTED_ERROR
   case USER_CANCEL_IDENTIFICATION
+  case TRANSACTION_NOT_FOUND
+  case UNEXPECTED_ERROR
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -182,6 +183,7 @@ public enum IdType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case DRIVERS_LICENSE
   case PASSPORT
   case GOVERNMENT_ID
+  case BIOMETRICS
   public init?(rawValue: Swift.String)
   public typealias AllCases = [NetkiSDK.IdType]
   public typealias RawValue = Swift.String
@@ -216,6 +218,10 @@ public struct LivenessInformation : Swift.Codable {
   public func getCaptureIdIntent(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, captureIdProperties: NetkiSDK.CaptureIdProperties)
   #if compiler(>=5.3) && $AsyncAwait
   public func submitIdentification(additionalData: [NetkiSDK.AdditionalDataField : Swift.String] = [:]) async -> NetkiSDK.ResultInfo
+  #endif
+  public func getBiometricsView(transactionId: Swift.String, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
+  #if compiler(>=5.3) && $AsyncAwait
+  public func submitBiometrics(additionalData: [NetkiSDK.AdditionalDataField : Swift.String] = [:]) async -> NetkiSDK.ResultInfo
   #endif
   public func getAvailableIdTypes() -> [NetkiSDK.IdType]
   public func getAvailableCountries() -> [NetkiSDK.IdCountry]
@@ -314,9 +320,10 @@ public enum RequestStatus : Swift.Codable {
 }
 public struct ResultInfo : Swift.Codable {
   public let status: NetkiSDK.RequestStatus
+  public let extraData: Swift.Dictionary<Swift.String, Swift.String>?
   public let errorType: NetkiSDK.ErrorType?
   public let message: Swift.String?
-  public static func success() -> NetkiSDK.ResultInfo
+  public static func success(extraData: Swift.Dictionary<Swift.String, Swift.String>? = nil) -> NetkiSDK.ResultInfo
   public static func error(errorType: NetkiSDK.ErrorType? = nil, message: Swift.String? = nil) -> NetkiSDK.ResultInfo
   public enum ExtraData : Swift.String, Swift.Codable {
     case PICTURES
