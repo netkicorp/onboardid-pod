@@ -51718,98 +51718,98 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 13534,
+      "offset": 13535,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 14878,
+      "offset": 14879,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 15325,
+      "offset": 15326,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 15687,
+      "offset": 15688,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 16521,
+      "offset": 16522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 16656,
+      "offset": 16657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "Array",
-      "offset": 16859,
+      "offset": 16860,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 17937,
+      "offset": 17938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 18054,
+      "offset": 18055,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 18130,
+      "offset": 18131,
       "length": 8,
       "value": "\"huawei\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 18293,
+      "offset": 18294,
       "length": 68,
       "value": "\"Algorithm: \""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 18337,
+      "offset": 18338,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 18343,
+      "offset": 18344,
       "length": 3,
       "value": "\" not implemented.\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 20542,
+      "offset": 20543,
       "length": 4,
       "value": "true"
     },
