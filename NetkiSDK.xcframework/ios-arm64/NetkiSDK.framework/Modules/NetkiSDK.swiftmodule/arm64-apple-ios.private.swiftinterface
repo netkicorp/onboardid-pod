@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NetkiSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetkiSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
+import AVKit
 import AudioToolbox
 import Combine
 import CoreData
@@ -144,8 +145,8 @@ public protocol IdentificationDelegate {
   func onCaptureIdentificationSuccessfully(extraData: [Swift.String : Any]?)
   func onCaptureIdentificationCancelled(resultInfo: NetkiSDK.ResultInfo)
 }
-public struct IdentificationView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct IdentificationView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8NetkiSDK18IdentificationViewV4bodyQrvp", 0) __
@@ -187,7 +188,7 @@ public enum IdType : Swift.String, Swift.Codable, Swift.CaseIterable {
   public init?(rawValue: Swift.String)
   public typealias AllCases = [NetkiSDK.IdType]
   public typealias RawValue = Swift.String
-  public static var allCases: [NetkiSDK.IdType] {
+  nonisolated public static var allCases: [NetkiSDK.IdType] {
     get
   }
   public var rawValue: Swift.String {
@@ -203,26 +204,16 @@ public struct LivenessInformation : Swift.Codable {
 @_hasMissingDesignatedInitializers public class OnBoardId {
   public static let shared: NetkiSDK.OnBoardId
   public func initialize(environment: NetkiSDK.Environments? = nil)
-  #if compiler(>=5.3) && $AsyncAwait
   public func configureWithToken(token: Swift.String, accessCode: Swift.String = "") async -> NetkiSDK.ResultInfo
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func requestSecurityCode(phoneNumber: Swift.String) async -> NetkiSDK.ResultInfo
-  #endif
   public func bypassSecurityCode(phoneNumber: Swift.String)
-  #if compiler(>=5.3) && $AsyncAwait
   public func confirmSecurityCode(phoneNumber: Swift.String, securityCode: Swift.String) async -> NetkiSDK.ResultInfo
-  #endif
   public func setBusinessMetadata(businessMetadata: [Swift.String : Swift.String])
   public func getIdentificationView(idType: NetkiSDK.IdType, idCountry: NetkiSDK.IdCountry, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
   public func getCaptureIdIntent(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, captureIdProperties: NetkiSDK.CaptureIdProperties)
-  #if compiler(>=5.3) && $AsyncAwait
   public func submitIdentification(additionalData: [NetkiSDK.AdditionalDataField : Swift.String] = [:]) async -> NetkiSDK.ResultInfo
-  #endif
   public func getBiometricsView(transactionId: Swift.String, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
-  #if compiler(>=5.3) && $AsyncAwait
   public func submitBiometrics(additionalData: [NetkiSDK.AdditionalDataField : Swift.String] = [:]) async -> NetkiSDK.ResultInfo
-  #endif
   public func getAvailableIdTypes() -> [NetkiSDK.IdType]
   public func getAvailableCountries() -> [NetkiSDK.IdCountry]
   public func getBusinessConfiguration() -> NetkiSDK.BusinessConfiguration
@@ -1472,6 +1463,7 @@ extension NetkiSDK.Environments : Swift.RawRepresentable {}
 extension NetkiSDK.ErrorType : Swift.Equatable {}
 extension NetkiSDK.ErrorType : Swift.Hashable {}
 extension NetkiSDK.ErrorType : Swift.RawRepresentable {}
+extension NetkiSDK.IdentificationView : Swift.Sendable {}
 extension NetkiSDK.IdType : Swift.Equatable {}
 extension NetkiSDK.IdType : Swift.Hashable {}
 extension NetkiSDK.IdType : Swift.RawRepresentable {}
