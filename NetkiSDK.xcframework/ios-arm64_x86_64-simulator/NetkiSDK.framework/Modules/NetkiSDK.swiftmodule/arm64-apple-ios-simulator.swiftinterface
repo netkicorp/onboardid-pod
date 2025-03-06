@@ -61,11 +61,14 @@ public struct Barcode : Swift.Codable {
 }
 public struct DriverLicense : Swift.Codable {
   public var documentType: Swift.String?
+  public var documentDiscriminator: Swift.String?
   public var firstName: Swift.String?
   public var middleName: Swift.String?
   public var lastName: Swift.String?
   public var gender: Swift.String?
+  public var placeOfBirth: Swift.String?
   public var addressStreet: Swift.String?
+  public var addressUnit: Swift.String?
   public var addressCity: Swift.String?
   public var addressState: Swift.String?
   public var addressZip: Swift.String?
@@ -73,6 +76,10 @@ public struct DriverLicense : Swift.Codable {
   public var issueDate: Swift.String?
   public var expiryDate: Swift.String?
   public var birthDate: Swift.String?
+  public var height: Swift.String?
+  public var eyeColor: Swift.String?
+  public var hairColor: Swift.String?
+  public var weight: Swift.String?
   public var issuingCountry: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -117,6 +124,7 @@ public enum ErrorType : Swift.String, Swift.Codable {
   case INVALID_CONFIRMATION_CODE
   case USER_CANCEL_IDENTIFICATION
   case TRANSACTION_NOT_FOUND
+  case CONFIGURATION_ERROR
   case UNEXPECTED_ERROR
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
@@ -492,11 +500,19 @@ extension NetkiSDK.BarcodeEntity {
     @objc get
     @objc set
   }
+  @objc @NSManaged dynamic public var dlAddressUnit: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged dynamic public var dlAddressZip: Swift.String? {
     @objc get
     @objc set
   }
   @objc @NSManaged dynamic public var dlBirthDate: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var dlDocumentDiscriminator: Swift.String? {
     @objc get
     @objc set
   }
@@ -508,11 +524,23 @@ extension NetkiSDK.BarcodeEntity {
     @objc get
     @objc set
   }
+  @objc @NSManaged dynamic public var dlEyeColor: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged dynamic public var dlFirstName: Swift.String? {
     @objc get
     @objc set
   }
   @objc @NSManaged dynamic public var dlGender: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var dlHairColor: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var dlHeight: Swift.String? {
     @objc get
     @objc set
   }
@@ -533,6 +561,14 @@ extension NetkiSDK.BarcodeEntity {
     @objc set
   }
   @objc @NSManaged dynamic public var dlMiddleName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var dlPlaceOfBirth: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var dlWeight: Swift.String? {
     @objc get
     @objc set
   }
