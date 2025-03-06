@@ -1561,6 +1561,116 @@
           },
           {
             "kind": "Var",
+            "name": "documentDiscriminator",
+            "printedName": "documentDiscriminator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvp",
+            "mangledName": "$s8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvg",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvs",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvM",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV21documentDiscriminatorSSSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "firstName",
             "printedName": "firstName",
             "children": [
@@ -2001,6 +2111,116 @@
           },
           {
             "kind": "Var",
+            "name": "placeOfBirth",
+            "printedName": "placeOfBirth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvp",
+            "mangledName": "$s8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvg",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvs",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvM",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV12placeOfBirthSSSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "addressStreet",
             "printedName": "addressStreet",
             "children": [
@@ -2103,6 +2323,116 @@
                 "declKind": "Accessor",
                 "usr": "s:8NetkiSDK13DriverLicenseV13addressStreetSSSgvM",
                 "mangledName": "$s8NetkiSDK13DriverLicenseV13addressStreetSSSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "addressUnit",
+            "printedName": "addressUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK13DriverLicenseV11addressUnitSSSgvp",
+            "mangledName": "$s8NetkiSDK13DriverLicenseV11addressUnitSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV11addressUnitSSSgvg",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV11addressUnitSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV11addressUnitSSSgvs",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV11addressUnitSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV11addressUnitSSSgvM",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV11addressUnitSSSgvM",
                 "moduleName": "NetkiSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2873,6 +3203,446 @@
                 "declKind": "Accessor",
                 "usr": "s:8NetkiSDK13DriverLicenseV9birthDateSSSgvM",
                 "mangledName": "$s8NetkiSDK13DriverLicenseV9birthDateSSSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK13DriverLicenseV6heightSSSgvp",
+            "mangledName": "$s8NetkiSDK13DriverLicenseV6heightSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV6heightSSSgvg",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV6heightSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV6heightSSSgvs",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV6heightSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV6heightSSSgvM",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV6heightSSSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eyeColor",
+            "printedName": "eyeColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK13DriverLicenseV8eyeColorSSSgvp",
+            "mangledName": "$s8NetkiSDK13DriverLicenseV8eyeColorSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV8eyeColorSSSgvg",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV8eyeColorSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV8eyeColorSSSgvs",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV8eyeColorSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV8eyeColorSSSgvM",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV8eyeColorSSSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hairColor",
+            "printedName": "hairColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK13DriverLicenseV9hairColorSSSgvp",
+            "mangledName": "$s8NetkiSDK13DriverLicenseV9hairColorSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV9hairColorSSSgvg",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV9hairColorSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV9hairColorSSSgvs",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV9hairColorSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV9hairColorSSSgvM",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV9hairColorSSSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weight",
+            "printedName": "weight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK13DriverLicenseV6weightSSSgvp",
+            "mangledName": "$s8NetkiSDK13DriverLicenseV6weightSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV6weightSSSgvg",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV6weightSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV6weightSSSgvs",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV6weightSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK13DriverLicenseV6weightSSSgvM",
+                "mangledName": "$s8NetkiSDK13DriverLicenseV6weightSSSgvM",
                 "moduleName": "NetkiSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5552,6 +6322,43 @@
             "declKind": "EnumElement",
             "usr": "s:8NetkiSDK9ErrorTypeO21TRANSACTION_NOT_FOUNDyA2CmF",
             "mangledName": "$s8NetkiSDK9ErrorTypeO21TRANSACTION_NOT_FOUNDyA2CmF",
+            "moduleName": "NetkiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "CONFIGURATION_ERROR",
+            "printedName": "CONFIGURATION_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.ErrorType.Type) -> NetkiSDK.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "NetkiSDK.ErrorType",
+                    "usr": "s:8NetkiSDK9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "NetkiSDK.ErrorType",
+                        "usr": "s:8NetkiSDK9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK9ErrorTypeO19CONFIGURATION_ERRORyA2CmF",
+            "mangledName": "$s8NetkiSDK9ErrorTypeO19CONFIGURATION_ERRORyA2CmF",
             "moduleName": "NetkiSDK"
           },
           {
@@ -15458,6 +16265,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -19338,6 +20152,109 @@
           },
           {
             "kind": "Var",
+            "name": "dlAddressUnit",
+            "printedName": "dlAddressUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(py)dlAddressUnit",
+            "mangledName": "$s8NetkiSDK13BarcodeEntityC13dlAddressUnitSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)dlAddressUnit",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC13dlAddressUnitSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlAddressUnit:",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC13dlAddressUnitSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "dlAddressZip",
             "printedName": "dlAddressZip",
             "children": [
@@ -19531,6 +20448,109 @@
                 "declKind": "Accessor",
                 "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlBirthDate:",
                 "mangledName": "$s8NetkiSDK13BarcodeEntityC11dlBirthDateSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dlDocumentDiscriminator",
+            "printedName": "dlDocumentDiscriminator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(py)dlDocumentDiscriminator",
+            "mangledName": "$s8NetkiSDK13BarcodeEntityC23dlDocumentDiscriminatorSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)dlDocumentDiscriminator",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC23dlDocumentDiscriminatorSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlDocumentDiscriminator:",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC23dlDocumentDiscriminatorSSSgvs",
                 "moduleName": "NetkiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -19750,6 +20770,109 @@
           },
           {
             "kind": "Var",
+            "name": "dlEyeColor",
+            "printedName": "dlEyeColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(py)dlEyeColor",
+            "mangledName": "$s8NetkiSDK13BarcodeEntityC10dlEyeColorSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)dlEyeColor",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC10dlEyeColorSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlEyeColor:",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC10dlEyeColorSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "dlFirstName",
             "printedName": "dlFirstName",
             "children": [
@@ -19943,6 +21066,212 @@
                 "declKind": "Accessor",
                 "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlGender:",
                 "mangledName": "$s8NetkiSDK13BarcodeEntityC8dlGenderSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dlHairColor",
+            "printedName": "dlHairColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(py)dlHairColor",
+            "mangledName": "$s8NetkiSDK13BarcodeEntityC11dlHairColorSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)dlHairColor",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC11dlHairColorSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlHairColor:",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC11dlHairColorSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dlHeight",
+            "printedName": "dlHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(py)dlHeight",
+            "mangledName": "$s8NetkiSDK13BarcodeEntityC8dlHeightSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)dlHeight",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC8dlHeightSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlHeight:",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC8dlHeightSSSgvs",
                 "moduleName": "NetkiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -20458,6 +21787,212 @@
                 "declKind": "Accessor",
                 "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlMiddleName:",
                 "mangledName": "$s8NetkiSDK13BarcodeEntityC12dlMiddleNameSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dlPlaceOfBirth",
+            "printedName": "dlPlaceOfBirth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(py)dlPlaceOfBirth",
+            "mangledName": "$s8NetkiSDK13BarcodeEntityC14dlPlaceOfBirthSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)dlPlaceOfBirth",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC14dlPlaceOfBirthSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlPlaceOfBirth:",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC14dlPlaceOfBirthSSSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dlWeight",
+            "printedName": "dlWeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(py)dlWeight",
+            "mangledName": "$s8NetkiSDK13BarcodeEntityC8dlWeightSSSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)dlWeight",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC8dlWeightSSSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NetkiSDK@objc(cs)BarcodeEntity(im)setDlWeight:",
+                "mangledName": "$s8NetkiSDK13BarcodeEntityC8dlWeightSSSgvs",
                 "moduleName": "NetkiSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -43337,58 +44872,205 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "Array",
-      "offset": 735,
+      "offset": 741,
+      "length": 7,
+      "value": "[\"DAU\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 781,
+      "length": 7,
+      "value": "[\"DAY\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 822,
+      "length": 7,
+      "value": "[\"DAZ\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 865,
+      "length": 7,
+      "value": "[\"DAW\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 905,
+      "length": 7,
+      "value": "[\"DAX\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 958,
+      "length": 7,
+      "value": "[\"DCF\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 1004,
+      "length": 7,
+      "value": "[\"DCG\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 1045,
+      "length": 7,
+      "value": "[\"DCI\"]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "Array",
+      "offset": 1076,
       "length": 8,
       "value": "[\"ANSI\"]"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 776,
+      "offset": 1117,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 807,
+      "offset": 1148,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 840,
+      "offset": 1181,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 871,
+      "offset": 1212,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1345,
       "length": 10,
       "value": "\"yyyyMMdd\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1520,
       "length": 10,
       "value": "\"MMddyyyy\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "Dictionary",
-      "offset": 7722,
+      "offset": 9480,
       "length": 1106,
       "value": "[(\"AL\", true), (\"AK\", true), (\"AZ\", true), (\"AR\", true), (\"CA\", true), (\"CO\", true), (\"CT\", true), (\"DC\", true), (\"DE\", true), (\"FL\", true), (\"GA\", true), (\"HI\", true), (\"ID\", true), (\"IL\", true), (\"IN\", true), (\"IA\", true), (\"KS\", true), (\"KY\", true), (\"LA\", true), (\"ME\", true), (\"MD\", true), (\"MA\", true), (\"MI\", true), (\"MN\", true), (\"MS\", true), (\"MO\", true), (\"MT\", true), (\"NE\", true), (\"NV\", true), (\"NH\", true), (\"NJ\", true), (\"NM\", true), (\"NY\", true), (\"NC\", true), (\"ND\", true), (\"OH\", true), (\"OK\", true), (\"ON\", true), (\"OR\", true), (\"PA\", true), (\"QC\", true), (\"RI\", true), (\"SK\", true), (\"SC\", true), (\"SD\", true), (\"TN\", true), (\"TX\", true), (\"UT\", true), (\"VT\", true), (\"VA\", true), (\"WA\", true), (\"WV\", true), (\"WI\", true), (\"WY\", true), (\"YT\", true)]"
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10732,
+      "length": 5,
+      "value": "\"BLK\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10753,
+      "length": 5,
+      "value": "\"BLU\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10774,
+      "length": 5,
+      "value": "\"BRO\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10795,
+      "length": 5,
+      "value": "\"GRY\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10816,
+      "length": 5,
+      "value": "\"GRN\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10837,
+      "length": 5,
+      "value": "\"HAZ\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10858,
+      "length": 5,
+      "value": "\"PNK\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10879,
+      "length": 5,
+      "value": "\"BLN\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10900,
+      "length": 5,
+      "value": "\"RED\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10921,
+      "length": 5,
+      "value": "\"WHI\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10942,
+      "length": 5,
+      "value": "\"BAL\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 10963,
+      "length": 5,
+      "value": "\"SDY\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 11677,
+      "length": 6,
+      "value": "\"NONE\""
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/BarcodeInternal.swift",
@@ -43617,7 +45299,14 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
       "kind": "StringLiteral",
-      "offset": 502,
+      "offset": 505,
+      "length": 21,
+      "value": "\"CONFIGURATION_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
       "length": 18,
       "value": "\"UNEXPECTED_ERROR\""
     },
@@ -45010,14 +46699,14 @@
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 15326,
+      "offset": 15463,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alan\/Documents\/projects\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 15688,
+      "offset": 15825,
       "length": 3,
       "value": "[]"
     }
