@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NetkiSDK",
+    "printedName": "NetkiSDK",
     "children": [
       {
         "kind": "Import",
@@ -803,6 +803,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1400,6 +1414,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -3793,6 +3821,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5363,6 +5405,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5547,6 +5603,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5873,6 +5943,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6396,6 +6480,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7386,6 +7484,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7515,6 +7627,22 @@
         "moduleName": "NetkiSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7581,6 +7709,7 @@
             "mangledName": "$s8NetkiSDK18IdentificationViewV4bodyQrvp",
             "moduleName": "NetkiSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7618,9 +7747,25 @@
         "mangledName": "$s8NetkiSDK18IdentificationViewV",
         "moduleName": "NetkiSDK",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -7649,6 +7794,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -8587,6 +8739,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9155,6 +9321,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9427,6 +9607,9 @@
             "moduleName": "NetkiSDK",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9468,6 +9651,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9559,8 +9756,22 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
         "declKind": "Import",
         "moduleName": "NetkiSDK"
       },
@@ -10002,6 +10213,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -10750,7 +10975,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -11479,7 +11720,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -13602,6 +13859,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -13724,6 +13995,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -14413,6 +14698,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -14697,6 +14996,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14998,6 +15311,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15609,6 +15936,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -15738,6 +16079,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -16808,25 +17163,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -16898,6 +17245,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -19159,25 +19528,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -19249,6 +19610,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -21836,25 +22219,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -21926,6 +22301,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -23593,25 +23990,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -23683,6 +24072,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -24210,25 +24621,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -24300,6 +24703,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -24748,25 +25173,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -24838,6 +25255,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -25650,25 +26089,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -25740,6 +26171,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -27836,25 +28289,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -27926,6 +28371,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -28247,25 +28714,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -28337,6 +28796,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -28806,25 +29287,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -28896,6 +29369,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -29320,25 +29815,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -29410,6 +29897,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -31585,25 +32094,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -31675,6 +32176,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -32178,25 +32701,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -32268,6 +32783,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -32692,25 +33229,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -32782,6 +33311,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -34830,25 +35381,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -34920,6 +35463,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -35344,25 +35909,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -35434,6 +35991,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -35731,25 +36310,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -35821,6 +36392,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -37124,25 +37717,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -37214,6 +37799,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -39074,25 +39681,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -39164,6 +39763,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -40134,25 +40755,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -40224,6 +40837,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -40521,25 +41156,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -40611,6 +41238,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -41059,25 +41708,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -41149,6 +41790,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -42009,25 +42672,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -42099,6 +42754,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -42856,25 +43533,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -42946,6 +43615,28 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -43703,33 +44394,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -43801,6 +44476,36 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -43976,139 +44681,6 @@
       "value": "\"dui_number\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 95,
-      "length": 15,
-      "value": "\"investor_type\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 145,
-      "length": 24,
-      "value": "\"is_accredited_investor\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 200,
-      "length": 20,
-      "value": "\"is_phone_validated\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 243,
-      "length": 12,
-      "value": "\"first_name\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 11,
-      "value": "\"last_name\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 312,
-      "length": 13,
-      "value": "\"middle_name\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 343,
-      "length": 7,
-      "value": "\"alias\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 13,
-      "value": "\"client_guid\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 406,
-      "length": 8,
-      "value": "\"gender\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 439,
-      "length": 14,
-      "value": "\"country_code\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 476,
-      "length": 12,
-      "value": "\"birth_date\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 511,
-      "length": 12,
-      "value": "\"death_date\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 550,
-      "length": 16,
-      "value": "\"birth_location\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 591,
-      "length": 14,
-      "value": "\"phone_number\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
-      "length": 7,
-      "value": "\"email\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 658,
-      "length": 17,
-      "value": "\"medical_license\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 691,
-      "length": 5,
-      "value": "\"ssn\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 712,
-      "length": 5,
-      "value": "\"tin\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/AdditionalDataField.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 12,
-      "value": "\"dui_number\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 111,
@@ -44149,6 +44721,69 @@
       "offset": 508,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 703,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 774,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 958,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 975,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1024,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1236,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/Barcode.swift",
@@ -44447,90 +45082,6 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 10732,
-      "length": 5,
-      "value": "\"BLK\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10753,
-      "length": 5,
-      "value": "\"BLU\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10774,
-      "length": 5,
-      "value": "\"BRO\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10795,
-      "length": 5,
-      "value": "\"GRY\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10816,
-      "length": 5,
-      "value": "\"GRN\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10837,
-      "length": 5,
-      "value": "\"HAZ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10858,
-      "length": 5,
-      "value": "\"PNK\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10879,
-      "length": 5,
-      "value": "\"BLN\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10900,
-      "length": 5,
-      "value": "\"RED\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10921,
-      "length": 5,
-      "value": "\"WHI\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10942,
-      "length": 5,
-      "value": "\"BAL\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 10963,
-      "length": 5,
-      "value": "\"SDY\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
-      "kind": "StringLiteral",
       "offset": 11677,
       "length": 6,
       "value": "\"NONE\""
@@ -44569,6 +45120,13 @@
       "offset": 1072,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Component\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30956,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/CaptureIdProperties.swift",
@@ -44683,27 +45241,6 @@
       "value": "\"PROD\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 69,
-      "length": 5,
-      "value": "\"DEV\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 89,
-      "length": 4,
-      "value": "\"QA\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 110,
-      "length": 6,
-      "value": "\"PROD\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/ErrorResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 78,
@@ -44716,76 +45253,6 @@
       "offset": 106,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 83,
-      "length": 13,
-      "value": "\"NO_INTERNET\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 121,
-      "length": 14,
-      "value": "\"INVALID_DATA\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 15,
-      "value": "\"INVALID_TOKEN\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 208,
-      "length": 21,
-      "value": "\"INVALID_ACCESS_CODE\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 262,
-      "length": 22,
-      "value": "\"INVALID_PHONE_NUMBER\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 322,
-      "length": 27,
-      "value": "\"INVALID_CONFIRMATION_CODE\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 28,
-      "value": "\"USER_CANCEL_IDENTIFICATION\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 450,
-      "length": 23,
-      "value": "\"TRANSACTION_NOT_FOUND\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 505,
-      "length": 21,
-      "value": "\"CONFIGURATION_ERROR\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
-      "kind": "StringLiteral",
-      "offset": 555,
-      "length": 18,
-      "value": "\"UNEXPECTED_ERROR\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ErrorType.swift",
@@ -45313,6 +45780,69 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 703,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 774,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 958,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 975,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1024,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1236,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Domain\/HandleTransactionsUseCase.swift",
       "kind": "StringLiteral",
       "offset": 606,
@@ -45376,60 +45906,11 @@
       "value": "\"biometrics\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
-      "kind": "StringLiteral",
-      "offset": 98,
-      "length": 17,
-      "value": "\"drivers_license\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
-      "kind": "StringLiteral",
-      "offset": 136,
-      "length": 10,
-      "value": "\"passport\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
-      "kind": "StringLiteral",
-      "offset": 172,
-      "length": 15,
-      "value": "\"government_id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/IdType.swift",
-      "kind": "StringLiteral",
-      "offset": 210,
-      "length": 12,
-      "value": "\"biometrics\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/Liveness.swift",
       "kind": "BooleanLiteral",
       "offset": 63,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/LivenessAction.swift",
-      "kind": "StringLiteral",
-      "offset": 72,
-      "length": 13,
-      "value": "\"center_face\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/LivenessAction.swift",
-      "kind": "StringLiteral",
-      "offset": 113,
-      "length": 17,
-      "value": "\"turn_right_face\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/LivenessAction.swift",
-      "kind": "StringLiteral",
-      "offset": 157,
-      "length": 16,
-      "value": "\"turn_left_face\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/LivenessAction.swift",
@@ -45519,6 +46000,90 @@
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
       "kind": "BooleanLiteral",
       "offset": 760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1328,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1361,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1677,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1903,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2051,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2068,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2137,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2568,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2585,
       "length": 5,
       "value": "false"
     },
@@ -45656,11 +46221,67 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Component\/PhotoCaptureProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 41,
-      "length": 21,
-      "value": "\"NetkiSDK.PhotoCaptureProcessor\""
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 750,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 783,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 821,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1005,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1022,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1071,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1205,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1222,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1283,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureInternal.swift",
@@ -45745,55 +46366,6 @@
       "offset": 165,
       "length": 8,
       "value": "\"selfie\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/PictureType.swift",
-      "kind": "StringLiteral",
-      "offset": 79,
-      "length": 7,
-      "value": "\"front\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/PictureType.swift",
-      "kind": "StringLiteral",
-      "offset": 103,
-      "length": 6,
-      "value": "\"back\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/PictureType.swift",
-      "kind": "StringLiteral",
-      "offset": 130,
-      "length": 16,
-      "value": "\"liveness_image\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/PictureType.swift",
-      "kind": "StringLiteral",
-      "offset": 165,
-      "length": 8,
-      "value": "\"selfie\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 695,
-      "length": 10,
-      "value": "\"pictures\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
-      "length": 11,
-      "value": "\"errorType\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/ResultInfo.swift",
@@ -45885,6 +46457,69 @@
       "offset": 503,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 557,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 812,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 829,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 878,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1090,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Ui\/Theme\/Shape.swift",
