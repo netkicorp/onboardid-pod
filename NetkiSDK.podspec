@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name                    = 'NetkiSDK'
-    s.version                 = '8.40.3'
+    s.version                 = '8.40.4'
     s.summary                 = 'NetkiSDK enables custom onboarding.'
     s.description             = 'Our NetkiSDK lets you create custom KYC onboarding in your app'
     s.homepage                = 'https://www.netki.com/'
