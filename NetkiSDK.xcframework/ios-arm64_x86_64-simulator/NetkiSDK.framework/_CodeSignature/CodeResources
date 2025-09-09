@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yQzm4GIiFVdR9lfCSzxTMJcvrhM=
+		4FMyitgmHNrLoou7HmYFI1dc34A=
 		</data>
 		<key>Model.momd/Model.mom</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/NetkiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hEJl6mjGnKyxoSRhTgBRT/kHLCk=
+		dY+v3aR9Ox73vKVR2Uf/cvwY1xc=
 		</data>
 		<key>Modules/NetkiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/NetkiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fni9ZQrSjfWj0CVEtVGgBCP0fhA=
+		07iwNhcXj1zKAj7apReJ2juHiJc=
 		</data>
 		<key>Modules/NetkiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hEJl6mjGnKyxoSRhTgBRT/kHLCk=
+		dY+v3aR9Ox73vKVR2Uf/cvwY1xc=
 		</data>
 		<key>Modules/NetkiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/NetkiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FBkV+wM3jRigOPqb6t9dfCZJhMk=
+		1r34gRdkcqQ1jADI9rQD4w8AcXA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>NetkiSDK.bundle/Info.plist</key>
 		<data>
-		BiU49ss+LAz5VdnFQeV/TR9dQ+8=
+		WKQfmw7/Iac5A4DYDFAUt1M5asE=
 		</data>
 		<key>NetkiSDK.bundle/Model.momd/Model.mom</key>
 		<data>
@@ -396,7 +396,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZm/SbV5lW5NFAgGHlg1ePWZ+Zqoko6RuykUyraQetU=
+			sX2VVlGvENjlZPpZ85tK2efdx48H2M2hARAvSk08FpQ=
 			</data>
 		</dict>
 		<key>Modules/NetkiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -424,14 +424,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2DyBn+nCZYQjP+xmarfC+2bPyvTQ7NBHfGZ95apllJM=
+			aMmv5LGu4QGB7LA7ruyMs5x9jAh+kBa2QyXyXEeiZf0=
 			</data>
 		</dict>
 		<key>Modules/NetkiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZm/SbV5lW5NFAgGHlg1ePWZ+Zqoko6RuykUyraQetU=
+			sX2VVlGvENjlZPpZ85tK2efdx48H2M2hARAvSk08FpQ=
 			</data>
 		</dict>
 		<key>Modules/NetkiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -459,7 +459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hRDsTUo+IwOSPP2YMGcB6BiO1P7AEZfMkdp9euzBlAM=
+			gSR4WvZ+b5BY+udN1Eaaxqf5tI7nMCxCtv27LBnsPH0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -473,7 +473,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IgAF5r7+vVQ5gt3Y66JGas/2cjGHIDyBtwWmWklJsZc=
+			pD1kD+Vne+966M1EaDdBSrMHeBnSu177H5/dj90Dlyg=
 			</data>
 		</dict>
 		<key>NetkiSDK.bundle/Model.momd/Model.mom</key>
