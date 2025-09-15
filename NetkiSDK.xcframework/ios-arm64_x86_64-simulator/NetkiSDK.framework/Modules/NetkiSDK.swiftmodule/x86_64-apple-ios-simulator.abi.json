@@ -45061,7 +45061,14 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Component\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30956,
+      "offset": 1972,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Component\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31426,
       "length": 4,
       "value": "true"
     },
@@ -46349,16 +46356,37 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 176,
+      "offset": 166,
       "length": 20,
       "value": "\"TRANSACTION_ID_KEY\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 225,
+      "offset": 215,
       "length": 13,
       "value": "\"ID_TYPE_KEY\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 10,
+      "value": "\"NetkiSDK\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 7,
+      "value": "\"Model\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/DataSource\/Local\/TransactionsLocalDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 39,
+      "value": "\"com.netkisdk.persistentContainerQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
@@ -46377,14 +46405,14 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 15688,
+      "offset": 15760,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 16050,
+      "offset": 16122,
       "length": 3,
       "value": "[]"
     }
