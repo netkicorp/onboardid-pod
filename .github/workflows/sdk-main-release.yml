@@ -8,7 +8,8 @@ permissions:
   contents: read
 
 jobs:
-  publish:
+  prod-release:
+    name: Release SDK
     runs-on: macos-latest
     
     steps:
