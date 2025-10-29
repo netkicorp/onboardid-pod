@@ -1,0 +1,43 @@
+name: Release SDK to CocoaPods
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  prod-release:
+    name: Release SDK
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.ref }}
+        
+    - name: Extract version from tag
+      id: version
+      run: |
+        VERSION="${GITHUB_REF#refs/tags/}"
+        VERSION="${VERSION#v}"
+        echo "VERSION=${VERSION}" >> $GITHUB_ENV
+        echo "Extracted version: ${VERSION}"
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        
+    - name: Install CocoaPods
+      run: gem install cocoapods
+
+    - name: Validate Podspec
+      run: pod spec lint NetkiSDK.podspec --allow-warnings
+
+    - name: Publish to CocoaPods
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+      run: pod trunk push NetkiSDK.podspec --allow-warnings
