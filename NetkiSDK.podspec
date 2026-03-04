@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
     s.swift_versions          = '5.0'
     s.ios.vendored_frameworks = 'NetkiSDK.xcframework'
     s.dependency 'Sentry', '~> 8.46.0'
+    s.dependency 'NFCPassportReader', '~> 2.0.2'    
 end

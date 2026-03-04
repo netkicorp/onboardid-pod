@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetkiSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import AVKit
 import AudioToolbox
@@ -49,7 +49,9 @@ public enum AdditionalDataField : Swift.String, Swift.Codable {
   case SSN
   case TIN
   case DUI_NUMBER
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -113,7 +115,9 @@ public enum Environments : Swift.String {
   case DEV
   case QA
   case PROD
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -158,8 +162,12 @@ public enum Gender : Swift.String, Swift.Codable {
   case female
   case unknown
   case unspecified
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(fromString string: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -176,7 +184,9 @@ public enum ErrorType : Swift.String, Swift.Codable {
   case TRANSACTION_NOT_FOUND
   case CONFIGURATION_ERROR
   case UNEXPECTED_ERROR
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -191,7 +201,9 @@ public struct IdCountry : Swift.Codable, Swift.Hashable {
   public var flag: Swift.String?
   public var isBanned: Swift.Bool
   public var hasNfcPassport: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String, alpha2: Swift.String, alpha3: Swift.String, countryCallingCode: Swift.String, hasBarcodeId: Swift.Bool, flag: Swift.String?, isBanned: Swift.Bool, hasNfcPassport: Swift.Bool = false)
+  #endif
   public static func == (a: NetkiSDK.IdCountry, b: NetkiSDK.IdCountry) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public func hash(into hasher: inout Swift.Hasher)
@@ -201,7 +213,9 @@ public struct IdCountry : Swift.Codable, Swift.Hashable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol IdentificationCaptureUseCaseProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   func getIdentificationView(idType: NetkiSDK.IdType, idCountry: NetkiSDK.IdCountry?, transactionId: Swift.String?, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
+  #endif
   func getCaptureIdIntent(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, captureIdProperties: NetkiSDK.CaptureIdProperties)
   func getAvailableIdTypes() -> [NetkiSDK.IdType]
   func getAvailableCountries() -> [NetkiSDK.IdCountry]
@@ -212,7 +226,9 @@ public protocol IdentificationCaptureUseCaseProtocol {
   func enableAsyncMode()
 }
 public protocol IdentificationDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   func onCaptureIdentificationSuccessfully(extraData: [Swift.String : Any]?)
+  #endif
   func onCaptureIdentificationCancelled(resultInfo: NetkiSDK.ResultInfo)
 }
 @_Concurrency.MainActor @preconcurrency public struct IdentificationView : SwiftUICore.View {
@@ -255,7 +271,9 @@ public enum IdType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case PASSPORT
   case GOVERNMENT_ID
   case BIOMETRICS
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [NetkiSDK.IdType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [NetkiSDK.IdType] {
@@ -274,7 +292,9 @@ public struct LivenessInformation : Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class OnBoardId {
   public static let shared: NetkiSDK.OnBoardId
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initialize(environment: NetkiSDK.Environments? = nil)
+  #endif
   public func configureWithToken(token: Swift.String, accessCode: Swift.String = "") async -> NetkiSDK.ResultInfo
   public func requestSecurityCode(phoneNumber: Swift.String) async -> NetkiSDK.ResultInfo
   public func bypassSecurityCode(phoneNumber: Swift.String)
@@ -305,7 +325,9 @@ public struct OnBoardIdTheme {
     public let secondaryBackground: Swift.String?
     public let secondaryText: Swift.String?
     public let cornerRadiusDp: CoreFoundation.CGFloat?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(primaryBackground: Swift.String? = nil, primaryText: Swift.String? = nil, secondaryBackground: Swift.String? = nil, secondaryText: Swift.String? = nil, cornerRadiusDp: CoreFoundation.CGFloat? = nil)
+    #endif
   }
   public struct ContentColors {
     public let background: Swift.String?
@@ -314,13 +336,17 @@ public struct OnBoardIdTheme {
     public let titleText: Swift.String?
     public let subtitleText: Swift.String?
     public let bodyText: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(background: Swift.String? = nil, surface: Swift.String? = nil, border: Swift.String? = nil, titleText: Swift.String? = nil, subtitleText: Swift.String? = nil, bodyText: Swift.String? = nil)
+    #endif
   }
   public struct InstructionItem {
     public let text: Swift.String
     public let iconUrl: Swift.String?
     public let isWarning: Swift.Bool
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(text: Swift.String, iconUrl: Swift.String? = nil, isWarning: Swift.Bool = false)
+    #endif
   }
   public struct InstructionContent {
     public let idType: NetkiSDK.IdType
@@ -331,7 +357,9 @@ public struct OnBoardIdTheme {
     public let steps: [NetkiSDK.OnBoardIdTheme.InstructionItem]?
     public let imageUrl: Swift.String?
     public let videoPath: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, title: Swift.String? = nil, subtitle: Swift.String? = nil, body: Swift.String? = nil, steps: [NetkiSDK.OnBoardIdTheme.InstructionItem]? = nil, imageUrl: Swift.String? = nil, videoPath: Swift.String? = nil)
+    #endif
   }
 }
 @_hasMissingDesignatedInitializers public class OnBoardIdUi {
@@ -413,7 +441,9 @@ public enum PictureType : Swift.String, Swift.Codable {
   case LIVENESS
   case SELFIE
   case EPASSPORT
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -436,13 +466,19 @@ public struct ResultInfo : Swift.Codable {
   public let extraData: Swift.Dictionary<Swift.String, Swift.String>?
   public let errorType: NetkiSDK.ErrorType?
   public let message: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func success(extraData: Swift.Dictionary<Swift.String, Swift.String>? = nil) -> NetkiSDK.ResultInfo
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func error(errorType: NetkiSDK.ErrorType? = nil, message: Swift.String? = nil) -> NetkiSDK.ResultInfo
+  #endif
   public enum ExtraData : Swift.String, Swift.Codable {
     case PICTURES
     case MESSAGE
     case ERROR_TYPE
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -454,7 +490,9 @@ public struct ResultInfo : Swift.Codable {
 extension NetkiSDK.ResultInfo {
   public func isSuccessful() -> Swift.Bool
 }
+#if compiler(>=5.3) && $NonescapableTypes
 public func localizedString(_ key: Swift.String, tableName: Swift.String? = nil, value: Swift.String = "") -> Swift.String
+#endif
 public enum UiVersion {
   case v1
   case v2
@@ -464,241 +502,343 @@ public enum UiVersion {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc(AddressEntity) public class AddressEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias AddressEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(AddressEntity) nonisolated public class AddressEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias AddressEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.AddressEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.AddressEntity>
-  @objc @NSManaged dynamic public var address: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var address: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var city: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var city: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var countryCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var countryCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var id: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var id: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identityId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identityId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var postalCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var postalCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var state: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var state: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.AddressEntity : Swift.Identifiable {
   public typealias ID = Swift.Int16
 }
-@_inheritsConvenienceInitializers @objc(AppContextEntity) public class AppContextEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias AppContextEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(AppContextEntity) nonisolated public class AppContextEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias AppContextEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.AppContextEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.AppContextEntity>
-  @objc @NSManaged dynamic public var accessCodePrefix: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var accessCodePrefix: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var accreditedInvestorFlow: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var accreditedInvestorFlow: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var appContextId: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var appContextId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var business: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var business: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var completedMessage: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var completedMessage: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var created: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var created: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var hasAmlProvider: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var hasAmlProvider: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var invalidAccessCodeMessage: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var invalidAccessCodeMessage: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isActive: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isActive: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var languageCode: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var languageCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var logoDark: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var logoDark: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var logoLight: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var logoLight: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var phonePinTimeout: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var phonePinTimeout: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var phoneRetryAttemptLimit: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var phoneRetryAttemptLimit: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var phoneUseAutomaticBypass: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var phoneUseAutomaticBypass: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var redirectBackLink: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var redirectBackLink: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var smsAccreditedMessage: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var smsAccreditedMessage: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var smsCorporateOnBoardMessage: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var smsCorporateOnBoardMessage: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var smsVerificationMessage: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var smsVerificationMessage: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var transactionId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var transactionId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var updatedAt: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var updatedAt: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var welcomeMessage: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var welcomeMessage: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.AppContextEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(BarcodeEntity) public class BarcodeEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias BarcodeEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(BarcodeEntity) nonisolated public class BarcodeEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias BarcodeEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.BarcodeEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.BarcodeEntity>
-  @objc @NSManaged dynamic public var displayValue: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var displayValue: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlAddressCity: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlAddressCity: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlAddressState: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlAddressState: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlAddressStreet: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlAddressStreet: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlAddressUnit: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlAddressUnit: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlAddressZip: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlAddressZip: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlBirthDate: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlBirthDate: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlDocumentDiscriminator: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlDocumentDiscriminator: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlDocumentType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlDocumentType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlExpiryDate: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlExpiryDate: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlEyeColor: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlEyeColor: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlFirstName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlFirstName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlGender: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlGender: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlHairColor: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlHairColor: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlHeight: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlHeight: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlIssueDate: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlIssueDate: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlIssuingCountry: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlIssuingCountry: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlLastName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlLastName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlLicenseNumber: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlLicenseNumber: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlMiddleName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlMiddleName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlPlaceOfBirth: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlPlaceOfBirth: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dlWeight: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dlWeight: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var rawValue: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var rawValue: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var valueFormat: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var valueFormat: Swift.Int16 {
     @objc get
     @objc set
   }
@@ -706,279 +846,393 @@ extension NetkiSDK.BarcodeEntity {
 extension NetkiSDK.BarcodeEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(BusinessContextEntity) public class BusinessContextEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias BusinessContextEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(BusinessContextEntity) nonisolated public class BusinessContextEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias BusinessContextEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.BusinessContextEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.BusinessContextEntity>
-  @objc @NSManaged dynamic public var businessContextId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var businessContextId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var businessType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var businessType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var countryCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var countryCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var created: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var created: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var defaultWorkflow: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var defaultWorkflow: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var email: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var email: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var implementationType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var implementationType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isActive: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isActive: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isGeolocationEnabled: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var isGeolocationEnabled: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isInvestorBusiness: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var isInvestorBusiness: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isResellerClient: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var isResellerClient: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var minimumAppVersion: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var minimumAppVersion: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var name: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var name: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var status: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var status: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var transactionId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var transactionId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var updatedAt: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var updatedAt: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.BusinessContextEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(BusinessMetadataEntity) public class BusinessMetadataEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias BusinessMetadataEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(BusinessMetadataEntity) nonisolated public class BusinessMetadataEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias BusinessMetadataEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.BusinessMetadataEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.BusinessMetadataEntity>
-  @objc @NSManaged dynamic public var id: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var id: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identityId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identityId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var key: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var key: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var value: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var value: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.BusinessMetadataEntity : Swift.Identifiable {
   public typealias ID = Swift.Int16
 }
-@_inheritsConvenienceInitializers @objc(CallingCodeEntity) public class CallingCodeEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias CallingCodeEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(CallingCodeEntity) nonisolated public class CallingCodeEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias CallingCodeEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.CallingCodeEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.CallingCodeEntity>
-  @objc @NSManaged dynamic public var code: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var code: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var name: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var name: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var transactionId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var transactionId: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.CallingCodeEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(CountryEntity) public class CountryEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias CountryEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(CountryEntity) nonisolated public class CountryEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias CountryEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.CountryEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.CountryEntity>
-  @objc @NSManaged dynamic public var alpha2: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var alpha2: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var alpha3: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var alpha3: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var countryCallingCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var countryCallingCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var has2dBarcode: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var has2dBarcode: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var hasNfcPassport: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var hasNfcPassport: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isBanned: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var isBanned: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var name: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var name: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var transactionId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var transactionId: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.CountryEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(DocumentEntity) public class DocumentEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DocumentEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DocumentEntity) nonisolated public class DocumentEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DocumentEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.DocumentEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.DocumentEntity>
-  @objc @NSManaged dynamic public var autoCapture: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var autoCapture: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var barcodeDetected: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var barcodeDetected: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentCentered: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentCentered: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentUrl: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentUrl: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var ePassportSkipReason: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var ePassportSkipReason: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var faceIdDetected: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var faceIdDetected: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var faceSelfieDetected: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var faceSelfieDetected: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identityId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identityId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var idType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var idType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isGlareCorrect: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var isGlareCorrect: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isLightCorrect: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var isLightCorrect: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isLive: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var isLive: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var livenessScore: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var livenessScore: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var numberOfTries: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var numberOfTries: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var path: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var path: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var proceededWithValidationIssues: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var proceededWithValidationIssues: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var textMrzReadable: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var textMrzReadable: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var barcode: NetkiSDK.BarcodeEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var barcode: NetkiSDK.BarcodeEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var mrzData: NetkiSDK.PassportEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var mrzData: NetkiSDK.PassportEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var nfcData: NetkiSDK.EPassportEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var nfcData: NetkiSDK.EPassportEntity? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.DocumentEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(DocumentLivenessCrossRef) public class DocumentLivenessCrossRef : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DocumentLivenessCrossRefCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DocumentLivenessCrossRef) nonisolated public class DocumentLivenessCrossRef : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DocumentLivenessCrossRefCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.DocumentLivenessCrossRef {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.DocumentLivenessCrossRef>
-  @objc @NSManaged dynamic public var documentId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var livenessActionAttemptId: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var livenessActionAttemptId: Swift.Int16 {
     @objc get
     @objc set
   }
@@ -986,271 +1240,389 @@ extension NetkiSDK.DocumentLivenessCrossRef {
 extension NetkiSDK.DocumentLivenessCrossRef : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(DocumentWithLivenessEntity) public class DocumentWithLivenessEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DocumentWithLivenessEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DocumentWithLivenessEntity) nonisolated public class DocumentWithLivenessEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DocumentWithLivenessEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.DocumentWithLivenessEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.DocumentWithLivenessEntity>
-  @objc @NSManaged dynamic public var documentEntity: NetkiSDK.DocumentEntity? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentEntity: NetkiSDK.DocumentEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var livenessActionAttempt: Foundation.NSSet? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var livenessActionAttempt: Foundation.NSSet? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.DocumentWithLivenessEntity {
-  @objc(addLivenessActionAttemptObject:) @NSManaged dynamic public func addToLivenessActionAttempt(_ value: NetkiSDK.LivenessActionAttemptEntity)
-  @objc(removeLivenessActionAttemptObject:) @NSManaged dynamic public func removeFromLivenessActionAttempt(_ value: NetkiSDK.LivenessActionAttemptEntity)
-  @objc(addLivenessActionAttempt:) @NSManaged dynamic public func addToLivenessActionAttempt(_ values: Foundation.NSSet)
-  @objc(removeLivenessActionAttempt:) @NSManaged dynamic public func removeFromLivenessActionAttempt(_ values: Foundation.NSSet)
+  @objc(addLivenessActionAttemptObject:) @NSManaged nonisolated dynamic public func addToLivenessActionAttempt(_ value: NetkiSDK.LivenessActionAttemptEntity)
+  @objc(removeLivenessActionAttemptObject:) @NSManaged nonisolated dynamic public func removeFromLivenessActionAttempt(_ value: NetkiSDK.LivenessActionAttemptEntity)
+  @objc(addLivenessActionAttempt:) @NSManaged nonisolated dynamic public func addToLivenessActionAttempt(_ values: Foundation.NSSet)
+  @objc(removeLivenessActionAttempt:) @NSManaged nonisolated dynamic public func removeFromLivenessActionAttempt(_ values: Foundation.NSSet)
 }
 extension NetkiSDK.DocumentWithLivenessEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(EmailEntity) public class EmailEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias EmailEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(EmailEntity) nonisolated public class EmailEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias EmailEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.EmailEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.EmailEntity>
-  @objc @NSManaged dynamic public var email: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var email: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var id: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var id: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identityId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identityId: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.EmailEntity : Swift.Identifiable {
   public typealias ID = Swift.Int16
 }
-@_inheritsConvenienceInitializers @objc(EPassportEntity) public class EPassportEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias EPassportEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(EPassportEntity) nonisolated public class EPassportEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias EPassportEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.EPassportEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.EPassportEntity>
-  @objc @NSManaged dynamic public var custodyInformationAD: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var custodyInformationAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dateOfBirthEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dateOfBirthEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dateOfExpiryEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dateOfExpiryEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentCodeEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentCodeEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentNumberEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentNumberEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var faceImagePath: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var faceImagePath: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var genderEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var genderEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var issuingStateEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var issuingStateEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isValidEPassport: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isValidEPassport: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var nameOfHolderAD: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var nameOfHolderAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var nationalityEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var nationalityEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var optionalData1EPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var optionalData1EPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var optionalData2EPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var optionalData2EPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var otherValidTDNumbersAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var otherValidTDNumbersAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var permanentAddressAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var permanentAddressAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var personalNumberAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var personalNumberAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var personalSummaryAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var personalSummaryAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var placeOfBirthAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var placeOfBirthAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var primaryIdentifierEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var primaryIdentifierEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var professionAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var professionAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var proofOfCitizenshipAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var proofOfCitizenshipAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var secondaryIdentifierEPassport: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var secondaryIdentifierEPassport: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var tdNumbersAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var tdNumbersAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var telephoneAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var telephoneAD: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var titleAD: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var titleAD: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.EPassportEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(IdentityEntity) public class IdentityEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias IdentityEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(IdentityEntity) nonisolated public class IdentityEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias IdentityEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.IdentityEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.IdentityEntity>
-  @objc @NSManaged dynamic public var alias: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var alias: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var birthDate: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var birthDate: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var birthLocation: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var birthLocation: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var clientGuid: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var clientGuid: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var countryCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var countryCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var deathDate: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var deathDate: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var firstName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var firstName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var gender: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var gender: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identityId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identityId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var investorType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var investorType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isAccreditedInvestor: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var isAccreditedInvestor: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isPhoneValidated: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isPhoneValidated: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var lastName: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var lastName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var lat: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var lat: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var lon: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var lon: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var medicalLicense: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var medicalLicense: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var middleName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var middleName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var ssn: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var ssn: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var tin: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var tin: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.IdentityEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(LivenessActionAttemptEntity) public class LivenessActionAttemptEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias LivenessActionAttemptEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(LivenessActionAttemptEntity) nonisolated public class LivenessActionAttemptEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias LivenessActionAttemptEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.LivenessActionAttemptEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.LivenessActionAttemptEntity>
-  @objc @NSManaged dynamic public var action: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var action: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isValid: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isValid: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var livenessActionAttemptId: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var livenessActionAttemptId: Swift.Int16 {
     @objc get
     @objc set
   }
@@ -1258,147 +1630,205 @@ extension NetkiSDK.LivenessActionAttemptEntity {
 extension NetkiSDK.LivenessActionAttemptEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(LivenessSettingsEntity) public class LivenessSettingsEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias LivenessSettingsEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(LivenessSettingsEntity) nonisolated public class LivenessSettingsEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias LivenessSettingsEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.LivenessSettingsEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.LivenessSettingsEntity>
-  @objc @NSManaged dynamic public var algorithm: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var algorithm: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var enabled: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var enabled: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var transactionId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var transactionId: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.LivenessSettingsEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(PassportEntity) public class PassportEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias PassportEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(PassportEntity) nonisolated public class PassportEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias PassportEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.PassportEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.PassportEntity>
-  @objc @NSManaged dynamic public var birthDate: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var birthDate: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var birthDateDigitCheck: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var birthDateDigitCheck: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var confidence: Swift.Float {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var confidence: Swift.Float {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var countryCode: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var countryCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var digitCheck: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var digitCheck: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var expirationDate: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var expirationDate: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var expirationDateDigitCheck: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var expirationDateDigitCheck: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var firstName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var firstName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var gender: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var gender: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isValid: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isValid: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var lastName: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var lastName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var nationality: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var nationality: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var passportNumber: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var passportNumber: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var passportNumberDigitCheck: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var passportNumberDigitCheck: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var passportType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var passportType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var personalNumber: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var personalNumber: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var personalNumberDigitCheck: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var personalNumberDigitCheck: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var stringDigitCheck: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var stringDigitCheck: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var text: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var text: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.PassportEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(PhoneNumberEntity) public class PhoneNumberEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias PhoneNumberEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(PhoneNumberEntity) nonisolated public class PhoneNumberEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias PhoneNumberEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.PhoneNumberEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.PhoneNumberEntity>
-  @objc @NSManaged dynamic public var id: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var id: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identityId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identityId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var phoneNumber: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var phoneNumber: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.PhoneNumberEntity : Swift.Identifiable {
   public typealias ID = Swift.Int16
 }
-@_inheritsConvenienceInitializers @objc(RequiredFieldChoicesCrossRef) public class RequiredFieldChoicesCrossRef : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias RequiredFieldChoicesCrossRefCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(RequiredFieldChoicesCrossRef) nonisolated public class RequiredFieldChoicesCrossRef : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias RequiredFieldChoicesCrossRefCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.RequiredFieldChoicesCrossRef {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.RequiredFieldChoicesCrossRef>
-  @objc @NSManaged dynamic public var requiredFieldChoiceId: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var requiredFieldChoiceId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldId: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var requiredFieldId: Swift.Int16 {
     @objc get
     @objc set
   }
@@ -1406,203 +1836,271 @@ extension NetkiSDK.RequiredFieldChoicesCrossRef {
 extension NetkiSDK.RequiredFieldChoicesCrossRef : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(RequiredFieldChoicesEntity) public class RequiredFieldChoicesEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias RequiredFieldChoicesEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(RequiredFieldChoicesEntity) nonisolated public class RequiredFieldChoicesEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias RequiredFieldChoicesEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.RequiredFieldChoicesEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.RequiredFieldChoicesEntity>
-  @objc @NSManaged dynamic public var created: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var created: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dataType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dataType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var desc: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var desc: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isActive: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isActive: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var keypad: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var keypad: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var label: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var label: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var languageCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var languageCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var name: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var name: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var regex: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var regex: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldChoiceId: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var requiredFieldChoiceId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldId: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var requiredFieldId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var updatedAt: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var updatedAt: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.RequiredFieldChoicesEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(RequiredFieldEntity) public class RequiredFieldEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias RequiredFieldEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(RequiredFieldEntity) nonisolated public class RequiredFieldEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias RequiredFieldEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.RequiredFieldEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.RequiredFieldEntity>
-  @objc @NSManaged dynamic public var created: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var created: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var dataType: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var dataType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var desc: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var desc: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var displayOrder: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var displayOrder: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isActive: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var isActive: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var keypad: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var keypad: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var label: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var label: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var languageCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var languageCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var name: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var name: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var regex: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var regex: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldId: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var requiredFieldId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var transactionId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var transactionId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var updatedAt: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var updatedAt: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var choices: Foundation.NSSet? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var choices: Foundation.NSSet? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var options: Foundation.NSSet? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var options: Foundation.NSSet? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.RequiredFieldEntity {
-  @objc(addChoicesObject:) @NSManaged dynamic public func addToChoices(_ value: NetkiSDK.RequiredFieldChoicesEntity)
-  @objc(removeChoicesObject:) @NSManaged dynamic public func removeFromChoices(_ value: NetkiSDK.RequiredFieldChoicesEntity)
-  @objc(addChoices:) @NSManaged dynamic public func addToChoices(_ values: Foundation.NSSet)
-  @objc(removeChoices:) @NSManaged dynamic public func removeFromChoices(_ values: Foundation.NSSet)
+  @objc(addChoicesObject:) @NSManaged nonisolated dynamic public func addToChoices(_ value: NetkiSDK.RequiredFieldChoicesEntity)
+  @objc(removeChoicesObject:) @NSManaged nonisolated dynamic public func removeFromChoices(_ value: NetkiSDK.RequiredFieldChoicesEntity)
+  @objc(addChoices:) @NSManaged nonisolated dynamic public func addToChoices(_ values: Foundation.NSSet)
+  @objc(removeChoices:) @NSManaged nonisolated dynamic public func removeFromChoices(_ values: Foundation.NSSet)
 }
 extension NetkiSDK.RequiredFieldEntity {
-  @objc(addOptionsObject:) @NSManaged dynamic public func addToOptions(_ value: NetkiSDK.RequiredFieldOptionEntity)
-  @objc(removeOptionsObject:) @NSManaged dynamic public func removeFromOptions(_ value: NetkiSDK.RequiredFieldOptionEntity)
-  @objc(addOptions:) @NSManaged dynamic public func addToOptions(_ values: Foundation.NSSet)
-  @objc(removeOptions:) @NSManaged dynamic public func removeFromOptions(_ values: Foundation.NSSet)
+  @objc(addOptionsObject:) @NSManaged nonisolated dynamic public func addToOptions(_ value: NetkiSDK.RequiredFieldOptionEntity)
+  @objc(removeOptionsObject:) @NSManaged nonisolated dynamic public func removeFromOptions(_ value: NetkiSDK.RequiredFieldOptionEntity)
+  @objc(addOptions:) @NSManaged nonisolated dynamic public func addToOptions(_ values: Foundation.NSSet)
+  @objc(removeOptions:) @NSManaged nonisolated dynamic public func removeFromOptions(_ values: Foundation.NSSet)
 }
 extension NetkiSDK.RequiredFieldEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(RequiredFieldOptionEntity) public class RequiredFieldOptionEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias RequiredFieldOptionEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(RequiredFieldOptionEntity) nonisolated public class RequiredFieldOptionEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias RequiredFieldOptionEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.RequiredFieldOptionEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.RequiredFieldOptionEntity>
-  @objc @NSManaged dynamic public var created: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var created: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isActive: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var isActive: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var key: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var key: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var label: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var label: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var languageCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var languageCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var optionId: Swift.Int16 {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var optionId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var position: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var position: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldId: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var requiredFieldId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var updatedAt: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var updatedAt: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.RequiredFieldOptionEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(RequiredFieldOptionsCrossRef) public class RequiredFieldOptionsCrossRef : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias RequiredFieldOptionsCrossRefCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(RequiredFieldOptionsCrossRef) nonisolated public class RequiredFieldOptionsCrossRef : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias RequiredFieldOptionsCrossRefCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.RequiredFieldOptionsCrossRef {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.RequiredFieldOptionsCrossRef>
-  @objc @NSManaged dynamic public var optionId: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var optionId: Swift.Int16 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldId: Swift.Int16 {
+  @objc @NSManaged nonisolated dynamic public var requiredFieldId: Swift.Int16 {
     @objc get
     @objc set
   }
@@ -1610,134 +2108,196 @@ extension NetkiSDK.RequiredFieldOptionsCrossRef {
 extension NetkiSDK.RequiredFieldOptionsCrossRef : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(RequiredFieldWithOptionsEntity) public class RequiredFieldWithOptionsEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias RequiredFieldWithOptionsEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(RequiredFieldWithOptionsEntity) nonisolated public class RequiredFieldWithOptionsEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias RequiredFieldWithOptionsEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.RequiredFieldWithOptionsEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.RequiredFieldWithOptionsEntity>
-  @objc @NSManaged dynamic public var requiredField: NetkiSDK.RequiredFieldEntity? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var requiredField: NetkiSDK.RequiredFieldEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldsChoices: NetkiSDK.RequiredFieldChoicesEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var requiredFieldsChoices: NetkiSDK.RequiredFieldChoicesEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFieldsOptions: NetkiSDK.RequiredFieldOptionEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var requiredFieldsOptions: NetkiSDK.RequiredFieldOptionEntity? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.RequiredFieldWithOptionsEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(TransactionContextEntity) public class TransactionContextEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias TransactionContextEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(TransactionContextEntity) nonisolated public class TransactionContextEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias TransactionContextEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.TransactionContextEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.TransactionContextEntity>
-  @objc @NSManaged dynamic public var appContext: NetkiSDK.AppContextEntity? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var appContext: NetkiSDK.AppContextEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var businessContext: NetkiSDK.BusinessContextEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var businessContext: NetkiSDK.BusinessContextEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var callingCodes: NetkiSDK.CallingCodeEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var callingCodes: NetkiSDK.CallingCodeEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var countries: NetkiSDK.CountryEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var countries: NetkiSDK.CountryEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var livenessSettings: NetkiSDK.LivenessSettingsEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var livenessSettings: NetkiSDK.LivenessSettingsEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var requiredFields: NetkiSDK.RequiredFieldWithOptionsEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var requiredFields: NetkiSDK.RequiredFieldWithOptionsEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var transactionInfo: NetkiSDK.TransactionInfoEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var transactionInfo: NetkiSDK.TransactionInfoEntity? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.TransactionContextEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(TransactionIdentityEntity) public class TransactionIdentityEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias TransactionIdentityEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(TransactionIdentityEntity) nonisolated public class TransactionIdentityEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias TransactionIdentityEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.TransactionIdentityEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.TransactionIdentityEntity>
-  @objc @NSManaged dynamic public var addresses: NetkiSDK.AddressEntity? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var addresses: NetkiSDK.AddressEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var businessMetadata: NetkiSDK.BusinessMetadataEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var businessMetadata: NetkiSDK.BusinessMetadataEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var documentWithLiveness: NetkiSDK.DocumentWithLivenessEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var documentWithLiveness: NetkiSDK.DocumentWithLivenessEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var emails: NetkiSDK.EmailEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var emails: NetkiSDK.EmailEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identity: NetkiSDK.IdentityEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identity: NetkiSDK.IdentityEntity? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var phoneNumbers: NetkiSDK.PhoneNumberEntity? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var phoneNumbers: NetkiSDK.PhoneNumberEntity? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.TransactionIdentityEntity : Swift.Identifiable {
   public typealias ID = Swift.ObjectIdentifier
 }
-@_inheritsConvenienceInitializers @objc(TransactionInfoEntity) public class TransactionInfoEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias TransactionInfoEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(TransactionInfoEntity) nonisolated public class TransactionInfoEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias TransactionInfoEntityCoreDataPropertiesSet = Foundation.NSSet
 extension NetkiSDK.TransactionInfoEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.TransactionInfoEntity>
-  @objc @NSManaged dynamic public var accessToken: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var accessToken: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var clientIdentifier: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var clientIdentifier: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var deviceId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var deviceId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var id: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var id: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var locale: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var locale: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var refreshToken: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var refreshToken: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension NetkiSDK.TransactionInfoEntity : Swift.Identifiable {
   public typealias ID = Swift.String?
 }
+public typealias ModelFoundationFrameworkSet = Foundation.NSSet
+public typealias ModelCoreDataFrameworkManagedObject = CoreData.NSManagedObject
 extension NetkiSDK.AdditionalDataField : Swift.Equatable {}
 extension NetkiSDK.AdditionalDataField : Swift.Hashable {}
 extension NetkiSDK.AdditionalDataField : Swift.RawRepresentable {}
