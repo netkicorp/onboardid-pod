@@ -41,3 +41,12 @@ jobs:
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: pod trunk push NetkiSDK.podspec --allow-warnings
+
+    - name: Report release to mobile-platform-hub
+      if: success()
+      run: |
+        curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.CROSS_REPO_TOKEN }}" \
+          https://api.github.com/repos/netkicorp/mobile-platform-hub/dispatches \
+          -d '{"event_type":"repo-released","client_payload":{"repo":"onboardid-pod","version":"${{ env.VERSION }}","release_url":"https://github.com/netkicorp/onboardid-pod/releases/tag/${{ env.VERSION }}"}}'
