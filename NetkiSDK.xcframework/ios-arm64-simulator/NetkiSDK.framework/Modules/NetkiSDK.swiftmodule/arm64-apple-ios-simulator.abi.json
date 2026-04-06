@@ -15294,6 +15294,56 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nameToBase64",
+            "printedName": "nameToBase64(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK9OnBoardIdC12nameToBase640F0S2S_tF",
+            "mangledName": "$s8NetkiSDK9OnBoardIdC12nameToBase640F0S2S_tF",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isInitialized",
+            "printedName": "isInitialized()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK9OnBoardIdC13isInitializedSbyF",
+            "mangledName": "$s8NetkiSDK9OnBoardIdC13isInitializedSbyF",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -56668,21 +56718,21 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "BooleanLiteral",
-      "offset": 445,
+      "offset": 446,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "StringLiteral",
-      "offset": 2053,
+      "offset": 2249,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "Dictionary",
-      "offset": 5675,
+      "offset": 5874,
       "length": 3,
       "value": "[]"
     },

@@ -292,6 +292,8 @@ public struct LivenessInformation : Swift.Codable {
   public func setLivenessSettings(enabled: Swift.Bool)
   public func setClientGuid(clientGuid: Swift.String)
   public func enableAsyncMode()
+  public func nameToBase64(name: Swift.String) -> Swift.String
+  public func isInitialized() -> Swift.Bool
   @objc deinit
 }
 public struct OnBoardIdTheme {
