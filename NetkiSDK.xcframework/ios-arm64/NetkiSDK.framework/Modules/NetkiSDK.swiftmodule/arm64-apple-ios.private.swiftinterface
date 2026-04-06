@@ -11,11 +11,9 @@ import CoreGraphics
 import CoreHaptics
 import CoreImage
 import CoreLocation
-import CoreNFC
 import Foundation
 import ImageIO
 import MobileCoreServices
-import NFCPassportReader
 @_exported import NetkiSDK
 import Photos
 import Sentry
@@ -101,7 +99,7 @@ public struct BusinessConfiguration : Swift.Codable {
   public var clientGuid: Swift.String?
   public var redirectBackLink: Swift.String?
   public var completedMessage: Swift.String?
-  public var isGeolocationEnabled: Swift.Bool
+  public var isGeolocationEnabled: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -113,52 +111,6 @@ public enum Environments : Swift.String {
   case DEV
   case QA
   case PROD
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct EPassportContent : Swift.Codable {
-  public var isValid: Swift.Bool
-  public var documentCode: Swift.String?
-  public var issuingState: Swift.String?
-  public var primaryIdentifier: Swift.String?
-  public var secondaryIdentifier: Swift.String?
-  public var nationality: Swift.String?
-  public var documentNumber: Swift.String?
-  public var dateOfBirth: Swift.String?
-  public var gender: NetkiSDK.Gender?
-  public var dateOfExpiry: Swift.String?
-  public var optionalData1: Swift.String?
-  public var optionalData2: Swift.String?
-  public var faceImagePath: Swift.String?
-  public var additionalPersonalData: NetkiSDK.AdditionalPersonalData?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct AdditionalPersonalData : Swift.Codable {
-  public var nameOfHolder: Swift.String?
-  public var custodyInformation: Swift.String?
-  public var otherValidTDNumbers: Swift.String?
-  public var permanentAddress: Swift.String?
-  public var personalNumber: Swift.String?
-  public var placeOfBirth: Swift.String?
-  public var telephone: Swift.String?
-  public var profession: Swift.String?
-  public var title: Swift.String?
-  public var personalSummary: Swift.String?
-  public var proofOfCitizenship: Swift.String?
-  public var tdNumbers: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum Gender : Swift.String, Swift.Codable {
-  case male
-  case female
-  case unknown
-  case unspecified
-  public init?(fromString string: Swift.String)
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -190,8 +142,7 @@ public struct IdCountry : Swift.Codable, Swift.Hashable {
   public var hasBarcodeId: Swift.Bool
   public var flag: Swift.String?
   public var isBanned: Swift.Bool
-  public var hasNfcPassport: Swift.Bool
-  public init(name: Swift.String, alpha2: Swift.String, alpha3: Swift.String, countryCallingCode: Swift.String, hasBarcodeId: Swift.Bool, flag: Swift.String?, isBanned: Swift.Bool, hasNfcPassport: Swift.Bool = false)
+  public init(name: Swift.String, alpha2: Swift.String, alpha3: Swift.String, countryCallingCode: Swift.String, hasBarcodeId: Swift.Bool, flag: Swift.String?, isBanned: Swift.Bool)
   public static func == (a: NetkiSDK.IdCountry, b: NetkiSDK.IdCountry) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public func hash(into hasher: inout Swift.Hasher)
@@ -199,17 +150,6 @@ public struct IdCountry : Swift.Codable, Swift.Hashable {
     get
   }
   public init(from decoder: any Swift.Decoder) throws
-}
-public protocol IdentificationCaptureUseCaseProtocol {
-  func getIdentificationView(idType: NetkiSDK.IdType, idCountry: NetkiSDK.IdCountry?, transactionId: Swift.String?, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
-  func getCaptureIdIntent(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, captureIdProperties: NetkiSDK.CaptureIdProperties)
-  func getAvailableIdTypes() -> [NetkiSDK.IdType]
-  func getAvailableCountries() -> [NetkiSDK.IdCountry]
-  func getBusinessConfiguration() -> NetkiSDK.BusinessConfiguration
-  func setLocation(lat: Swift.String, lon: Swift.String)
-  func setLivenessSettings(enabled: Swift.Bool)
-  func setClientGuid(clientGuid: Swift.String)
-  func enableAsyncMode()
 }
 public protocol IdentificationDelegate {
   func onCaptureIdentificationSuccessfully(extraData: [Swift.String : Any]?)
@@ -266,7 +206,6 @@ public enum IdType : Swift.String, Swift.Codable, Swift.CaseIterable {
   }
 }
 public struct LivenessInformation : Swift.Codable {
-  public var isLive: Swift.Bool?
   public var livenessScore: Swift.Float?
   public var livenessActionAttempts: [[Swift.String : Swift.Bool?]]?
   public func encode(to encoder: any Swift.Encoder) throws
@@ -292,53 +231,10 @@ public struct LivenessInformation : Swift.Codable {
   public func setLivenessSettings(enabled: Swift.Bool)
   public func setClientGuid(clientGuid: Swift.String)
   public func enableAsyncMode()
-  public func nameToBase64(name: Swift.String) -> Swift.String
-  public func isInitialized() -> Swift.Bool
   @objc deinit
-}
-public struct OnBoardIdTheme {
-  public let buttons: NetkiSDK.OnBoardIdTheme.ButtonColors
-  public let content: NetkiSDK.OnBoardIdTheme.ContentColors
-  public let instructions: [NetkiSDK.OnBoardIdTheme.InstructionContent]
-  public init(buttons: NetkiSDK.OnBoardIdTheme.ButtonColors = ButtonColors(), content: NetkiSDK.OnBoardIdTheme.ContentColors = ContentColors(), instructions: [NetkiSDK.OnBoardIdTheme.InstructionContent] = [])
-  public struct ButtonColors {
-    public let primaryBackground: Swift.String?
-    public let primaryText: Swift.String?
-    public let secondaryBackground: Swift.String?
-    public let secondaryText: Swift.String?
-    public let cornerRadiusDp: CoreFoundation.CGFloat?
-    public init(primaryBackground: Swift.String? = nil, primaryText: Swift.String? = nil, secondaryBackground: Swift.String? = nil, secondaryText: Swift.String? = nil, cornerRadiusDp: CoreFoundation.CGFloat? = nil)
-  }
-  public struct ContentColors {
-    public let background: Swift.String?
-    public let surface: Swift.String?
-    public let border: Swift.String?
-    public let titleText: Swift.String?
-    public let subtitleText: Swift.String?
-    public let bodyText: Swift.String?
-    public init(background: Swift.String? = nil, surface: Swift.String? = nil, border: Swift.String? = nil, titleText: Swift.String? = nil, subtitleText: Swift.String? = nil, bodyText: Swift.String? = nil)
-  }
-  public struct InstructionItem {
-    public let text: Swift.String
-    public let iconUrl: Swift.String?
-    public let isWarning: Swift.Bool
-    public init(text: Swift.String, iconUrl: Swift.String? = nil, isWarning: Swift.Bool = false)
-  }
-  public struct InstructionContent {
-    public let idType: NetkiSDK.IdType
-    public let pictureType: NetkiSDK.PictureType
-    public let title: Swift.String?
-    public let subtitle: Swift.String?
-    public let body: Swift.String?
-    public let steps: [NetkiSDK.OnBoardIdTheme.InstructionItem]?
-    public let imageUrl: Swift.String?
-    public let videoPath: Swift.String?
-    public init(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, title: Swift.String? = nil, subtitle: Swift.String? = nil, body: Swift.String? = nil, steps: [NetkiSDK.OnBoardIdTheme.InstructionItem]? = nil, imageUrl: Swift.String? = nil, videoPath: Swift.String? = nil)
-  }
 }
 @_hasMissingDesignatedInitializers public class OnBoardIdUi {
   public static let shared: NetkiSDK.OnBoardIdUi
-  public func enable()
   public func setPrimaryButtonColor(hexString: Swift.String)
   public func setPrimaryButtonTextColor(hexString: Swift.String)
   public func setSecondaryButtonColor(hexString: Swift.String)
@@ -350,27 +246,20 @@ public struct OnBoardIdTheme {
   public func setGovernmentIdInstructionsFrontText(text: Swift.String)
   public func setGovernmentIdInstructionsBackText(text: Swift.String)
   public func setPassportInstructionsText(text: Swift.String)
-  public func setEPassportInstructionsText(text: Swift.String)
   public func setSelfieInstructionsText(text: Swift.String)
   public func setDriverLicenseInstructionsFrontImagePath(path: Swift.String)
   public func setDriverLicenseInstructionsBackImagePath(path: Swift.String)
   public func setGovernmentIdInstructionsFrontImagePath(path: Swift.String)
   public func setGovernmentIdInstructionsBackImagePath(path: Swift.String)
   public func setPassportInstructionsImagePath(path: Swift.String)
-  public func setEPassportInstructionsImagePath(path: Swift.String)
   public func setSelfieInstructionsImagePath(path: Swift.String)
   public func setDriverLicenseInstructionsFrontVideoPath(path: Swift.String)
   public func setDriverLicenseInstructionsBackVideoPath(path: Swift.String)
   public func setGovernmentIdInstructionsFrontVideoPath(path: Swift.String)
   public func setGovernmentIdInstructionsBackVideoPath(path: Swift.String)
   public func setPassportInstructionsVideoPath(path: Swift.String)
-  public func setEPassportInstructionsVideoPath(path: Swift.String)
   public func setSelfieInstructionsVideoPath(path: Swift.String)
   @objc deinit
-}
-public struct OnBoardIdUiV2 {
-  public static func enable()
-  public static func applyTheme(_ theme: NetkiSDK.OnBoardIdTheme)
 }
 public struct PassportContent : Swift.Codable {
   public var isValid: Swift.Bool
@@ -403,7 +292,6 @@ public struct Picture : Swift.Codable {
   public var path: Swift.String?
   public var barcodes: [NetkiSDK.Barcode]?
   public var passportContent: NetkiSDK.PassportContent?
-  public var ePassportContent: NetkiSDK.EPassportContent?
   public var livenessInformation: NetkiSDK.LivenessInformation?
   public var type: NetkiSDK.PictureType
   public func encode(to encoder: any Swift.Encoder) throws
@@ -414,14 +302,12 @@ public enum PictureType : Swift.String, Swift.Codable {
   case BACK
   case LIVENESS
   case SELFIE
-  case EPASSPORT
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
-
 public enum RequestStatus : Swift.Codable {
   case SUCCESS
   case ERROR
@@ -457,15 +343,7 @@ extension NetkiSDK.ResultInfo {
   public func isSuccessful() -> Swift.Bool
 }
 public func localizedString(_ key: Swift.String, tableName: Swift.String? = nil, value: Swift.String = "") -> Swift.String
-public enum UiVersion {
-  case v1
-  case v2
-  public static func == (a: NetkiSDK.UiVersion, b: NetkiSDK.UiVersion) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
+
 @_inheritsConvenienceInitializers @objc(AddressEntity) public class AddressEntity : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
@@ -852,10 +730,6 @@ extension NetkiSDK.CountryEntity {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var hasNfcPassport: Swift.Bool {
-    @objc get
-    @objc set
-  }
   @objc @NSManaged dynamic public var isBanned: Swift.Bool {
     @objc get
     @objc set
@@ -902,10 +776,6 @@ extension NetkiSDK.DocumentEntity {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var ePassportSkipReason: Swift.String? {
-    @objc get
-    @objc set
-  }
   @objc @NSManaged dynamic public var faceIdDetected: Swift.String? {
     @objc get
     @objc set
@@ -946,10 +816,6 @@ extension NetkiSDK.DocumentEntity {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var proceededWithValidationIssues: Swift.String? {
-    @objc get
-    @objc set
-  }
   @objc @NSManaged dynamic public var textMrzReadable: Swift.String? {
     @objc get
     @objc set
@@ -959,10 +825,6 @@ extension NetkiSDK.DocumentEntity {
     @objc set
   }
   @objc @NSManaged dynamic public var mrzData: NetkiSDK.PassportEntity? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var nfcData: NetkiSDK.EPassportEntity? {
     @objc get
     @objc set
   }
@@ -1033,116 +895,6 @@ extension NetkiSDK.EmailEntity {
 }
 extension NetkiSDK.EmailEntity : Swift.Identifiable {
   public typealias ID = Swift.Int16
-}
-@_inheritsConvenienceInitializers @objc(EPassportEntity) public class EPassportEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
-extension NetkiSDK.EPassportEntity {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NetkiSDK.EPassportEntity>
-  @objc @NSManaged dynamic public var custodyInformationAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var dateOfBirthEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var dateOfExpiryEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var documentCodeEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var documentNumberEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var faceImagePath: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var genderEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var issuingStateEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var isValidEPassport: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var nameOfHolderAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var nationalityEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var optionalData1EPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var optionalData2EPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var otherValidTDNumbersAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var permanentAddressAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var personalNumberAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var personalSummaryAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var placeOfBirthAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var primaryIdentifierEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var professionAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var proofOfCitizenshipAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var secondaryIdentifierEPassport: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var tdNumbersAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var telephoneAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var titleAD: Swift.String? {
-    @objc get
-    @objc set
-  }
-}
-extension NetkiSDK.EPassportEntity : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
 }
 @_inheritsConvenienceInitializers @objc(IdentityEntity) public class IdentityEntity : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
@@ -1746,9 +1498,6 @@ extension NetkiSDK.AdditionalDataField : Swift.RawRepresentable {}
 extension NetkiSDK.Environments : Swift.Equatable {}
 extension NetkiSDK.Environments : Swift.Hashable {}
 extension NetkiSDK.Environments : Swift.RawRepresentable {}
-extension NetkiSDK.Gender : Swift.Equatable {}
-extension NetkiSDK.Gender : Swift.Hashable {}
-extension NetkiSDK.Gender : Swift.RawRepresentable {}
 extension NetkiSDK.ErrorType : Swift.Equatable {}
 extension NetkiSDK.ErrorType : Swift.Hashable {}
 extension NetkiSDK.ErrorType : Swift.RawRepresentable {}
@@ -1764,5 +1513,3 @@ extension NetkiSDK.RequestStatus : Swift.Hashable {}
 extension NetkiSDK.ResultInfo.ExtraData : Swift.Equatable {}
 extension NetkiSDK.ResultInfo.ExtraData : Swift.Hashable {}
 extension NetkiSDK.ResultInfo.ExtraData : Swift.RawRepresentable {}
-extension NetkiSDK.UiVersion : Swift.Equatable {}
-extension NetkiSDK.UiVersion : Swift.Hashable {}
