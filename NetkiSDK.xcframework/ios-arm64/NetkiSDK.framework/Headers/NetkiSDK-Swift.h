@@ -441,7 +441,6 @@ SWIFT_CLASS_NAMED("CountryEntity")
 @property (nonatomic, copy) NSString * _Nullable alpha3;
 @property (nonatomic, copy) NSString * _Nullable countryCallingCode;
 @property (nonatomic) BOOL has2dBarcode;
-@property (nonatomic) BOOL hasNfcPassport;
 @property (nonatomic) BOOL isBanned;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic, copy) NSString * _Nullable transactionId;
@@ -453,7 +452,6 @@ SWIFT_CLASS_NAMED("DocumentEntity")
 @end
 
 @class PassportEntity;
-@class EPassportEntity;
 @interface DocumentEntity (SWIFT_EXTENSION(NetkiSDK))
 @property (nonatomic, copy) NSString * _Nullable autoCapture;
 @property (nonatomic, copy) NSString * _Nullable barcodeDetected;
@@ -461,7 +459,6 @@ SWIFT_CLASS_NAMED("DocumentEntity")
 @property (nonatomic, copy) NSString * _Nullable documentId;
 @property (nonatomic, copy) NSString * _Nullable documentType;
 @property (nonatomic, copy) NSString * _Nullable documentUrl;
-@property (nonatomic, copy) NSString * _Nullable ePassportSkipReason;
 @property (nonatomic, copy) NSString * _Nullable faceIdDetected;
 @property (nonatomic, copy) NSString * _Nullable faceSelfieDetected;
 @property (nonatomic, copy) NSString * _Nullable identityId;
@@ -472,11 +469,9 @@ SWIFT_CLASS_NAMED("DocumentEntity")
 @property (nonatomic, copy) NSString * _Nullable livenessScore;
 @property (nonatomic, copy) NSString * _Nullable numberOfTries;
 @property (nonatomic, copy) NSString * _Nullable path;
-@property (nonatomic, copy) NSString * _Nullable proceededWithValidationIssues;
 @property (nonatomic, copy) NSString * _Nullable textMrzReadable;
 @property (nonatomic, strong) BarcodeEntity * _Nullable barcode;
 @property (nonatomic, strong) PassportEntity * _Nullable mrzData;
-@property (nonatomic, strong) EPassportEntity * _Nullable nfcData;
 @end
 
 SWIFT_CLASS_NAMED("DocumentLivenessCrossRef")
@@ -506,39 +501,6 @@ SWIFT_CLASS_NAMED("DocumentWithLivenessEntity")
 @interface DocumentWithLivenessEntity (SWIFT_EXTENSION(NetkiSDK))
 @property (nonatomic, strong) DocumentEntity * _Nullable documentEntity;
 @property (nonatomic, strong) NSSet * _Nullable livenessActionAttempt;
-@end
-
-SWIFT_CLASS_NAMED("EPassportEntity")
-@interface EPassportEntity : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@interface EPassportEntity (SWIFT_EXTENSION(NetkiSDK))
-@property (nonatomic, copy) NSString * _Nullable custodyInformationAD;
-@property (nonatomic, copy) NSString * _Nullable dateOfBirthEPassport;
-@property (nonatomic, copy) NSString * _Nullable dateOfExpiryEPassport;
-@property (nonatomic, copy) NSString * _Nullable documentCodeEPassport;
-@property (nonatomic, copy) NSString * _Nullable documentNumberEPassport;
-@property (nonatomic, copy) NSString * _Nullable faceImagePath;
-@property (nonatomic, copy) NSString * _Nullable genderEPassport;
-@property (nonatomic, copy) NSString * _Nullable issuingStateEPassport;
-@property (nonatomic) BOOL isValidEPassport;
-@property (nonatomic, copy) NSString * _Nullable nameOfHolderAD;
-@property (nonatomic, copy) NSString * _Nullable nationalityEPassport;
-@property (nonatomic, copy) NSString * _Nullable optionalData1EPassport;
-@property (nonatomic, copy) NSString * _Nullable optionalData2EPassport;
-@property (nonatomic, copy) NSString * _Nullable otherValidTDNumbersAD;
-@property (nonatomic, copy) NSString * _Nullable permanentAddressAD;
-@property (nonatomic, copy) NSString * _Nullable personalNumberAD;
-@property (nonatomic, copy) NSString * _Nullable personalSummaryAD;
-@property (nonatomic, copy) NSString * _Nullable placeOfBirthAD;
-@property (nonatomic, copy) NSString * _Nullable primaryIdentifierEPassport;
-@property (nonatomic, copy) NSString * _Nullable professionAD;
-@property (nonatomic, copy) NSString * _Nullable proofOfCitizenshipAD;
-@property (nonatomic, copy) NSString * _Nullable secondaryIdentifierEPassport;
-@property (nonatomic, copy) NSString * _Nullable tdNumbersAD;
-@property (nonatomic, copy) NSString * _Nullable telephoneAD;
-@property (nonatomic, copy) NSString * _Nullable titleAD;
 @end
 
 SWIFT_CLASS_NAMED("EmailEntity")
@@ -682,19 +644,19 @@ SWIFT_CLASS_NAMED("RequiredFieldEntity")
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@interface RequiredFieldEntity (SWIFT_EXTENSION(NetkiSDK))
+- (void)addChoicesObject:(RequiredFieldChoicesEntity * _Nonnull)value;
+- (void)removeChoicesObject:(RequiredFieldChoicesEntity * _Nonnull)value;
+- (void)addChoices:(NSSet * _Nonnull)values;
+- (void)removeChoices:(NSSet * _Nonnull)values;
+@end
+
 @class RequiredFieldOptionEntity;
 @interface RequiredFieldEntity (SWIFT_EXTENSION(NetkiSDK))
 - (void)addOptionsObject:(RequiredFieldOptionEntity * _Nonnull)value;
 - (void)removeOptionsObject:(RequiredFieldOptionEntity * _Nonnull)value;
 - (void)addOptions:(NSSet * _Nonnull)values;
 - (void)removeOptions:(NSSet * _Nonnull)values;
-@end
-
-@interface RequiredFieldEntity (SWIFT_EXTENSION(NetkiSDK))
-- (void)addChoicesObject:(RequiredFieldChoicesEntity * _Nonnull)value;
-- (void)removeChoicesObject:(RequiredFieldChoicesEntity * _Nonnull)value;
-- (void)addChoices:(NSSet * _Nonnull)values;
-- (void)removeChoices:(NSSet * _Nonnull)values;
 @end
 
 @interface RequiredFieldEntity (SWIFT_EXTENSION(NetkiSDK))
