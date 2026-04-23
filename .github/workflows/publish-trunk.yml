@@ -1,0 +1,40 @@
+name: Publish to CocoaPods Trunk
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    name: Publish to Trunk
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from podspec
+        id: version
+        run: |
+          VERSION=$(grep "s.version" NetkiSDK.podspec | head -1 | sed -E "s/.*'(.*)'.*/\1/")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "Detected version: $VERSION"
+
+      - name: Validate podspec
+        run: pod lib lint NetkiSDK.podspec --allow-warnings
+
+      - name: Setup CocoaPods Trunk credentials
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+        run: |
+          echo "machine trunk.cocoapods.org" >> ~/.netrc
+          echo "  login ops@netki.com" >> ~/.netrc
+          echo "  password $COCOAPODS_TRUNK_TOKEN" >> ~/.netrc
+          chmod 0600 ~/.netrc
+
+      - name: Push to CocoaPods Trunk
+        run: pod trunk push NetkiSDK.podspec --allow-warnings
+
+      - name: Notify success
+        if: success()
+        run: |
+          echo "Successfully published NetkiSDK $VERSION to CocoaPods Trunk"
+          echo "View at: https://cocoapods.org/pods/NetkiSDK"
