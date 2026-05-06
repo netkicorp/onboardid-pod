@@ -464,6 +464,7 @@ SWIFT_CLASS_NAMED("DocumentEntity")
 @property (nonatomic, copy) NSString * _Nullable ePassportSkipReason;
 @property (nonatomic, copy) NSString * _Nullable faceIdDetected;
 @property (nonatomic, copy) NSString * _Nullable faceSelfieDetected;
+@property (nonatomic, copy) NSString * _Nullable hasNfcPassport;
 @property (nonatomic, copy) NSString * _Nullable identityId;
 @property (nonatomic, copy) NSString * _Nullable idType;
 @property (nonatomic, copy) NSString * _Nullable isGlareCorrect;

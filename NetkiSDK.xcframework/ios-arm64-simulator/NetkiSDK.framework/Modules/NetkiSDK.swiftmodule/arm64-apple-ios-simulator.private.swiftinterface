@@ -17,6 +17,7 @@ import ImageIO
 import MobileCoreServices
 import NFCPassportReader
 @_exported import NetkiSDK
+import Network
 import Photos
 import Sentry
 import Swift
@@ -201,7 +202,7 @@ public struct IdCountry : Swift.Codable, Swift.Hashable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol IdentificationCaptureUseCaseProtocol {
-  func getIdentificationView(idType: NetkiSDK.IdType, idCountry: NetkiSDK.IdCountry?, transactionId: Swift.String?, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
+  func getIdentificationView(idType: NetkiSDK.IdType, idCountry: NetkiSDK.IdCountry?, transactionId: Swift.String?, identificationDelegate: any NetkiSDK.IdentificationDelegate) throws -> NetkiSDK.IdentificationView
   func getCaptureIdIntent(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, captureIdProperties: NetkiSDK.CaptureIdProperties)
   func getAvailableIdTypes() -> [NetkiSDK.IdType]
   func getAvailableCountries() -> [NetkiSDK.IdCountry]
@@ -280,10 +281,10 @@ public struct LivenessInformation : Swift.Codable {
   public func bypassSecurityCode(phoneNumber: Swift.String)
   public func confirmSecurityCode(phoneNumber: Swift.String, securityCode: Swift.String) async -> NetkiSDK.ResultInfo
   public func setBusinessMetadata(businessMetadata: [Swift.String : Swift.String])
-  public func getIdentificationView(idType: NetkiSDK.IdType, idCountry: NetkiSDK.IdCountry, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
+  public func getIdentificationView(idType: NetkiSDK.IdType, idCountry: NetkiSDK.IdCountry, identificationDelegate: any NetkiSDK.IdentificationDelegate) throws -> NetkiSDK.IdentificationView
   public func getCaptureIdIntent(idType: NetkiSDK.IdType, pictureType: NetkiSDK.PictureType, captureIdProperties: NetkiSDK.CaptureIdProperties)
   public func submitIdentification(additionalData: [NetkiSDK.AdditionalDataField : Swift.String] = [:]) async -> NetkiSDK.ResultInfo
-  public func getBiometricsView(transactionId: Swift.String, identificationDelegate: any NetkiSDK.IdentificationDelegate) -> NetkiSDK.IdentificationView
+  public func getBiometricsView(transactionId: Swift.String, identificationDelegate: any NetkiSDK.IdentificationDelegate) throws -> NetkiSDK.IdentificationView
   public func submitBiometrics(additionalData: [NetkiSDK.AdditionalDataField : Swift.String] = [:]) async -> NetkiSDK.ResultInfo
   public func getAvailableIdTypes() -> [NetkiSDK.IdType]
   public func getAvailableCountries() -> [NetkiSDK.IdCountry]
@@ -911,6 +912,10 @@ extension NetkiSDK.DocumentEntity {
     @objc set
   }
   @objc @NSManaged dynamic public var faceSelfieDetected: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var hasNfcPassport: Swift.String? {
     @objc get
     @objc set
   }
