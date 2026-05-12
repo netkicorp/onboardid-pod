@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name                    = 'NetkiSDK'
-    s.version                 = '11.5.0'
+    s.version                 = '11.5.1'
     s.summary                 = 'NetkiSDK enables custom onboarding.'
     s.description             = 'Our NetkiSDK lets you create custom KYC onboarding in your app'
     s.homepage                = 'https://www.netki.com/'
@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
     s.swift_versions          = '5.0'
     s.ios.vendored_frameworks = 'NetkiSDK.xcframework'
     s.dependency 'Sentry', '~> 8.46.0'
+    s.dependency 'NFCPassportReader', '~> 2.0.2'
 end
