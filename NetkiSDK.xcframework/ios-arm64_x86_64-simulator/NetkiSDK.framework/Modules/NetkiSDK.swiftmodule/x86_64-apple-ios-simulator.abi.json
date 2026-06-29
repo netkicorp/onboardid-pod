@@ -54724,6 +54724,209 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FaceIdDetector",
+        "printedName": "FaceIdDetector",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorLogger",
+            "printedName": "errorLogger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorLoggerProtocol",
+                "printedName": "any NetkiSDK.ErrorLoggerProtocol",
+                "usr": "s:8NetkiSDK19ErrorLoggerProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK14FaceIdDetectorC11errorLogger33_9C1529366321305A8257D48BF6AB0AA7LLAA05ErrorG8Protocol_pvp",
+            "mangledName": "$s8NetkiSDK14FaceIdDetectorC11errorLogger33_9C1529366321305A8257D48BF6AB0AA7LLAA05ErrorG8Protocol_pvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(errorLogger:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceIdDetector",
+                "printedName": "NetkiSDK.FaceIdDetector",
+                "usr": "s:8NetkiSDK14FaceIdDetectorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorLoggerProtocol",
+                "printedName": "any NetkiSDK.ErrorLoggerProtocol",
+                "hasDefaultArg": true,
+                "usr": "s:8NetkiSDK19ErrorLoggerProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8NetkiSDK14FaceIdDetectorC11errorLoggerAcA05ErrorG8Protocol_p_tcfc",
+            "mangledName": "$s8NetkiSDK14FaceIdDetectorC11errorLoggerAcA05ErrorG8Protocol_p_tcfc",
+            "moduleName": "NetkiSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "detect",
+            "printedName": "detect(imageFrame:params:pictureType:flexibleDetection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionResult",
+                "printedName": "NetkiSDK.DetectionResult",
+                "usr": "s:8NetkiSDK15DetectionResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PictureType",
+                "printedName": "NetkiSDK.PictureType",
+                "usr": "s:8NetkiSDK11PictureTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK14FaceIdDetectorC6detect10imageFrame6params11pictureType17flexibleDetectionAA0M6ResultVSo11CVBufferRefa_ypSgAA07PictureK0OSbtYaF",
+            "mangledName": "$s8NetkiSDK14FaceIdDetectorC6detect10imageFrame6params11pictureType17flexibleDetectionAA0M6ResultVSo11CVBufferRefa_ypSgAA07PictureK0OSbtYaF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detect",
+            "printedName": "detect(image:params:pictureType:flexibleDetection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionResult",
+                "printedName": "NetkiSDK.DetectionResult",
+                "usr": "s:8NetkiSDK15DetectionResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PictureType",
+                "printedName": "NetkiSDK.PictureType",
+                "usr": "s:8NetkiSDK11PictureTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK14FaceIdDetectorC6detect5image6params11pictureType17flexibleDetectionAA0L6ResultVSo10CGImageRefa_ypSgAA07PictureJ0OSbtYaF",
+            "mangledName": "$s8NetkiSDK14FaceIdDetectorC6detect5image6params11pictureType17flexibleDetectionAA0L6ResultVSo10CGImageRefa_ypSgAA07PictureJ0OSbtYaF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8NetkiSDK14FaceIdDetectorC",
+        "mangledName": "$s8NetkiSDK14FaceIdDetectorC",
+        "moduleName": "NetkiSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObjectDetectorProtocol",
+            "printedName": "ObjectDetectorProtocol",
+            "usr": "s:8NetkiSDK22ObjectDetectorProtocolP",
+            "mangledName": "$s8NetkiSDK22ObjectDetectorProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FaceSelfieDetector",
         "printedName": "FaceSelfieDetector",
         "children": [
@@ -182422,14 +182625,14 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1252,
+      "offset": 1248,
       "length": 4,
       "value": "2500"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1304,
+      "offset": 1300,
       "length": 1,
       "value": "5"
     },
@@ -183003,14 +183206,14 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1318,
+      "offset": 1314,
       "length": 4,
       "value": "2500"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1370,
+      "offset": 1366,
       "length": 1,
       "value": "5"
     },
@@ -183346,35 +183549,35 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 385,
+      "offset": 381,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 415,
+      "offset": 411,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 461,
+      "offset": 457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 940,
+      "offset": 936,
       "length": 4,
       "value": "2500"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 992,
+      "offset": 988,
       "length": 1,
       "value": "5"
     },
