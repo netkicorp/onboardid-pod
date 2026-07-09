@@ -9,13 +9,13 @@ import Combine
 import CoreData
 import CoreGraphics
 import CoreHaptics
-import CoreImage
 import CoreLocation
 import CoreNFC
+import CoreVideo
 import Foundation
 import ImageIO
 import MobileCoreServices
-import NFCPassportReader
+import NetkiCV
 @_exported import NetkiSDK
 import Network
 import Photos
@@ -927,6 +927,10 @@ extension NetkiSDK.DocumentEntity {
     @objc get
     @objc set
   }
+  @objc @NSManaged dynamic public var isBlurCorrect: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged dynamic public var isGlareCorrect: Swift.String? {
     @objc get
     @objc set
@@ -936,6 +940,10 @@ extension NetkiSDK.DocumentEntity {
     @objc set
   }
   @objc @NSManaged dynamic public var isLive: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var qualityMetricsJson: Swift.String? {
     @objc get
     @objc set
   }

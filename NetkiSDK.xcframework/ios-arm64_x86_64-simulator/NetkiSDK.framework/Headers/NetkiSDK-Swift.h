@@ -467,9 +467,11 @@ SWIFT_CLASS_NAMED("DocumentEntity")
 @property (nonatomic, copy) NSString * _Nullable hasNfcPassport;
 @property (nonatomic, copy) NSString * _Nullable identityId;
 @property (nonatomic, copy) NSString * _Nullable idType;
+@property (nonatomic, copy) NSString * _Nullable isBlurCorrect;
 @property (nonatomic, copy) NSString * _Nullable isGlareCorrect;
 @property (nonatomic, copy) NSString * _Nullable isLightCorrect;
 @property (nonatomic, copy) NSString * _Nullable isLive;
+@property (nonatomic, copy) NSString * _Nullable qualityMetricsJson;
 @property (nonatomic, copy) NSString * _Nullable livenessScore;
 @property (nonatomic, copy) NSString * _Nullable numberOfTries;
 @property (nonatomic, copy) NSString * _Nullable path;
@@ -1275,9 +1277,11 @@ SWIFT_CLASS_NAMED("DocumentEntity")
 @property (nonatomic, copy) NSString * _Nullable hasNfcPassport;
 @property (nonatomic, copy) NSString * _Nullable identityId;
 @property (nonatomic, copy) NSString * _Nullable idType;
+@property (nonatomic, copy) NSString * _Nullable isBlurCorrect;
 @property (nonatomic, copy) NSString * _Nullable isGlareCorrect;
 @property (nonatomic, copy) NSString * _Nullable isLightCorrect;
 @property (nonatomic, copy) NSString * _Nullable isLive;
+@property (nonatomic, copy) NSString * _Nullable qualityMetricsJson;
 @property (nonatomic, copy) NSString * _Nullable livenessScore;
 @property (nonatomic, copy) NSString * _Nullable numberOfTries;
 @property (nonatomic, copy) NSString * _Nullable path;
