@@ -55496,7 +55496,10 @@
         "name": "NetkiCV",
         "printedName": "NetkiCV",
         "declKind": "Import",
-        "moduleName": "NetkiSDK"
+        "moduleName": "NetkiSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -182583,7 +182586,7 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/FeaturesDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 320,
+      "offset": 341,
       "length": 3,
       "value": "1.0"
     },
