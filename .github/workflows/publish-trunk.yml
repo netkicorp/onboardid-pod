@@ -7,7 +7,7 @@ on:
 jobs:
   publish:
     name: Publish to Trunk
-    runs-on: macos-latest
+    runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +31,33 @@ jobs:
           chmod 0600 ~/.netrc
 
       - name: Push to CocoaPods Trunk
-        run: pod trunk push NetkiSDK.podspec --allow-warnings
+        run: |
+          # Trunk pushes intermittently exit non-zero on a post-commit GitHub API
+          # timeout even though the spec was already registered. Make this
+          # idempotent: skip if already published, retry transient failures, and
+          # treat "already on trunk" as success so a re-run can't duplicate-fail.
+          published() { pod trunk info NetkiSDK 2>/dev/null | grep -qF -- "- $VERSION ("; }
+
+          if published; then
+            echo "NetkiSDK $VERSION is already on trunk; nothing to push."
+            exit 0
+          fi
+
+          for attempt in 1 2 3; do
+            echo "Trunk push attempt $attempt..."
+            if pod trunk push NetkiSDK.podspec --allow-warnings; then
+              exit 0
+            fi
+            if published; then
+              echo "Push returned non-zero but $VERSION is now on trunk; treating as success."
+              exit 0
+            fi
+            echo "Attempt $attempt failed and $VERSION not on trunk; retrying in 30s..."
+            sleep 30
+          done
+
+          echo "::error::pod trunk push failed after 3 attempts; $VERSION is not on trunk."
+          exit 1
 
       - name: Notify success
         if: success()
