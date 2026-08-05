@@ -21028,6 +21028,35 @@
         "children": [
           {
             "kind": "Var",
+            "name": "Tag",
+            "printedName": "Tag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK20CameraViewControllerC3Tag33_3FE560D41140B1CFB0218B97468C28F5LLSSvp",
+            "mangledName": "$s8NetkiSDK20CameraViewControllerC3Tag33_3FE560D41140B1CFB0218B97468C28F5LLSSvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "imageDecoder",
             "printedName": "imageDecoder",
             "children": [
@@ -21050,7 +21079,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 0,
+            "fixedbinaryorder": 1,
             "isLet": true,
             "hasStorage": true
           },
@@ -21078,7 +21107,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "isLet": true,
             "hasStorage": true
           },
@@ -21108,7 +21137,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 3,
             "ownership": 1,
             "hasStorage": true
           },
@@ -21138,7 +21167,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "ownership": 1,
             "hasStorage": true
           },
@@ -21168,7 +21197,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "ownership": 1,
             "hasStorage": true
           },
@@ -21198,7 +21227,7 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "ownership": 1,
             "hasStorage": true
           },
@@ -21235,7 +21264,7 @@
               "Dynamic",
               "ObjC"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -21334,7 +21363,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "isLet": true,
             "hasStorage": true
           },
@@ -21363,7 +21392,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -21416,7 +21445,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "isLet": true,
             "hasStorage": true
           },
@@ -21445,7 +21474,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "isLet": true,
             "hasStorage": true
           },
@@ -21473,7 +21502,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true
           },
           {
@@ -21500,7 +21529,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "hasStorage": true
           },
           {
@@ -21535,7 +21564,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 14,
             "hasStorage": true
           },
           {
@@ -21570,7 +21599,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 15,
             "hasStorage": true
           },
           {
@@ -21597,7 +21626,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "hasStorage": true
           },
           {
@@ -21624,7 +21653,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 17,
             "hasStorage": true
           },
           {
@@ -21659,7 +21688,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 18,
             "hasStorage": true
           },
           {
@@ -21694,7 +21723,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 19,
             "hasStorage": true
           },
           {
@@ -21729,7 +21758,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 20,
             "hasStorage": true
           },
           {
@@ -21764,7 +21793,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 21,
             "hasStorage": true
           },
           {
@@ -21799,7 +21828,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 22,
             "hasStorage": true
           },
           {
@@ -21840,7 +21869,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 22,
+            "fixedbinaryorder": 23,
             "hasStorage": true
           },
           {
@@ -21875,7 +21904,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 23,
+            "fixedbinaryorder": 24,
             "hasStorage": true
           },
           {
@@ -21902,7 +21931,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 24,
+            "fixedbinaryorder": 25,
             "hasStorage": true
           },
           {
@@ -21937,7 +21966,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 25,
+            "fixedbinaryorder": 26,
             "hasStorage": true
           },
           {
@@ -21972,7 +22001,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 26,
+            "fixedbinaryorder": 27,
             "hasStorage": true
           },
           {
@@ -22007,7 +22036,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 27,
+            "fixedbinaryorder": 28,
             "hasStorage": true
           },
           {
@@ -22034,7 +22063,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 28,
+            "fixedbinaryorder": 29,
             "hasStorage": true
           },
           {
@@ -22061,7 +22090,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 29,
+            "fixedbinaryorder": 30,
             "hasStorage": true
           },
           {
@@ -22095,7 +22124,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 30,
+            "fixedbinaryorder": 31,
             "hasStorage": true,
             "accessors": [
               {
@@ -33048,6 +33077,33 @@
           },
           {
             "kind": "Var",
+            "name": "Tag",
+            "printedName": "Tag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK19DefaultImageDecoderC3Tag33_D058D687D785AE0BA7EBA09B5432AF4ELLSSvp",
+            "mangledName": "$s8NetkiSDK19DefaultImageDecoderC3Tag33_D058D687D785AE0BA7EBA09B5432AF4ELLSSvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "errorLogger",
             "printedName": "errorLogger",
             "children": [
@@ -33068,7 +33124,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 0,
+            "fixedbinaryorder": 1,
             "isLet": true,
             "hasStorage": true
           },
@@ -46004,6 +46060,33 @@
           },
           {
             "kind": "Var",
+            "name": "Tag",
+            "printedName": "Tag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK18EPassportProcessorC3Tag33_23EEA53284A379712B99029E0AD6E608LLSSvp",
+            "mangledName": "$s8NetkiSDK18EPassportProcessorC3Tag33_23EEA53284A379712B99029E0AD6E608LLSSvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "passportReader",
             "printedName": "passportReader",
             "children": [
@@ -46024,7 +46107,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 0,
+            "fixedbinaryorder": 1,
             "isLet": true,
             "hasStorage": true
           },
@@ -46051,7 +46134,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "hasStorage": true
           },
           {
@@ -50550,6 +50633,13 @@
         "moduleName": "NetkiSDK"
       },
       {
+        "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ErrorLoggerProtocol",
         "printedName": "ErrorLoggerProtocol",
@@ -50557,7 +50647,7 @@
           {
             "kind": "Function",
             "name": "logException",
-            "printedName": "logException(error:)",
+            "printedName": "logException(_:tag:level:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -50569,47 +50659,23 @@
                 "name": "Error",
                 "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP12logException5errorys0C0_p_tF",
-            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP12logException5errorys0C0_p_tF",
-            "moduleName": "NetkiSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
-            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "logGenericException",
-            "printedName": "logGenericException(errorType:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ErrorType",
-                "printedName": "NetkiSDK.ErrorType",
-                "usr": "s:8NetkiSDK9ErrorTypeO"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SentryLevel",
+                "printedName": "Sentry.SentryLevel",
+                "usr": "c:@M@Sentry@E@SentryLevel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP19logGenericException9errorType7messageyAA0cJ0O_SStF",
-            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP19logGenericException9errorType7messageyAA0cJ0O_SStF",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP12logException_3tag5levelys0C0_p_SS6Sentry0J5LevelOtF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP12logException_3tag5levelys0C0_p_SS6Sentry0J5LevelOtF",
             "moduleName": "NetkiSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
             "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
@@ -50623,7 +50689,7 @@
           {
             "kind": "Function",
             "name": "logMessage",
-            "printedName": "logMessage(message:)",
+            "printedName": "logMessage(_:tag:level:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -50635,11 +50701,23 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SentryLevel",
+                "printedName": "Sentry.SentryLevel",
+                "usr": "c:@M@Sentry@E@SentryLevel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP10logMessage7messageySS_tF",
-            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP10logMessage7messageySS_tF",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP10logMessage_3tag5levelySS_SS6Sentry0J5LevelOtF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP10logMessage_3tag5levelySS_SS6Sentry0J5LevelOtF",
             "moduleName": "NetkiSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
             "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
@@ -50648,6 +50726,293 @@
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addBreadcrumb",
+            "printedName": "addBreadcrumb(category:message:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BreadcrumbCategory",
+                "printedName": "NetkiSDK.BreadcrumbCategory",
+                "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP13addBreadcrumb8category7message4datayAA0G8CategoryO_SSSDySSypGtF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP13addBreadcrumb8category7message4datayAA0G8CategoryO_SSSDySSypGtF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStaticContext",
+            "printedName": "setStaticContext()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP16setStaticContextyyF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP16setStaticContextyyF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTransactionContext",
+            "printedName": "setTransactionContext(id:integration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntegrationInfo",
+                "printedName": "NetkiSDK.IntegrationInfo",
+                "usr": "s:8NetkiSDK15IntegrationInfoC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP21setTransactionContext2id11integrationySS_AA15IntegrationInfoCtF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP21setTransactionContext2id11integrationySS_AA15IntegrationInfoCtF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPictureContext",
+            "printedName": "setPictureContext(pictureType:idType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetkiSDK.PictureType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PictureType",
+                    "printedName": "NetkiSDK.PictureType",
+                    "usr": "s:8NetkiSDK11PictureTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetkiSDK.IdType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdType",
+                    "printedName": "NetkiSDK.IdType",
+                    "usr": "s:8NetkiSDK6IdTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP17setPictureContext11pictureType02idJ0yAA0gJ0OSg_AA02IdJ0OSgtF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP17setPictureContext11pictureType02idJ0yAA0gJ0OSg_AA02IdJ0OSgtF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearScope",
+            "printedName": "clearScope()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolP10clearScopeyyF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolP10clearScopeyyF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logException",
+            "printedName": "logException(_:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolPAAE12logException_3tagys0C0_p_SStF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolPAAE12logException_3tagys0C0_p_SStF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logMessage",
+            "printedName": "logMessage(_:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolPAAE10logMessage_3tagySS_SStF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolPAAE10logMessage_3tagySS_SStF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addBreadcrumb",
+            "printedName": "addBreadcrumb(category:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BreadcrumbCategory",
+                "printedName": "NetkiSDK.BreadcrumbCategory",
+                "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK19ErrorLoggerProtocolPAAE13addBreadcrumb8category7messageyAA0G8CategoryO_SStF",
+            "mangledName": "$s8NetkiSDK19ErrorLoggerProtocolPAAE13addBreadcrumb8category7messageyAA0G8CategoryO_SStF",
+            "moduleName": "NetkiSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetkiSDK.ErrorLoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : NetkiSDK.ErrorLoggerProtocol>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -50672,6 +51037,423 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BreadcrumbCategory",
+        "printedName": "BreadcrumbCategory",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initSdk",
+            "printedName": "initSdk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.BreadcrumbCategory.Type) -> NetkiSDK.BreadcrumbCategory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.BreadcrumbCategory.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BreadcrumbCategory",
+                        "printedName": "NetkiSDK.BreadcrumbCategory",
+                        "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO7initSdkyA2CmF",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO7initSdkyA2CmF",
+            "moduleName": "NetkiSDK",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "transaction",
+            "printedName": "transaction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.BreadcrumbCategory.Type) -> NetkiSDK.BreadcrumbCategory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.BreadcrumbCategory.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BreadcrumbCategory",
+                        "printedName": "NetkiSDK.BreadcrumbCategory",
+                        "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO11transactionyA2CmF",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO11transactionyA2CmF",
+            "moduleName": "NetkiSDK",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "capture",
+            "printedName": "capture",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.BreadcrumbCategory.Type) -> NetkiSDK.BreadcrumbCategory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.BreadcrumbCategory.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BreadcrumbCategory",
+                        "printedName": "NetkiSDK.BreadcrumbCategory",
+                        "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO7captureyA2CmF",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO7captureyA2CmF",
+            "moduleName": "NetkiSDK",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "nfc",
+            "printedName": "nfc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.BreadcrumbCategory.Type) -> NetkiSDK.BreadcrumbCategory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.BreadcrumbCategory.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BreadcrumbCategory",
+                        "printedName": "NetkiSDK.BreadcrumbCategory",
+                        "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO3nfcyA2CmF",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO3nfcyA2CmF",
+            "moduleName": "NetkiSDK",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "upload",
+            "printedName": "upload",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.BreadcrumbCategory.Type) -> NetkiSDK.BreadcrumbCategory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.BreadcrumbCategory.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BreadcrumbCategory",
+                        "printedName": "NetkiSDK.BreadcrumbCategory",
+                        "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO6uploadyA2CmF",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO6uploadyA2CmF",
+            "moduleName": "NetkiSDK",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "submit",
+            "printedName": "submit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.BreadcrumbCategory.Type) -> NetkiSDK.BreadcrumbCategory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.BreadcrumbCategory.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BreadcrumbCategory",
+                        "printedName": "NetkiSDK.BreadcrumbCategory",
+                        "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO6submityA2CmF",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO6submityA2CmF",
+            "moduleName": "NetkiSDK",
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "navigation",
+            "printedName": "navigation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetkiSDK.BreadcrumbCategory.Type) -> NetkiSDK.BreadcrumbCategory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetkiSDK.BreadcrumbCategory.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BreadcrumbCategory",
+                        "printedName": "NetkiSDK.BreadcrumbCategory",
+                        "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO10navigationyA2CmF",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO10navigationyA2CmF",
+            "moduleName": "NetkiSDK",
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetkiSDK.BreadcrumbCategory?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BreadcrumbCategory",
+                    "printedName": "NetkiSDK.BreadcrumbCategory",
+                    "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO8rawValueACSgSS_tcfc",
+            "moduleName": "NetkiSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK18BreadcrumbCategoryO8rawValueSSvp",
+            "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO8rawValueSSvp",
+            "moduleName": "NetkiSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK18BreadcrumbCategoryO8rawValueSSvg",
+                "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO8rawValueSSvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8NetkiSDK18BreadcrumbCategoryO",
+        "mangledName": "$s8NetkiSDK18BreadcrumbCategoryO",
+        "moduleName": "NetkiSDK",
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -68267,6 +69049,32 @@
               "Final"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "livenessFinishedHandled",
+            "printedName": "livenessFinishedHandled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK23IdentificationViewModelC23livenessFinishedHandled33_25563CDEB468A70CBE2D65F4785077F5LLSbvp",
+            "mangledName": "$s8NetkiSDK23IdentificationViewModelC23livenessFinishedHandled33_25563CDEB468A70CBE2D65F4785077F5LLSbvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 11,
+            "hasStorage": true
           },
           {
             "kind": "Function",
@@ -92172,6 +92980,13 @@
         "moduleName": "NetkiSDK"
       },
       {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ModuleController",
         "printedName": "ModuleController",
@@ -105650,6 +106465,33 @@
         "children": [
           {
             "kind": "Var",
+            "name": "Tag",
+            "printedName": "Tag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK21PhotoCaptureProcessorC3Tag33_7634FCFA1F7EFC66D56C0D8227A57BFELLSSvp",
+            "mangledName": "$s8NetkiSDK21PhotoCaptureProcessorC3Tag33_7634FCFA1F7EFC66D56C0D8227A57BFELLSSvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "context",
             "printedName": "context",
             "children": [
@@ -105670,7 +106512,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 0,
+            "fixedbinaryorder": 1,
             "isLet": true,
             "hasStorage": true
           },
@@ -105696,7 +106538,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "isLet": true,
             "hasStorage": true
           },
@@ -105722,7 +106564,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 3,
             "isLet": true,
             "hasStorage": true
           },
@@ -105747,7 +106589,7 @@
               "HasStorage",
               "SetterAccess"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "hasStorage": true,
             "accessors": [
               {
@@ -105805,7 +106647,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "isLet": true,
             "hasStorage": true
           },
@@ -105843,7 +106685,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "isLet": true,
             "hasStorage": true
           },
@@ -105902,7 +106744,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "isLet": true,
             "hasStorage": true
           },
@@ -105936,7 +106778,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
@@ -105969,7 +106811,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true
           },
           {
@@ -105994,7 +106836,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "isLet": true,
             "hasStorage": true
           },
@@ -127858,6 +128700,13 @@
         "moduleName": "NetkiSDK"
       },
       {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "NetkiSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SentryErrorLogger",
         "printedName": "SentryErrorLogger",
@@ -127914,9 +128763,88 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Environments",
+                "printedName": "NetkiSDK.Environments",
+                "usr": "s:8NetkiSDK12EnvironmentsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC11environment33_5B8CD90C07279C58DB2E27BA7E4AED73LLAA12EnvironmentsOvp",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC11environment33_5B8CD90C07279C58DB2E27BA7E4AED73LLAA12EnvironmentsOvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "os.Logger",
+                "usr": "s:2os6LoggerV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC6logger33_5B8CD90C07279C58DB2E27BA7E4AED73LL2os0E0Vvp",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC6logger33_5B8CD90C07279C58DB2E27BA7E4AED73LL2os0E0Vvp",
+            "moduleName": "NetkiSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environments",
+                "printedName": "NetkiSDK.Environments",
+                "usr": "s:8NetkiSDK12EnvironmentsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC9configure11environmentyAA12EnvironmentsO_tF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC9configure11environmentyAA12EnvironmentsO_tF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "logException",
-            "printedName": "logException(error:)",
+            "printedName": "logException(_:tag:level:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -127928,41 +128856,23 @@
                 "name": "Error",
                 "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8NetkiSDK17SentryErrorLoggerC12logException5errorys0D0_p_tF",
-            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC12logException5errorys0D0_p_tF",
-            "moduleName": "NetkiSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "logGenericException",
-            "printedName": "logGenericException(errorType:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ErrorType",
-                "printedName": "NetkiSDK.ErrorType",
-                "usr": "s:8NetkiSDK9ErrorTypeO"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SentryLevel",
+                "printedName": "Sentry.SentryLevel",
+                "usr": "c:@M@Sentry@E@SentryLevel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8NetkiSDK17SentryErrorLoggerC19logGenericException9errorType7messageyAA0dJ0O_SStF",
-            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC19logGenericException9errorType7messageyAA0dJ0O_SStF",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC12logException_3tag5levelys0D0_p_SS0C00C5LevelOtF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC12logException_3tag5levelys0D0_p_SS0C00C5LevelOtF",
             "moduleName": "NetkiSDK",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -127970,7 +128880,7 @@
           {
             "kind": "Function",
             "name": "logMessage",
-            "printedName": "logMessage(message:)",
+            "printedName": "logMessage(_:tag:level:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -127982,11 +128892,184 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SentryLevel",
+                "printedName": "Sentry.SentryLevel",
+                "usr": "c:@M@Sentry@E@SentryLevel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8NetkiSDK17SentryErrorLoggerC10logMessage7messageySS_tF",
-            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC10logMessage7messageySS_tF",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC10logMessage_3tag5levelySS_SS0C00C5LevelOtF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC10logMessage_3tag5levelySS_SS0C00C5LevelOtF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addBreadcrumb",
+            "printedName": "addBreadcrumb(category:message:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BreadcrumbCategory",
+                "printedName": "NetkiSDK.BreadcrumbCategory",
+                "usr": "s:8NetkiSDK18BreadcrumbCategoryO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC13addBreadcrumb8category7message4datayAA0G8CategoryO_SSSDySSypGtF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC13addBreadcrumb8category7message4datayAA0G8CategoryO_SSSDySSypGtF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStaticContext",
+            "printedName": "setStaticContext()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC16setStaticContextyyF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC16setStaticContextyyF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTransactionContext",
+            "printedName": "setTransactionContext(id:integration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntegrationInfo",
+                "printedName": "NetkiSDK.IntegrationInfo",
+                "usr": "s:8NetkiSDK15IntegrationInfoC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC21setTransactionContext2id11integrationySS_AA15IntegrationInfoCtF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC21setTransactionContext2id11integrationySS_AA15IntegrationInfoCtF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPictureContext",
+            "printedName": "setPictureContext(pictureType:idType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetkiSDK.PictureType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PictureType",
+                    "printedName": "NetkiSDK.PictureType",
+                    "usr": "s:8NetkiSDK11PictureTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetkiSDK.IdType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdType",
+                    "printedName": "NetkiSDK.IdType",
+                    "usr": "s:8NetkiSDK6IdTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC17setPictureContext11pictureType02idJ0yAA0gJ0OSg_AA02IdJ0OSgtF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC17setPictureContext11pictureType02idJ0yAA0gJ0OSg_AA02IdJ0OSgtF",
+            "moduleName": "NetkiSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearScope",
+            "printedName": "clearScope()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK17SentryErrorLoggerC10clearScopeyyF",
+            "mangledName": "$s8NetkiSDK17SentryErrorLoggerC10clearScopeyyF",
             "moduleName": "NetkiSDK",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -181235,98 +182318,98 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "Dictionary",
-      "offset": 9683,
+      "offset": 10150,
       "length": 1106,
       "value": "[(\"AL\", true), (\"AK\", true), (\"AZ\", true), (\"AR\", true), (\"CA\", true), (\"CO\", true), (\"CT\", true), (\"DC\", true), (\"DE\", true), (\"FL\", true), (\"GA\", true), (\"HI\", true), (\"ID\", true), (\"IL\", true), (\"IN\", true), (\"IA\", true), (\"KS\", true), (\"KY\", true), (\"LA\", true), (\"ME\", true), (\"MD\", true), (\"MA\", true), (\"MI\", true), (\"MN\", true), (\"MS\", true), (\"MO\", true), (\"MT\", true), (\"NE\", true), (\"NV\", true), (\"NH\", true), (\"NJ\", true), (\"NM\", true), (\"NY\", true), (\"NC\", true), (\"ND\", true), (\"OH\", true), (\"OK\", true), (\"ON\", true), (\"OR\", true), (\"PA\", true), (\"QC\", true), (\"RI\", true), (\"SK\", true), (\"SC\", true), (\"SD\", true), (\"TN\", true), (\"TX\", true), (\"UT\", true), (\"VT\", true), (\"VA\", true), (\"WA\", true), (\"WV\", true), (\"WI\", true), (\"WY\", true), (\"YT\", true)]"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 10935,
+      "offset": 11402,
       "length": 5,
       "value": "\"BLK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 10956,
+      "offset": 11423,
       "length": 5,
       "value": "\"BLU\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 10977,
+      "offset": 11444,
       "length": 5,
       "value": "\"BRO\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 10998,
+      "offset": 11465,
       "length": 5,
       "value": "\"GRY\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11019,
+      "offset": 11486,
       "length": 5,
       "value": "\"GRN\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11040,
+      "offset": 11507,
       "length": 5,
       "value": "\"HAZ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11061,
+      "offset": 11528,
       "length": 5,
       "value": "\"PNK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11082,
+      "offset": 11549,
       "length": 5,
       "value": "\"BLN\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11103,
+      "offset": 11570,
       "length": 5,
       "value": "\"RED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11124,
+      "offset": 11591,
       "length": 5,
       "value": "\"WHI\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11145,
+      "offset": 11612,
       "length": 5,
       "value": "\"BAL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11166,
+      "offset": 11633,
       "length": 5,
       "value": "\"SDY\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/BarcodeDetector.swift",
       "kind": "StringLiteral",
-      "offset": 11880,
+      "offset": 12347,
       "length": 6,
       "value": "\"NONE\""
     },
@@ -181410,42 +182493,49 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewController.swift",
       "kind": "StringLiteral",
-      "offset": 950,
+      "offset": 301,
+      "length": 22,
+      "value": "\"CameraViewController\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
       "length": 15,
       "value": "\"session queue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1057,
+      "offset": 1102,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1105,
+      "offset": 1150,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1238,
+      "offset": 1283,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2138,
+      "offset": 2183,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32381,
+      "offset": 31824,
       "length": 4,
       "value": "true"
     },
@@ -181919,6 +183009,13 @@
       "value": "\"MMddyyyy\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Util\/Impl\/DefaultImageDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 21,
+      "value": "\"DefaultImageDecoder\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 69,
@@ -181976,8 +183073,15 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/EPassportProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 20,
+      "value": "\"EPassportProcessor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/EPassportProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 276,
+      "offset": 319,
       "length": 1,
       "value": "0"
     },
@@ -182078,6 +183182,13 @@
       "offset": 586,
       "length": 13,
       "value": "\"nfc_skipped\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/ErrorLoggerProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 2109,
+      "length": 6,
+      "value": "\"init\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/ErrorResponse.swift",
@@ -182703,6 +183814,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/ViewModel\/IdentificationViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14094,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/Model\/IdentityDocument.swift",
       "kind": "StringLiteral",
       "offset": 1381,
@@ -183097,21 +184215,21 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "BooleanLiteral",
-      "offset": 446,
+      "offset": 1147,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "StringLiteral",
-      "offset": 2285,
+      "offset": 3654,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Controller\/ModuleController.swift",
       "kind": "Dictionary",
-      "offset": 5921,
+      "offset": 8584,
       "length": 3,
       "value": "[]"
     },
@@ -183219,6 +184337,13 @@
       "offset": 1366,
       "length": 1,
       "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/Capture\/PhotoCaptureProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 97,
+      "length": 23,
+      "value": "\"PhotoCaptureProcessor\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureInternal.swift",
@@ -183585,6 +184710,111 @@
       "value": "5"
     },
     {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 20,
+      "value": "\"com.netki.NetkiSDK\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 19,
+      "value": "\"SentryErrorLogger\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 4830,
+      "length": 11,
+      "value": "\"component\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 4872,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 4915,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 4962,
+      "length": 13,
+      "value": "\"environment\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5004,
+      "length": 8,
+      "value": "\"bridge\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5044,
+      "length": 13,
+      "value": "\"host_app_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5094,
+      "length": 18,
+      "value": "\"host_app_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5148,
+      "length": 16,
+      "value": "\"transaction_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5203,
+      "length": 19,
+      "value": "\"transaction_stage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5256,
+      "length": 14,
+      "value": "\"picture_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5299,
+      "length": 9,
+      "value": "\"id_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5349,
+      "length": 13,
+      "value": "\"transaction\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Component\/Impl\/SentryErrorLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 5403,
+      "length": 13,
+      "value": "\"integration\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Common\/StepIndicator.swift",
       "kind": "BooleanLiteral",
       "offset": 420,
@@ -183671,28 +184901,28 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/impl\/TransactionsRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 507,
+      "offset": 499,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/impl\/TransactionsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 615,
+      "offset": 603,
       "length": 24,
       "value": "\"TransactionsRepository\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/impl\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 17201,
+      "offset": 17038,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Data\/Transactions\/impl\/TransactionsRepository.swift",
       "kind": "Dictionary",
-      "offset": 17563,
+      "offset": 17396,
       "length": 3,
       "value": "[]"
     },
