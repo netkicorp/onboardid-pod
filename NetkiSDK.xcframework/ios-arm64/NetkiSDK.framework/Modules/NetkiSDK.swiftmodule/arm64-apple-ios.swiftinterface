@@ -15,6 +15,7 @@ import CoreVideo
 import Foundation
 import ImageIO
 import MobileCoreServices
+import NetkiCV
 @_exported import NetkiSDK
 import Network
 import Photos
@@ -191,7 +192,11 @@ public struct IdCountry : Swift.Codable, Swift.Hashable {
   public var flag: Swift.String?
   public var isBanned: Swift.Bool
   public var hasNfcPassport: Swift.Bool
-  public init(name: Swift.String, alpha2: Swift.String, alpha3: Swift.String, countryCallingCode: Swift.String, hasBarcodeId: Swift.Bool, flag: Swift.String?, isBanned: Swift.Bool, hasNfcPassport: Swift.Bool = false)
+  public var runIdDocumentCheck: Swift.Bool
+  public var showIdDocumentCheck: Swift.Bool
+  public var runFraudChecks: Swift.Bool
+  public var showFraudChecks: Swift.Bool
+  public init(name: Swift.String, alpha2: Swift.String, alpha3: Swift.String, countryCallingCode: Swift.String, hasBarcodeId: Swift.Bool, flag: Swift.String?, isBanned: Swift.Bool, hasNfcPassport: Swift.Bool = false, runIdDocumentCheck: Swift.Bool = true, showIdDocumentCheck: Swift.Bool = false, runFraudChecks: Swift.Bool = true, showFraudChecks: Swift.Bool = false)
   public static func == (a: NetkiSDK.IdCountry, b: NetkiSDK.IdCountry) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public func hash(into hasher: inout Swift.Hasher)
@@ -864,6 +869,22 @@ extension NetkiSDK.CountryEntity {
     @objc get
     @objc set
   }
+  @objc @NSManaged dynamic public var runFraudChecks: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var runIdDocumentCheck: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var showFraudChecks: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var showIdDocumentCheck: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged dynamic public var transactionId: Swift.String? {
     @objc get
     @objc set
@@ -946,6 +967,14 @@ extension NetkiSDK.DocumentEntity {
     @objc get
     @objc set
   }
+  @objc @NSManaged dynamic public var fraudDetectorsJson: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var idDocumentMetricsJson: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged dynamic public var livenessScore: Swift.String? {
     @objc get
     @objc set
@@ -959,6 +988,10 @@ extension NetkiSDK.DocumentEntity {
     @objc set
   }
   @objc @NSManaged dynamic public var proceededWithValidationIssues: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var proceededWithIncorrectId: Swift.String? {
     @objc get
     @objc set
   }

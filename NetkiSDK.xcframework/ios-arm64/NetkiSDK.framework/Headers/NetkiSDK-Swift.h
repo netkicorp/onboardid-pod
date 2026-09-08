@@ -444,6 +444,10 @@ SWIFT_CLASS_NAMED("CountryEntity")
 @property (nonatomic) BOOL hasNfcPassport;
 @property (nonatomic) BOOL isBanned;
 @property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic) BOOL runFraudChecks;
+@property (nonatomic) BOOL runIdDocumentCheck;
+@property (nonatomic) BOOL showFraudChecks;
+@property (nonatomic) BOOL showIdDocumentCheck;
 @property (nonatomic, copy) NSString * _Nullable transactionId;
 @end
 
@@ -472,10 +476,13 @@ SWIFT_CLASS_NAMED("DocumentEntity")
 @property (nonatomic, copy) NSString * _Nullable isLightCorrect;
 @property (nonatomic, copy) NSString * _Nullable isLive;
 @property (nonatomic, copy) NSString * _Nullable qualityMetricsJson;
+@property (nonatomic, copy) NSString * _Nullable fraudDetectorsJson;
+@property (nonatomic, copy) NSString * _Nullable idDocumentMetricsJson;
 @property (nonatomic, copy) NSString * _Nullable livenessScore;
 @property (nonatomic, copy) NSString * _Nullable numberOfTries;
 @property (nonatomic, copy) NSString * _Nullable path;
 @property (nonatomic, copy) NSString * _Nullable proceededWithValidationIssues;
+@property (nonatomic, copy) NSString * _Nullable proceededWithIncorrectId;
 @property (nonatomic, copy) NSString * _Nullable textMrzReadable;
 @property (nonatomic, strong) BarcodeEntity * _Nullable barcode;
 @property (nonatomic, strong) PassportEntity * _Nullable mrzData;
