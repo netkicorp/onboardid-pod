@@ -15,7 +15,6 @@ import CoreVideo
 import Foundation
 import ImageIO
 import MobileCoreServices
-import NetkiCV
 @_exported import NetkiSDK
 import Network
 import Photos

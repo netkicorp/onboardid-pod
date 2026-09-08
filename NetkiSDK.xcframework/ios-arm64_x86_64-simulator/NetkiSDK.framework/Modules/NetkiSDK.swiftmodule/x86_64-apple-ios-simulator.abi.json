@@ -96834,7 +96834,10 @@
         "name": "NetkiCV",
         "printedName": "NetkiCV",
         "declKind": "Import",
-        "moduleName": "NetkiSDK"
+        "moduleName": "NetkiSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -111816,7 +111819,10 @@
         "name": "NetkiCV",
         "printedName": "NetkiCV",
         "declKind": "Import",
-        "moduleName": "NetkiSDK"
+        "moduleName": "NetkiSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -194146,91 +194152,91 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1594,
+      "offset": 1615,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1640,
+      "offset": 1661,
       "length": 24,
       "value": "\"expected_document_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1701,
+      "offset": 1722,
       "length": 24,
       "value": "\"detected_document_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1775,
       "length": 16,
       "value": "\"is_id_document\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1823,
       "length": 20,
       "value": "\"is_not_id_document\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1878,
       "length": 22,
       "value": "\"is_expected_document\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1906,
+      "offset": 1927,
       "length": 12,
       "value": "\"confidence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 1974,
       "length": 23,
       "value": "\"score_not_id_document\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 2013,
+      "offset": 2034,
       "length": 25,
       "value": "\"score_national_id_front\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 2074,
+      "offset": 2095,
       "length": 24,
       "value": "\"score_national_id_back\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 2128,
+      "offset": 2149,
       "length": 16,
       "value": "\"score_passport\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 2172,
+      "offset": 2193,
       "length": 14,
       "value": "\"inference_ms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/PictureIdDocumentMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 2215,
+      "offset": 2236,
       "length": 15,
       "value": "\"model_version\""
     },
