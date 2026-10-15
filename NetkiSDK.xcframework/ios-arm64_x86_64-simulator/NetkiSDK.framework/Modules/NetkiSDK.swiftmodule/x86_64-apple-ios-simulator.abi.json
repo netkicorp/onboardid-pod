@@ -20040,6 +20040,104 @@
           },
           {
             "kind": "Var",
+            "name": "isCountingDown",
+            "printedName": "isCountingDown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvp",
+            "mangledName": "$s8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvg",
+                "mangledName": "$s8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvs",
+                "mangledName": "$s8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvM",
+                "mangledName": "$s8NetkiSDK18CameraShutterBarV2V14isCountingDownSbvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "onManualCaptureClick",
             "printedName": "onManualCaptureClick",
             "children": [
@@ -20070,7 +20168,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -20167,7 +20265,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(cameraStatus:onManualCaptureClick:)",
+            "printedName": "init(cameraStatus:isCountingDown:onManualCaptureClick:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20180,6 +20278,13 @@
                 "name": "CameraStatus",
                 "printedName": "NetkiSDK.CameraStatus",
                 "usr": "s:8NetkiSDK12CameraStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeFunc",
@@ -20200,8 +20305,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8NetkiSDK18CameraShutterBarV2V12cameraStatus20onManualCaptureClickAcA0cH0O_yyctcfc",
-            "mangledName": "$s8NetkiSDK18CameraShutterBarV2V12cameraStatus20onManualCaptureClickAcA0cH0O_yyctcfc",
+            "usr": "s:8NetkiSDK18CameraShutterBarV2V12cameraStatus14isCountingDown20onManualCaptureClickAcA0cH0O_Sbyyctcfc",
+            "mangledName": "$s8NetkiSDK18CameraShutterBarV2V12cameraStatus14isCountingDown20onManualCaptureClickAcA0cH0O_Sbyyctcfc",
             "moduleName": "NetkiSDK",
             "implicit": true,
             "declAttributes": [
@@ -23304,6 +23409,237 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CaptureCountdownOverlay",
+        "printedName": "CaptureCountdownOverlay",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "secondsRemaining",
+            "printedName": "secondsRemaining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK23CaptureCountdownOverlayV16secondsRemainingSiSgvp",
+            "mangledName": "$s8NetkiSDK23CaptureCountdownOverlayV16secondsRemainingSiSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23CaptureCountdownOverlayV16secondsRemainingSiSgvg",
+                "mangledName": "$s8NetkiSDK23CaptureCountdownOverlayV16secondsRemainingSiSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK23CaptureCountdownOverlayV4bodyQrvp",
+            "mangledName": "$s8NetkiSDK23CaptureCountdownOverlayV4bodyQrvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23CaptureCountdownOverlayV4bodyQrvg",
+                "mangledName": "$s8NetkiSDK23CaptureCountdownOverlayV4bodyQrvg",
+                "moduleName": "NetkiSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(secondsRemaining:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureCountdownOverlay",
+                "printedName": "NetkiSDK.CaptureCountdownOverlay",
+                "usr": "s:8NetkiSDK23CaptureCountdownOverlayV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8NetkiSDK23CaptureCountdownOverlayV16secondsRemainingACSiSg_tcfc",
+            "mangledName": "$s8NetkiSDK23CaptureCountdownOverlayV16secondsRemainingACSiSg_tcfc",
+            "moduleName": "NetkiSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8NetkiSDK23CaptureCountdownOverlayV",
+        "mangledName": "$s8NetkiSDK23CaptureCountdownOverlayV",
+        "moduleName": "NetkiSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "DetectionRectangleOverlay",
         "printedName": "DetectionRectangleOverlay",
         "children": [
@@ -23525,8 +23861,7 @@
         "moduleName": "NetkiSDK",
         "declAttributes": [
           "Preconcurrency",
-          "Custom",
-          "RawDocComment"
+          "Custom"
         ],
         "conformances": [
           {
@@ -37588,6 +37923,35 @@
         "name": "EdgeDetector",
         "printedName": "EdgeDetector",
         "children": [
+          {
+            "kind": "Function",
+            "name": "isWithinVisibleBand",
+            "printedName": "isWithinVisibleBand(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8NetkiSDK12EdgeDetectorC19isWithinVisibleBandySbSo6CGRectVFZ",
+            "mangledName": "$s8NetkiSDK12EdgeDetectorC19isWithinVisibleBandySbSo6CGRectVFZ",
+            "moduleName": "NetkiSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Var",
             "name": "errorLogger",
@@ -64818,6 +65182,81 @@
         "hasStorage": true
       },
       {
+        "kind": "Var",
+        "name": "SETTLE_BEFORE_COUNTING_MS",
+        "printedName": "SETTLE_BEFORE_COUNTING_MS",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:8NetkiSDK25SETTLE_BEFORE_COUNTING_MSSivp",
+        "mangledName": "$s8NetkiSDK25SETTLE_BEFORE_COUNTING_MSSivp",
+        "moduleName": "NetkiSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "AUTO_CAPTURE_COUNTDOWN_SECONDS",
+        "printedName": "AUTO_CAPTURE_COUNTDOWN_SECONDS",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:8NetkiSDK30AUTO_CAPTURE_COUNTDOWN_SECONDSSdvp",
+        "mangledName": "$s8NetkiSDK30AUTO_CAPTURE_COUNTDOWN_SECONDSSdvp",
+        "moduleName": "NetkiSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "AUTO_CAPTURE_COUNTDOWN_BEATS",
+        "printedName": "AUTO_CAPTURE_COUNTDOWN_BEATS",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:8NetkiSDK28AUTO_CAPTURE_COUNTDOWN_BEATSSivp",
+        "mangledName": "$s8NetkiSDK28AUTO_CAPTURE_COUNTDOWN_BEATSSivp",
+        "moduleName": "NetkiSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
         "kind": "TypeDecl",
         "name": "IdentificationProcessor",
         "printedName": "IdentificationProcessor",
@@ -70650,6 +71089,292 @@
               "Final"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "captureCountdown",
+            "printedName": "captureCountdown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvp",
+            "mangledName": "$s8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvp",
+            "moduleName": "NetkiSDK",
+            "declAttributes": [
+              "Final",
+              "ProjectedValueProperty",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvg",
+                "mangledName": "$s8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvs",
+                "mangledName": "$s8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvM",
+                "mangledName": "$s8NetkiSDK23IdentificationViewModelC16captureCountdownSiSgvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$captureCountdown",
+            "printedName": "$captureCountdown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Int>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_Gvp",
+            "mangledName": "$s8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_Gvp",
+            "moduleName": "NetkiSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Int>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_Gvg",
+                "mangledName": "$s8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_Gvg",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Int>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_Gvs",
+                "mangledName": "$s8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_Gvs",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_GvM",
+                "mangledName": "$s8NetkiSDK23IdentificationViewModelC17$captureCountdown7Combine9PublishedV9PublisherVySiSg_GvM",
+                "moduleName": "NetkiSDK",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_captureCountdown",
+            "printedName": "_captureCountdown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Published",
+                "printedName": "Combine.Published<Swift.Int?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7Combine9PublishedV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8NetkiSDK23IdentificationViewModelC17_captureCountdown33_25563CDEB468A70CBE2D65F4785077F5LL7Combine9PublishedVySiSgGvp",
+            "mangledName": "$s8NetkiSDK23IdentificationViewModelC17_captureCountdown33_25563CDEB468A70CBE2D65F4785077F5LL7Combine9PublishedVySiSgGvp",
+            "moduleName": "NetkiSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 12,
+            "hasStorage": true
           },
           {
             "kind": "Function",
@@ -191821,14 +192546,7 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1185,
-      "length": 4,
-      "value": "2500"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/BackIdProcessor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1237,
+      "offset": 1258,
       "length": 1,
       "value": "5"
     },
@@ -192206,7 +192924,14 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CameraShutterBarV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 1032,
+      "offset": 483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CameraShutterBarV2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1328,
       "length": 5,
       "value": "false"
     },
@@ -192262,112 +192987,112 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewControllerV2Wrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11332,
+      "offset": 13210,
       "length": 18,
       "value": "\"session queue v2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewControllerV2Wrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 11442,
+      "offset": 13320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewControllerV2Wrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 11483,
+      "offset": 13361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/CameraViewControllerV2Wrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 12154,
+      "offset": 14032,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "FloatLiteral",
-      "offset": 1234,
+      "offset": 1572,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "FloatLiteral",
-      "offset": 1240,
+      "offset": 1578,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1254,
+      "offset": 1592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1434,
+      "offset": 1772,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "FloatLiteral",
-      "offset": 1696,
+      "offset": 2034,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1762,
+      "offset": 2100,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1820,
+      "offset": 2158,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1946,
+      "offset": 2284,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 2291,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2040,
+      "offset": 2378,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/View\/Camera\/View\/V2\/CaptureAutoDetectTimer.swift",
       "kind": "BooleanLiteral",
-      "offset": 2277,
+      "offset": 2615,
       "length": 5,
       "value": "false"
     },
@@ -192741,6 +193466,55 @@
       "offset": 2252,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 440,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 446,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 454,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 460,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Detection\/Impl\/EdgeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Model\/Environment.swift",
@@ -193466,14 +194240,7 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1248,
-      "length": 4,
-      "value": "2500"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/FrontIdProcessor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1300,
+      "offset": 1321,
       "length": 1,
       "value": "5"
     },
@@ -193541,6 +194308,27 @@
       "value": "7000"
     },
     {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/IdentificationProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 907,
+      "length": 5,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/IdentificationProcessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1342,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/IdentificationProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1488,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Data\/IdentificationUiState.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
@@ -193571,7 +194359,7 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/ViewModel\/IdentificationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14129,
+      "offset": 14878,
       "length": 5,
       "value": "false"
     },
@@ -193900,21 +194688,14 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1345,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1396,
+      "offset": 1418,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/LivenessProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1443,
+      "offset": 1465,
       "length": 4,
       "value": "3000"
     },
@@ -194082,14 +194863,7 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1314,
-      "length": 4,
-      "value": "2500"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/PassportProcessor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1366,
+      "offset": 1387,
       "length": 1,
       "value": "5"
     },
@@ -194600,14 +195374,7 @@
     {
       "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 936,
-      "length": 4,
-      "value": "2500"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/onboardid-ios\/onboardid-ios\/NetkiSDK\/Classes\/Identification\/Processor\/Impl\/SelfieProcessor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 988,
+      "offset": 1009,
       "length": 1,
       "value": "5"
     },
