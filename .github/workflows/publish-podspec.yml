@@ -3,13 +3,24 @@ name: Publish Podspec
 on:
   release:
     types: [published]
+  # A failed publish previously had no retry path: the release event cannot be replayed, so a
+  # transient Trunk outage left a version unpublished with no way to try again short of
+  # re-cutting it. 13.1.0 was lost this way during CocoaPods' read-only test run.
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to publish (e.g. 13.1.0)'
+        required: true
+        type: string
 
 jobs:
   publish:
-    name: Publish to Trunk
+    name: Publish
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag || github.ref }}
 
       - name: Extract version from podspec
         id: version
