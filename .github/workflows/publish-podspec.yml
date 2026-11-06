@@ -1,4 +1,4 @@
-name: Publish to CocoaPods Trunk
+name: Publish Podspec
 
 on:
   release:
@@ -31,6 +31,9 @@ jobs:
           chmod 0600 ~/.netrc
 
       - name: Push to CocoaPods Trunk
+        # Best-effort until 2 December 2026, when Trunk stops accepting new Podspecs. The
+        # Netki spec source below is what the release actually depends on.
+        continue-on-error: true
         run: |
           # Trunk pushes intermittently exit non-zero on a post-commit GitHub API
           # timeout even though the spec was already registered. Make this
@@ -59,8 +62,38 @@ jobs:
           echo "::error::pod trunk push failed after 3 attempts; $VERSION is not on trunk."
           exit 1
 
+      - name: Publish to the Netki spec source
+        env:
+          GH_TOKEN: ${{ secrets.CROSS_REPO_TOKEN }}
+        run: |
+          # CocoaPods Trunk stops accepting new Podspecs on 2 December 2026, so every release
+          # is also written to our own spec source. This step is the one that has to keep
+          # working after that date; the Trunk push above is best-effort until then.
+          git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/netkicorp/Specs.git" /tmp/netki-specs
+
+          DEST="/tmp/netki-specs/Specs/NetkiSDK/$VERSION"
+          if [ -f "$DEST/NetkiSDK.podspec.json" ]; then
+            echo "NetkiSDK $VERSION is already in the spec source; nothing to publish."
+            exit 0
+          fi
+
+          mkdir -p "$DEST"
+          pod ipc spec NetkiSDK.podspec > "$DEST/NetkiSDK.podspec.json"
+
+          # A spec that does not parse is worse than a missing one: it breaks resolution for
+          # every version, not just this release.
+          python3 -c "import json,sys; json.load(open('$DEST/NetkiSDK.podspec.json'))"
+
+          cd /tmp/netki-specs
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "Specs/NetkiSDK/$VERSION/NetkiSDK.podspec.json"
+          git commit -m "NetkiSDK $VERSION"
+          git push origin HEAD:main
+
       - name: Notify success
         if: success()
         run: |
-          echo "Successfully published NetkiSDK $VERSION to CocoaPods Trunk"
-          echo "View at: https://cocoapods.org/pods/NetkiSDK"
+          echo "Published NetkiSDK $VERSION"
+          echo "  spec source: https://github.com/netkicorp/Specs/tree/main/Specs/NetkiSDK/$VERSION"
+          echo "  trunk:       https://cocoapods.org/pods/NetkiSDK"
